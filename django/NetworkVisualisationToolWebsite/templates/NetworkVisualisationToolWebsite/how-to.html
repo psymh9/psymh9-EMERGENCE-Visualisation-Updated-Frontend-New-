@@ -1,0 +1,72 @@
+<!-- NetworkVisualisationToolWebsite/templates/NetworkVisualisationToolWebsite/how-to.html-->
+{% extends "base.html" %}
+{% block page_content %}
+{% load static %}
+
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<style>
+
+    h1 {text-align: center; 
+        color:white; 
+        background-color: #005597; 
+        font-family: "Inter";}
+
+    h2{text-align: center;
+       color:#005597;
+       font-size: 40px;
+       font-family: "Inter";
+       padding-top: 40px;
+       }
+
+.numberCircle {
+    width: 12px;
+    line-height: 12px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8px;
+    border: 2px solid #FF0000;
+}
+</style>
+<h1><b>EMERGENCE <br/> Network Visualisation </b></h1>
+<h2><b>Network Visualisation Tutorial</b></h2>
+<h1 style="padding-right: 150px;"><a href="http://127.0.0.1:8000/" style="position: absolute; font-size: 20px; color: black;">Home</a></h1>
+<h1><a href="http://127.0.0.1:8000/about/" style="position: absolute; font-size: 20px;color: black;">About</a></h1>
+
+<p style="text-align: left; color:#1A296B; padding-top: 150px; font-family: Inter; font-size:10px ">
+<b>
+The network visualisation tool is simple and easy to use and has a few main features:<br/>
+<br>
+Legend: Can be referenced to find the unique colour coding for each specialty.<br/>
+<br>
+Node/Member Hovering: Hover over each node to reveal further information about the<br/> member represented, i.e. name, institution, job title, specialty, location, and research<br/> theme of interest.<br/>
+<br>
+Node two-factor Filtering: Allows the user to filter by two different categories<br/> for example finding a person who specialises in Computer Science from the University of Nottingham<br/>
+<br>
+Node Physics: Each node on the graph is fully interactive, you can drag the nodes with<br/> your mouse, if the node is connected to another with an edge both nodes will move.<br/>
+<br>
+Steps to filter nodes:<br/>
+<br>
+1. Under the 'Select the first filtration category' dropdown select the first category you would like to filter by i.e. Discipline, Institution etc.<br/>
+<br>
+2. Under the 'Select the first filtration parameter' dropdown select the parameter to filter by based on the category selected i.e. Discipline -> Computer Science <br/>
+<br>
+3. Under the 'Select the second filtration category' dropdown select the second category you would like to filter by i.e Discipline, Institution etc. <br/>
+<br>
+4. Under the 'Select the second filtration category' dropdown select the parameter to filter by based on the category selected i.e. Discipline -> Computer Science <br/> 
+<br>
+5. Press the 'Filter' button to apply the selected filtration categories and parameters to the visualisation.<br/>
+<br>
+6. Press the 'Reset Selection' button to the right of the 'Filter' button to undo the filter.<br/>
+</b>
+</p>
+<div class="numberCircle" style="position:relative; top: -352px; right: -825px; z-index: 2; color: white;">1</div>
+<div class="numberCircle" style="position:relative; top: -367px; right: -925px; z-index: 2; color: white;">2</div>
+<div class="numberCircle" style="position:relative; top: -384px; right: -1050px; z-index: 2; color: white;">3</div>
+<div class="numberCircle" style="position:relative; top: -399px; right: -1150px; z-index: 2; color: white;">4</div>
+<div class="numberCircle" style="position:relative; top: -412px; right: -1275px; z-index: 2; color: white;">5</div>
+<div class="numberCircle" style="position:relative; top: -428px; right: -1300px; z-index: 2; color: white;">6</div>
+<div id="contentframe" style="position:relative; top: -450px; right: -800px; z-index: 0;">
+    <img src="{% static 'HowToPageComputerScienceRobotics.png'%}" alt="Tutorial" width="750" height="499.5">
+</div>
+
+{% endblock page_content%}

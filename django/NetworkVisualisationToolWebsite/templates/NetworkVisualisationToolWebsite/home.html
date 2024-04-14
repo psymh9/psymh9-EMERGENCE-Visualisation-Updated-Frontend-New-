@@ -1,0 +1,378 @@
+<!-- NetworkVisualisationToolWebsite/templates/NetworkVisualisationToolWebsite/home.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<style>
+
+    form{
+      position: relative;
+      padding-top: 25px;
+      margin-inline-start: 10px;
+      z-index: 2;
+    }
+
+    select
+    {
+      margin-inline-start: 15px;
+      position: relative; 
+      z-index: 2;
+    } 
+
+    h1 {text-align: center; 
+        color:white; 
+        background-color: #005597; 
+        font-family: "Inter";}
+    
+    .inline-block-element{
+      display: inline-block;
+      width: 2000px;
+      height: 1000px;
+    }
+
+    .rectangle{
+        position: absolute;
+        top:1;
+        left:10;
+        height: 100px;
+        width: 1175px;
+        background-color: #005597;
+        display:  block; 
+        text-align: left;
+        z-index: 0;
+    }
+    
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        font-size: 10px;
+        position: relative;
+        margin-inline-start: 24px;
+        margin-top: 35px;
+        display: inline-block;
+        border: none;
+    }
+
+    .button{
+        background-color: white;
+        color: black;
+        padding: 15px;
+        font-size: 10px;
+        position: relative;
+        margin-inline-start: 65px;
+        margin-top: 55px;
+        display: inline-block;
+        border: none;
+    }
+      
+  label,select{
+    display:block;
+  }
+
+</style>
+{% if empty_search%}
+<script>alert("This search has returned no results!\nPlease try again. ")</script>
+{% endif %}
+<h1><b>EMERGENCE <br/> Network Visualisation </b> </h1>
+<h1 style="padding-right: 150px;"><a href="http://127.0.0.1:8000/about/" style="position: absolute; font-size: 20px; color: black;">About</a></h1>
+<h1><a href="http://127.0.0.1:8000/how-to/" style="position: absolute; font-size: 20px;color: black;">How-To</a></h1>
+<br/>
+<br/>
+<br/>
+<div class="rectangle"></div>
+<form action="applyFiltrationOptions/filterCategory1/filterParameter1/filterCategory2/filterParameter2" method=>
+  <div style="float:left; padding-top: 7px;">
+  <label for="filterCategory1" style="color: white; font-family: Inter; font-size: 10px;">Select your first filtration category</label>
+  <select name="filterCategory1" id="filterCategory1" onchange="javascript: dynamicDropdownCategory1(this.options[this.selectedIndex].value)" onclick="storeSelectedValue('filterCategory1', this.options[this.selectedIndex].value)"> 
+    <option value="Alphabetical">Alphabetical</option> 
+    <option value="Discipline" selected>Discipline</option> 
+    <option value="Institution">Institution</option> 
+    <option value="Location">Location</option> 
+  </select>
+  </div>
+  <div style="float:left;">
+  <label for="filterParameter1" style="color: white;  display: inline-block; font-family: Inter; font-size: 10px; padding-left: 10px;">Select your first filtration parameter</label>
+  <select name="filterParameter1" id="filterParameter1" onchange="storeSelectedValue('filterParameter1', this.options[this.selectedIndex].value)"> 
+      <option value="All">All</option>  
+      <option value="Computer Science">Computer Science</option> 
+      <option value="Robotics">Robotics</option> 
+      <option value="Design Engineering and Innovation">Design Engineering and Innovation</option> 
+      <option value="Electronic Engineering">Electronic Engineering</option> 
+      <option value="Social Care">Social Care</option> 
+      <option value="Physiotherapy">Physiotherapy</option> 
+  </select>
+  </div>
+  <div style="float:left;">
+  <label for="filterCategory2" style="color: white;  display: inline-block; font-family: Inter; font-size: 10px;">Select your second filtration category</label>
+  <select name="filterCategory2" id="filterCategory2" onchange="javascript: dynamicDropdownCategory2(this.options[this.selectedIndex].value)" onclick="storeSelectedValue('filterCategory2', this.options[this.selectedIndex].value)"> 
+    <option value="Alphabetical">Alphabetical</option> 
+      <option value="Discipline" selected >Discipline</option> 
+      <option value="Institution">Institution</option>
+      <option value="Location">Location</option>  
+      </select>
+  </div>
+  <div style="float:left;">
+  <label for="filterParameter" style="color: white; display: inline-block; font-family: Inter; font-size: 10px; padding-left: 10px; ">Select your second filtration parameter</label>
+  <select name="filterParameter2" id="filterParameter2" onchange="storeSelectedValue('filterParameter2', this.options[this.selectedIndex].value)" > 
+      <option value="All">All</option>  
+      <option value="Computer Science">Computer Science</option> 
+      <option value="Robotics">Robotics</option> 
+      <option value="Design Engineering and Innovation">Design Engineering and Innovation</option> 
+      <option value="Electronic Engineering">Electronic Engineering</option> 
+      <option value="Social Care">Social Care</option> 
+      <option value="Physiotherapy">Physiotherapy</option> 
+      </select>
+    </div>
+  <div style="float:left; margin-top: 20px;">
+    <input type="submit" value="Filter"> 
+    <input type="submit" value="Reset" formaction="resetFiltrationOptions/" > 
+  </div>
+</form>
+<p style="padding-top: 250px; font-size: 12px; color: #005597; font-family: Inter; text-align: right; position: relative;" >
+<b>Network Visualisation Key</b><br/> 
+<span style="color:red; font-size: 10px; position: relative;"> <b>COMPUTER SCIENTISTS</b></span><br> 
+<span style="color: blue; font-size: 10px; position: relative;"> <b>ROBOTICISTS</b></span><br>
+<span style="color: #FFE87C; font-size: 10px; position: relative;"> <b>HEALTHCARE PROFESSIONALS</b></span><br> 
+<span style="color: green; font-size: 10px; position: relative;"> <b>DESIGN ENGINEERING AND<br> INNOVATION SPECIALISTS</b></span><br>
+<span style="color: magenta; font-size: 10px; position: relative;"> <b>ELECTRONIC ENGINEERS</b></span><br>
+<span style="color: purple; font-size: 10px; position: relative;"> <b>SOCIAL CARE WORKERS</b></span><br> 
+<span style="color: orange; font-size: 10px; position: relative;"> <b>PHYSIOTHERAPISTS</b></span><br> 
+</p>
+
+<script language="javascript" type="text/javascript">
+
+    window.onload = loadAllValues; 
+
+    function storeSelectedValue(elementID, selectedOption)
+    {
+      localStorage.setItem(elementID, selectedOption);
+      //alert(selectedOption); 
+    }
+
+    function loadSelectedValue(elementID)
+    {
+      var storedValue = localStorage.getItem(elementID);
+      let element = document.getElementById(elementID);
+      element.value = storedValue;
+      if (elementID == 'filterCategory1')
+      {
+        dynamicDropdownCategory1(storedValue);
+      }else if (elementID == 'filterCategory2'){
+        dynamicDropdownCategory2(storedValue); 
+      }
+    }
+
+    function loadAllValues()
+    {
+      loadSelectedValue('filterCategory1');
+      loadSelectedValue('filterParameter1'); 
+      loadSelectedValue('filterCategory2');
+      loadSelectedValue('filterParameter2');
+    }
+
+    function removeOptions(selectElement)
+    {
+      var i, L = selectElement.options.length - 1;
+      for(i = L; i >= 0; i--) {
+          selectElement.remove(i);
+      }
+    }
+
+    function dynamicDropdownCategory1(selectedListIndex)
+    {
+      removeOptions(document.getElementById("filterParameter1"));
+
+      const filterCategories = ["Alphabetical", "Discipline", "Institution", "Location"]
+      const memberDisciplines = ["All", "Computer Science", "Robotics", 
+                                "Design Engineering and Innovation", "Electronic Engineering",
+                                "Social Care", "Physiotherapy"]
+
+      const memberLocations = ["London", "Nottingham", "Leeds", "Sheffield", "Edinburgh", 
+                                "Hertfordshire", "Glasgow", "Aberstwyth", "Leicester", "York", 
+                              "Bristol", "Plymouth", "Swansea", "Southampton", "Aberdeen", "Cardiff",
+                              "Cambridge", "Machester"]
+      
+      const allArray = ["All"]
+
+      const memberAlphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                              "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+      
+      const memberInstitutions = ["University of Nottingham", "Sheffield Hallam University", "Heriot-Watt University", "Cardiff University",
+                                  "University of Hertfordshire", "University of Sheffield", "University of Glasgow", "Aberstwyth University",
+                                "University of Glasgow", "Nottingham Trent University", "Trinity College Dublin", "Simplicare Ltd", "PIRg HErts Ltd",
+                                "ORBIT RRI", "University of Ediburgh", "Scottish Care", "UWE Bristol", "University of York", "Nhs", "Archus", 
+                                "University of the West of England", "University of Plymouth", "Bristol Robotics University, UWE", "Swansea University",
+                                "King's College London", "Loughborough University", "Queen Mary University of London", "University of Southampton",
+                                "University of Aberdeen", "Anglia Ruskin University", "Edinburgh Centre for Robotics", "UCL", "University of Lincoln",
+                              "IBM UK Ltd", "Konpanion (BOROBO ltd)", "Astraline TEC Ltd a Johnnie Johnson business", "BOW (formerly Cyberselves)", "Oval Design",
+                              "PIRG", "Blackwood Homes and Care", "BranchRobotics", "Skills for Care"]
+      
+      memberDisciplines.sort()
+      memberLocations.sort()
+      memberAlphabet.sort()
+      memberInstitutions.sort()
+      const memberLocationsSorted = allArray.concat(memberLocations)
+      var filterCategory2 = document.getElementById("filterCategory2"); 
+      switch(selectedListIndex){ 
+        case "Discipline":
+          var selectedIndex = filterCategories.indexOf(selectedListIndex); 
+          for (let i = 0; i <  memberDisciplines.length; i++)
+          {
+            document.getElementById("filterParameter1").options[i] = new Option(memberDisciplines[i]);
+            selectedListIndex.value = memberDisciplines[i];
+          } 
+
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+    
+          break;
+        case "Location":
+        var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberLocations.length; i++)
+          {
+            document.getElementById("filterParameter1").options[i] = new Option(memberLocationsSorted[i]);
+            selectedListIndex.value = memberLocationsSorted[i];
+          }
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+          break;
+        case "Alphabetical":
+          var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberAlphabet.length; i++)
+          {
+            document.getElementById("filterParameter1").options[i] = new Option(memberAlphabet[i]);
+            selectedListIndex.value = memberAlphabet[i];
+          }
+
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+
+          break;
+        case "Institution":
+        var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberInstitutions.length; i++)
+          {
+            document.getElementById("filterParameter1").options[i] = new Option(memberInstitutions[i]);
+            selectedListIndex.value = memberInstitutions[i];
+          }
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+
+          break;
+      }
+        return true;
+  }
+
+  function dynamicDropdownCategory2(selectedListIndex)
+    {
+      removeOptions(document.getElementById("filterParameter2"));
+
+      const filterCategories = ["Alphabetical", "Discipline", "Institution", "Location"]
+      const memberDisciplines = [ "All", "Computer Science", "Robotics", 
+                                "Design Engineering and Innovation", "Electronic Engineering",
+                                "Social Care", "Physiotherapy"]
+
+      const memberLocations = ["London", "Nottingham", "Leeds", "Sheffield", "Edinburgh", 
+                                "Hertfordshire", "Glasgow", "Aberstwyth", "Leicester", "York", 
+                              "Bristol", "Plymouth", "Swansea", "Southampton", "Aberdeen", "Cardiff",
+                              "Cambridge", "Machester"]
+
+      const allArray = ["All"]
+
+      const memberAlphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+                              "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+      
+      const memberInstitutions = ["University of Nottingham", "Sheffield Hallam University", "Heriot-Watt University", "Cardiff University",
+                                  "University of Hertfordshire", "University of Sheffield", "University of Glasgow", "Aberstwyth University",
+                                "University of Glasgow", "Nottingham Trent University", "Trinity College Dublin", "Simplicare Ltd", "PIRg HErts Ltd",
+                                "ORBIT RRI", "University of Edinburgh", "Scottish Care", "UWE Bristol", "University of York", "Nhs", "Archus", 
+                                "University of the West of England", "University of Plymouth", "Bristol Robotics University, UWE", "Swansea University",
+                                "King's College London", "Loughborough University", "Queen Mary University of London", "University of Southampton",
+                                "University of Aberdeen", "Anglia Ruskin University", "Edinburgh Centre for Robotics", "UCL", "University of Lincoln",
+                              "IBM UK Ltd", "Konpanion (BOROBO ltd)", "Astraline TEC Ltd a Johnnie Johnson business", "BOW (formerly Cyberselves)", "Oval Design",
+                              "PIRG", "Blackwood Homes and Care", "BranchRobotics", "Skills for Care"]
+      
+      memberDisciplines.sort()
+      memberLocations.sort()
+      memberAlphabet.sort()
+      memberInstitutions.sort()
+      const memberLocationsSorted = allArray.concat(memberLocations)
+      var filterCategory1 = document.getElementById("filterCategory1"); 
+      switch(selectedListIndex){
+        case "Discipline":
+          var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i <  memberDisciplines.length; i++)
+          {
+            document.getElementById("filterParameter2").options[i] = new Option(memberDisciplines[i]);
+            selectedListIndex.value = memberDisciplines[i]; 
+          }
+
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+
+          break;
+        case "Location":
+        var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberLocations.length; i++)
+          {
+            document.getElementById("filterParameter2").options[i] = new Option(memberLocationsSorted[i]);
+            selectedListIndex.value = memberLocationsSorted[i]; 
+          }
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+
+          break;
+        case "Alphabetical":
+        var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberAlphabet.length; i++)
+          {
+            document.getElementById("filterParameter2").options[i] = new Option(memberAlphabet[i]);
+            selectedListIndex.value = memberAlphabet[i];
+          }
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          }
+
+          break;
+        case "Institution":
+          var selectedIndex = filterCategories.indexOf(selectedListIndex);
+          for (let i = 0; i < memberInstitutions.length; i++)
+          {
+            document.getElementById("filterParameter2").options[i] = new Option(memberInstitutions[i]);
+            selectedListIndex.value = memberInstitutions[i];
+          }
+          if (selectedIndex != -1)
+          {
+           filterCategories.splice(selectedIndex, 1); 
+          } 
+          break;
+      }
+        return true;
+  }
+
+
+  
+
+</script>
+
+<div id="contentframe" style="position:relative; top: -350px; left: 0px;">
+  <iframe src="test/" type="text/html" title="Test embed" width="950" height="950"></iframe> 
+</div>
+
+{% endblock page_content %}
