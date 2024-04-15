@@ -2,7 +2,6 @@ from constantly import ValueConstant, Values
 from textwrap3 import wrap
 import gravis as gv, networkx as nx, openpyxl, random, sys
 
-
 class Discipline(Values):
    """
    Constants representing various specialties across the EMERGENCE network. 
@@ -204,6 +203,8 @@ class Legend(Values):
    """
    Constants representing the numerical values for the Legend nodes
    """
+   ONETHREESIX = ValueConstant(136)
+   ONETHREESEVEN = ValueConstant(137)
    ONETHREEEIGHT = ValueConstant(138)
    ONETHREENINE = ValueConstant(139)
    ONEFOURTY = ValueConstant(140)
@@ -471,6 +472,7 @@ def shorthandParameters(filterParameter1, filterParameter2):
     return filterParameter1, filterParameter2
 
 nodesFiltered = Misc.FALSE.value
+loadAllDisciplines = Misc.FALSE.value
 filterCategory1 = Misc.EMPTY_STRING.value
 filterParameter1 = Misc.EMPTY_STRING.value
 filterCategory2 = Misc.EMPTY_STRING.value
@@ -487,17 +489,24 @@ elif (len(sys.argv) > Misc.THREE.value):
    filterCategory2 = sys.argv[Misc.THREE.value]
    filterParameter2 = sys.argv[Misc.FOUR.value]
 
+def setFilterByAll(value):
+   """
+   Function that filters by all disciplines/locations 
+   """
+   global loadAllDisciplines
+   loadAllDisciplines = value
+
+if ((filterParameter1 == Misc.ALL.value) or (filterParameter2 == Misc.ALL.value)):
+  setFilterByAll(Misc.TRUE.value)
+elif ((filterCategory1 != Misc.DISCIPLINE_WORD.value) and (filterCategory2 != Misc.DISCIPLINE_WORD.value)):
+  setFilterByAll(Misc.TRUE.value)
+
 def setNodesFiltered(value):
    """
    Function that sets the global nodesFiltered boolean to the value passed in
    """
    global nodesFiltered
    nodesFiltered = value
-
-def setFilterByAll(value):
-   """
-   Function that filters by all disciplines/locations 
-   """
    
 
 def filterNodesByCategories(filterCategory1, filterParameter1, filterCategory2, filterParameter2, member_name, member_institution, member_location, member_discipline): 
@@ -707,12 +716,12 @@ for row_index in range(Misc.TWO.value, emergenceExcelWorkbookSheet.max_row+Misc.
 # Calculate layout
 pos = nx.drawing.layout.spring_layout(nx_graph, scale=Misc.SCALE.value)
 
-legend_node_names = [Legend.ONETHREEEIGHT.value, Legend.ONETHREENINE.value, Legend.ONEFOURTY.value, 
-                     Legend.ONEFOURONE.value, Legend.ONEFOURTWO.value,Legend.ONEFOURTHREE.value, Legend.ONEFOURFOUR.value]
+legend_node_names = [Legend.ONETHREESIX.value, Legend.ONETHREESEVEN.value, Legend.ONETHREEEIGHT.value, 
+                     Legend.ONETHREENINE.value, Legend.ONEFOURTY.value,Legend.ONEFOURONE.value, Legend.ONEFOURTWO.value]
 
-legend_node_dict_mapping = [{Legend.ONETHREEEIGHT.value:Discipline.ROBOTICS.value}, {Legend.ONETHREENINE.value : Discipline.HEALTHCARE.value}, 
-                             {Legend.ONEFOURTY.value:Discipline.COMPUTER_SCIENCE.value}, {Legend.ONEFOURONE.value: Discipline.DESIGN_ENGINEERING_INNOVATION.value},
-                             {Legend.ONEFOURTWO.value:Discipline.ELECTRONIC_ENGINEERING.value}, {Legend.ONEFOURTHREE.value:Discipline.SOCIAL_CARE.value}, {Legend.ONEFOURFOUR.value:Discipline.PHYSIOTHERAPY.value } ]
+legend_node_dict_mapping = [{Legend.ONETHREESIX.value:Discipline.ROBOTICS.value}, {Legend.ONETHREESEVEN.value : Discipline.HEALTHCARE.value}, 
+                             {Legend.ONETHREEEIGHT.value:Discipline.COMPUTER_SCIENCE.value}, {Legend.ONETHREENINE.value: Discipline.DESIGN_ENGINEERING_INNOVATION.value},
+                             {Legend.ONEFOURTY.value:Discipline.ELECTRONIC_ENGINEERING.value}, {Legend.ONEFOURONE.value:Discipline.SOCIAL_CARE.value}, {Legend.ONEFOURTWO.value:Discipline.PHYSIOTHERAPY.value } ]
 
 legend_node_colour_mapping = {Discipline.ROBOTICS.value : setMemberColour(Discipline.ROBOTICS.value), 
                              Discipline.HEALTHCARE.value : setMemberColour(Discipline.HEALTHCARE.value),
@@ -740,6 +749,7 @@ for name, (x, y) in pos.items():
     elif name in legend_node_names:
         legendDict = legend_node_dict_mapping[legend_node_count]
         nx_graph = nx.relabel_nodes(nx_graph, legendDict)
+        print(name)
         name = legendDict[name]
         node = nx_graph.nodes[name]
         legend_node_coordinate = legend_node_coordinates[legend_node_count]
@@ -766,7 +776,7 @@ for i in range(Misc.ZERO.value, len(legend_labels)):
 for i in range(Misc.ZERO.value, len(legend_labels)):
    for node in nx_graph.nodes():
        selectedNode = nx_graph.nodes[node]
-       if (selectedNode[Misc.LABEL.value] not in legend_labels):
+       if ((selectedNode not in legend_labels) and len(selectedNode) != 0):
          if (legend_labels[i] == selectedNode[Misc.DISCIPLINE_WORD.value]):
             legendPoint = legend_node_coordinates[i]
             selectedNode[Misc.X.value] = random.randint(legendPoint[Misc.ZERO.value] - Misc.SEVENFIFTY.value,legendPoint[Misc.ZERO.value] + Misc.SEVENFIFTY.value)
@@ -777,8 +787,12 @@ if (nodesFiltered):
    if (len(filterGraph1) == Misc.ZERO.value):
       emptySearch = Misc.TRUE.value
    filterGraph1.append(Misc.CENTRAL_NODE_ID.value)
-   filterGraph1.append(filterParameter1)
-   filterGraph1.append(filterParameter2)
+   if (not loadAllDisciplines):
+      filterGraph1.append(filterParameter1)
+      filterGraph1.append(filterParameter2)
+   elif (loadAllDisciplines):
+      for i in range(len(legend_labels)):
+         filterGraph1.append(legend_labels[i])
    filteredView = nx_graph.subgraph(filterGraph1)
    figGravis = gv.vis(filteredView, zoom_factor=VisualisationSettings.ZOOM_FACTOR.value, layout_algorithm_active=Misc.TRUE.value, graph_height=VisualisationSettings.GRAPH_HEIGHT.value,layout_algorithm=VisualisationSettings.LAYOUT_ALGORITHM.value, node_label_font=VisualisationSettings.NODE_LABEL_FONT.value)
 else:
@@ -790,7 +804,7 @@ fname = (Misc.FNAME.value).format(filterCategory1, filterParameter1,
                                  filterCategory2, filterParameter2)
 
 figGravis.export_html(fname, Misc.TRUE.value)
-
+figGravis.display()
 if (emptySearch):
    sys.exit(Misc.ONE.value)
 sys.exit(Misc.ZERO.value)
