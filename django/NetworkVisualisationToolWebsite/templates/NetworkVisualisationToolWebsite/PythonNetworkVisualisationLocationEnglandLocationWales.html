@@ -6,25 +6,25 @@
 <body style="margin:0;">
   <style>
     /* Main divisions */
-    #iEPD3p6mnihhPYpzc-main-div {
+    #iefG4jsA0KZfiBTxF-main-div {
       line-height: normal;
       box-sizing: content-box;
       padding: 3px;
       background-color: white;
     }
-    #iEPD3p6mnihhPYpzc-left-div {
+    #iefG4jsA0KZfiBTxF-left-div {
       float: left;
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-right-div {
+    #iefG4jsA0KZfiBTxF-right-div {
       float: left;
       height: 100%;
       display: none;
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-right-inner-div {
+    #iefG4jsA0KZfiBTxF-right-inner-div {
       padding-left: 5px;
       padding-right: 2px;
       overflow-x: hidden;
@@ -35,7 +35,7 @@
     }
 
     /* Graph and details (contained in left-inner-div) */
-    #iEPD3p6mnihhPYpzc-graph-div {
+    #iefG4jsA0KZfiBTxF-graph-div {
       overflow: hidden;
       resize: vertical;
       position: relative;
@@ -46,7 +46,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-details-div {
+    #iefG4jsA0KZfiBTxF-details-div {
       overflow: auto;
       resize: vertical;
       margin-top: 5px;
@@ -57,7 +57,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-details-head {
+    #iefG4jsA0KZfiBTxF-details-head {
       user-select: none;
       padding-left: 4px !important;
       padding-top: 4px !important;
@@ -67,7 +67,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-details-body {
+    #iefG4jsA0KZfiBTxF-details-body {
       padding: 10px;
       padding-top: 6px;
       font-size: 10px;
@@ -77,7 +77,7 @@
     }
 
     /* Control menu (contained in right-inner-div) */
-    .iEPD3p6mnihhPYpzc-menu-item-head {
+    .iefG4jsA0KZfiBTxF-menu-item-head {
       font-size: 11px;
       font-family: "Lucida Console", Monaco, monospace;
       color: black;
@@ -93,13 +93,13 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .iEPD3p6mnihhPYpzc-menu-item-body {
+    .iefG4jsA0KZfiBTxF-menu-item-body {
       margin-left: 5px;
       margin-bottom: 10px;
       line-height: normal;
       box-sizing: content-box;
     }
-    .iEPD3p6mnihhPYpzc-menu-subitem-head {
+    .iefG4jsA0KZfiBTxF-menu-subitem-head {
       font-size: 9px;
       font-family: "Lucida Console", Monaco, monospace;
       font-weight: 600;
@@ -109,7 +109,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .iEPD3p6mnihhPYpzc-menu-subitem-body {
+    .iefG4jsA0KZfiBTxF-menu-subitem-body {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       margin-left: 7px;
@@ -117,28 +117,28 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .iEPD3p6mnihhPYpzc-labeled-input {
+    .iefG4jsA0KZfiBTxF-labeled-input {
       all: initial;
       display: flex;
       align-items: center;
       margin-top: 1px;
       margin-bottom: 1px;
     }
-    .iEPD3p6mnihhPYpzc-label {
+    .iefG4jsA0KZfiBTxF-label {
       all: initial;
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       font-style: italic;
       cursor: pointer;
     }
-    .iEPD3p6mnihhPYpzc-slider {
+    .iefG4jsA0KZfiBTxF-slider {
       width: 100%;
       margin-bottom: 2px;
     }
-    .iEPD3p6mnihhPYpzc-slider::-moz-focus-outer {
+    .iefG4jsA0KZfiBTxF-slider::-moz-focus-outer {
       border: 0;
     }
-    .iEPD3p6mnihhPYpzc-slider-text-left {
+    .iefG4jsA0KZfiBTxF-slider-text-left {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       font-style: italic;
@@ -146,20 +146,20 @@
       float: left;
       margin-top: 2px;
     }
-    .iEPD3p6mnihhPYpzc-slider-text-right {
+    .iefG4jsA0KZfiBTxF-slider-text-right {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       color: black;
       float: right;
     }
-    .iEPD3p6mnihhPYpzc-checkbox {
+    .iefG4jsA0KZfiBTxF-checkbox {
       margin-left: 0px !important;
       margin-right: 4px !important;
       margin-top: 2px !important;
       margin-bottom: 2px !important;
       padding: 0px !important;
     }
-    .iEPD3p6mnihhPYpzc-select {
+    .iefG4jsA0KZfiBTxF-select {
       cursor: pointer;
       outline: none;
       font-size: 8px;
@@ -188,15 +188,15 @@
     }
     @-moz-document url-prefix() {
       /* Dirty hack to remove dotted border on focus */
-      .iEPD3p6mnihhPYpzc-select {
+      .iefG4jsA0KZfiBTxF-select {
         color: transparent !important;
         text-shadow: 0 0 0 black !important;
       }
     }
-    .iEPD3p6mnihhPYpzc-select:after {
+    .iefG4jsA0KZfiBTxF-select:after {
       cursor: pointer;
     }
-    .iEPD3p6mnihhPYpzc-button {
+    .iefG4jsA0KZfiBTxF-button {
       cursor: pointer;
       outline: none;
       font-size: 8px;
@@ -213,29 +213,29 @@
       border: 1.2px solid #bbb;
       box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
     }
-    .iEPD3p6mnihhPYpzc-button:hover {
+    .iefG4jsA0KZfiBTxF-button:hover {
       border: 1.2px solid #999;
       background-color: #f2f2f2;
     }
-    .iEPD3p6mnihhPYpzc-button:active {
+    .iefG4jsA0KZfiBTxF-button:active {
       background-color: #ddd;
     }
-    .iEPD3p6mnihhPYpzc-button::-moz-focus-inner {
+    .iefG4jsA0KZfiBTxF-button::-moz-focus-inner {
       border: 0;
     }
     /* Hidden menu items */
-    #iEPD3p6mnihhPYpzc-graph-select-div {
+    #iefG4jsA0KZfiBTxF-graph-select-div {
       display: none;
     }
-    #iEPD3p6mnihhPYpzc-node-size-norm-div {
+    #iefG4jsA0KZfiBTxF-node-size-norm-div {
       display: none;
     }
-    #iEPD3p6mnihhPYpzc-edge-size-norm-div {
+    #iefG4jsA0KZfiBTxF-edge-size-norm-div {
       display: none;
     }
 
     /* Graph */
-    #iEPD3p6mnihhPYpzc-tooltip-div {
+    #iefG4jsA0KZfiBTxF-tooltip-div {
       font-size: 10px;
       font-family: "Lucida Console", Monaco, monospace;
       z-index: 42001;
@@ -254,7 +254,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-menu-toggle-button, #iEPD3p6mnihhPYpzc-details-toggle-button, #iEPD3p6mnihhPYpzc-progress-container {
+    #iefG4jsA0KZfiBTxF-menu-toggle-button, #iefG4jsA0KZfiBTxF-details-toggle-button, #iefG4jsA0KZfiBTxF-progress-container {
       font-size: 14px;
       font-family: "Lucida Console", Monaco, monospace;
       z-index: 42000;
@@ -266,7 +266,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #iEPD3p6mnihhPYpzc-menu-toggle-button {
+    #iefG4jsA0KZfiBTxF-menu-toggle-button {
       top: 0;
       right: 0;
       padding-left: 6px;
@@ -278,7 +278,7 @@
       border-bottom: 1px solid #ccc;
       border-left: 1px solid #ccc;
     }
-    #iEPD3p6mnihhPYpzc-details-toggle-button {
+    #iefG4jsA0KZfiBTxF-details-toggle-button {
       bottom: 0;
       left: 0;
       padding-left: 19px;
@@ -290,7 +290,7 @@
       border-bottom: 0px;
       border-left: 0px;
     }
-    #iEPD3p6mnihhPYpzc-progress-container {
+    #iefG4jsA0KZfiBTxF-progress-container {
       font-size: 10px;
       text-align: center;
       top: 46%;
@@ -302,7 +302,7 @@
     }
 
     /* Details */
-    #iEPD3p6mnihhPYpzc-details-user-provided {
+    #iefG4jsA0KZfiBTxF-details-user-provided {
       margin-top: 3px;
       padding-top: 3.5px;
       border-top: 0.5px dashed black;
@@ -311,15 +311,15 @@
       white-space: pre-wrap;
       word-break: break-word;
     }
-    #iEPD3p6mnihhPYpzc-details-user-provided ul {
+    #iefG4jsA0KZfiBTxF-details-user-provided ul {
       list-style-position: inside;
       padding-left: 6px;
     }
 
     /* Unavailable in vis.js and therefore hidden */
-    #iEPD3p6mnihhPYpzc-svg,
-    #iEPD3p6mnihhPYpzc-node-label-rotation,
-    #iEPD3p6mnihhPYpzc-edge-label-rotation {
+    #iefG4jsA0KZfiBTxF-svg,
+    #iefG4jsA0KZfiBTxF-node-label-rotation,
+    #iefG4jsA0KZfiBTxF-edge-label-rotation {
       display: none;
     }
     /* Specific to vis.js */
@@ -343,566 +343,566 @@
     }
   </style>
 
-  <div id="iEPD3p6mnihhPYpzc-main-div">
-    <div id="iEPD3p6mnihhPYpzc-tooltip-div"></div>
+  <div id="iefG4jsA0KZfiBTxF-main-div">
+    <div id="iefG4jsA0KZfiBTxF-tooltip-div"></div>
 
-    <div id="iEPD3p6mnihhPYpzc-left-div">
-      <div id="iEPD3p6mnihhPYpzc-left-inner-div">
-        <div id="iEPD3p6mnihhPYpzc-graph-div"></div>
-        <div id="iEPD3p6mnihhPYpzc-details-div">
-          <div id="iEPD3p6mnihhPYpzc-details-head">
+    <div id="iefG4jsA0KZfiBTxF-left-div">
+      <div id="iefG4jsA0KZfiBTxF-left-inner-div">
+        <div id="iefG4jsA0KZfiBTxF-graph-div"></div>
+        <div id="iefG4jsA0KZfiBTxF-details-div">
+          <div id="iefG4jsA0KZfiBTxF-details-head">
             Details for selected element
           </div>
-          <div id="iEPD3p6mnihhPYpzc-details-body">
+          <div id="iefG4jsA0KZfiBTxF-details-body">
           </div>
         </div>
       </div>
     </div>
 
-    <div id="iEPD3p6mnihhPYpzc-right-div">
-      <div id="iEPD3p6mnihhPYpzc-right-inner-div">
+    <div id="iefG4jsA0KZfiBTxF-right-div">
+      <div id="iefG4jsA0KZfiBTxF-right-inner-div">
         <!-- Menu: General -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-general-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-general-head">
           General
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-general-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-general-body">
           <!-- Sub-menu: State -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               App state
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-reset"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-reset"
                       type="button">Reset</button>
             </div>
           </div>
           <!-- Sub-menu: Display mode (fullscreen or not) -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Display mode
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-fullscreen-button"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-fullscreen-button"
                       type="button">Enter full screen</button>
             </div>
           </div>
           <!-- Sub-menu: Export -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Export
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-svg"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-svg"
                       type="button">SVG</button>
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-png"
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-png"
                       type="button">PNG</button>
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-jpg"
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-jpg"
                       type="button">JPG</button>
             </div>
           </div>
         </div>
         <!-- Menu: Data -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-data-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-data-head">
           Data selection
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-data-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-data-body">
           <!-- Sub-menu: Graph (only shown if multiple graphs in data) -->
-          <div id="iEPD3p6mnihhPYpzc-graph-select-div">
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+          <div id="iefG4jsA0KZfiBTxF-graph-select-div">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Graph
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <select class="iEPD3p6mnihhPYpzc-select"
-                      id="iEPD3p6mnihhPYpzc-graph-select"></select>
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <select class="iefG4jsA0KZfiBTxF-select"
+                      id="iefG4jsA0KZfiBTxF-graph-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Node label text -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Node label text
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <select class="iEPD3p6mnihhPYpzc-select"
-                      id="iEPD3p6mnihhPYpzc-node-label-data-source-select"></select>
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <select class="iefG4jsA0KZfiBTxF-select"
+                      id="iefG4jsA0KZfiBTxF-node-label-data-source-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Edge label text -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Edge label text
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <select class="iEPD3p6mnihhPYpzc-select"
-                      id="iEPD3p6mnihhPYpzc-edge-label-data-source-select"></select>
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <select class="iefG4jsA0KZfiBTxF-select"
+                      id="iefG4jsA0KZfiBTxF-edge-label-data-source-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Node size -->
-          <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+          <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
             Node size
           </div>
-          <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
+          <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
             <div>
-              <select class="iEPD3p6mnihhPYpzc-select"
-                      id="iEPD3p6mnihhPYpzc-node-size-data-source-select"></select>
+              <select class="iefG4jsA0KZfiBTxF-select"
+                      id="iefG4jsA0KZfiBTxF-node-size-data-source-select"></select>
             </div>
-            <div class="iEPD3p6mnihhPYpzc-labeled-input">
-              <input class="iEPD3p6mnihhPYpzc-checkbox"
-                     id="iEPD3p6mnihhPYpzc-node-size-normalization-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-labeled-input">
+              <input class="iefG4jsA0KZfiBTxF-checkbox"
+                     id="iefG4jsA0KZfiBTxF-node-size-normalization-checkbox"
                      type="checkbox">
-              <label class="iEPD3p6mnihhPYpzc-label"
-                     for="iEPD3p6mnihhPYpzc-node-size-normalization-checkbox">Normalize</label>
+              <label class="iefG4jsA0KZfiBTxF-label"
+                     for="iefG4jsA0KZfiBTxF-node-size-normalization-checkbox">Normalize</label>
             </div>
-            <div id="iEPD3p6mnihhPYpzc-node-size-norm-div">
+            <div id="iefG4jsA0KZfiBTxF-node-size-norm-div">
               <div>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Minimum</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-node-size-normalization-min-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-node-size-normalization-min-slider"
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Minimum</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-node-size-normalization-min-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-node-size-normalization-min-slider"
                        type="range" min="0.01" max="300.0" step="0.01">
               </div>
               <div>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Maximum</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-node-size-normalization-max-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-node-size-normalization-max-slider"
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Maximum</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-node-size-normalization-max-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-node-size-normalization-max-slider"
                        type="range" min="0.01" max="300.0" step="0.01">
               </div>
             </div>
           </div>
           <!-- Sub-menu: Edge size -->
-          <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+          <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
             Edge size
           </div>
-          <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
+          <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
             <div>
-              <select class="iEPD3p6mnihhPYpzc-select"
-                      id="iEPD3p6mnihhPYpzc-edge-size-data-source-select"></select>
+              <select class="iefG4jsA0KZfiBTxF-select"
+                      id="iefG4jsA0KZfiBTxF-edge-size-data-source-select"></select>
             </div>
-            <div class="iEPD3p6mnihhPYpzc-labeled-input">
-              <input class="iEPD3p6mnihhPYpzc-checkbox"
-                     id="iEPD3p6mnihhPYpzc-edge-size-normalization-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-labeled-input">
+              <input class="iefG4jsA0KZfiBTxF-checkbox"
+                     id="iefG4jsA0KZfiBTxF-edge-size-normalization-checkbox"
                      type="checkbox">
-              <label class="iEPD3p6mnihhPYpzc-label"
-                     for="iEPD3p6mnihhPYpzc-edge-size-normalization-checkbox">Normalize</label>
+              <label class="iefG4jsA0KZfiBTxF-label"
+                     for="iefG4jsA0KZfiBTxF-edge-size-normalization-checkbox">Normalize</label>
             </div>
-            <div id="iEPD3p6mnihhPYpzc-edge-size-norm-div">
+            <div id="iefG4jsA0KZfiBTxF-edge-size-norm-div">
               <div>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Minimum</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-edge-size-normalization-min-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-edge-size-normalization-min-slider"
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Minimum</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-edge-size-normalization-min-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-edge-size-normalization-min-slider"
                        type="range" min="0.01" max="50.0" step="0.01">
               </div>
               <div>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Maximum</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-edge-size-normalization-max-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-edge-size-normalization-max-slider"
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Maximum</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-edge-size-normalization-max-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-edge-size-normalization-max-slider"
                        type="range" min="0.01" max="50.0" step="0.01">
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Nodes -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-node-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-node-head">
           Nodes
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-node-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-node-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Visibility
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-checkbox">Show nodes</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-checkbox">Show nodes</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Size
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
               <div>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Scaling factor</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-node-size-factor-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-node-size-factor-slider"
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Scaling factor</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-node-size-factor-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-node-size-factor-slider"
                        type="range" min="0.01" max="5.0" step="0.01">
               </div>
             </div>
           </div>
           <!-- Sub-menu: Position -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Position
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <button class="iEPD3p6mnihhPYpzc-button"
-                      id="iEPD3p6mnihhPYpzc-node-release-button"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <button class="iefG4jsA0KZfiBTxF-button"
+                      id="iefG4jsA0KZfiBTxF-node-release-button"
                       type="button">Release fixed nodes</button>
             </div>
           </div>
           <!-- Sub-menu: Drag behavior -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Drag behavior
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-drag-fix-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-drag-fix-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-drag-fix-checkbox">Fix node position</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-drag-fix-checkbox">Fix node position</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Hover behavior -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Hover behavior
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-hover-neighborhood-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-hover-neighborhood-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-hover-neighborhood-checkbox">Show neighborhood</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-hover-neighborhood-checkbox">Show neighborhood</label>
               </div>
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-hover-tooltip-checkbox"
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-hover-tooltip-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-hover-tooltip-checkbox">Show tooltips (if provided)</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-hover-tooltip-checkbox">Show tooltips (if provided)</label>
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Node images -->
-        <div id="iEPD3p6mnihhPYpzc-node-image-meta-control">
-          <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-               id="iEPD3p6mnihhPYpzc-node-image-head">
+        <div id="iefG4jsA0KZfiBTxF-node-image-meta-control">
+          <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+               id="iefG4jsA0KZfiBTxF-node-image-head">
             Node images
           </div>
-          <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-               id="iEPD3p6mnihhPYpzc-node-image-body">
+          <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+               id="iefG4jsA0KZfiBTxF-node-image-body">
             <!-- Sub-menu: Visibility -->
             <div>
-              <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+              <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
                 Visibility
               </div>
-              <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-                <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                  <input class="iEPD3p6mnihhPYpzc-checkbox"
-                         id="iEPD3p6mnihhPYpzc-node-image-checkbox"
+              <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+                <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                  <input class="iefG4jsA0KZfiBTxF-checkbox"
+                         id="iefG4jsA0KZfiBTxF-node-image-checkbox"
                          type="checkbox">
-                  <label class="iEPD3p6mnihhPYpzc-label"
-                         for="iEPD3p6mnihhPYpzc-node-image-checkbox">Show node images</label>
+                  <label class="iefG4jsA0KZfiBTxF-label"
+                         for="iefG4jsA0KZfiBTxF-node-image-checkbox">Show node images</label>
                 </div>
               </div>
             </div>
             <!-- Sub-menu: Size -->
             <div>
-              <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+              <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
                 Size
               </div>
-              <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Scaling factor</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-node-image-size-factor-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-node-image-size-factor-slider"
+              <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Scaling factor</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-node-image-size-factor-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-node-image-size-factor-slider"
                        type="range" min="0.01" max="5.0" step="0.01">
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Node labels -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-node-label-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-node-label-head">
           Node labels
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-node-label-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-node-label-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Visibility
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-label-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-label-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-label-checkbox">Show node labels</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-label-checkbox">Show node labels</label>
               </div>
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-node-label-border-checkbox"
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-node-label-border-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-node-label-border-checkbox">Show borders</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-node-label-border-checkbox">Show borders</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Size
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Scaling factor</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                    id="iEPD3p6mnihhPYpzc-node-label-size-factor-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-node-label-size-factor-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Scaling factor</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                    id="iefG4jsA0KZfiBTxF-node-label-size-factor-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-node-label-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Rotation -->
-          <div id="iEPD3p6mnihhPYpzc-node-label-rotation">
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+          <div id="iefG4jsA0KZfiBTxF-node-label-rotation">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Rotation
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Angle</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                    id="iEPD3p6mnihhPYpzc-node-label-rotation-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-node-label-rotation-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Angle</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                    id="iefG4jsA0KZfiBTxF-node-label-rotation-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-node-label-rotation-slider"
                      type="range" min="0.0" max="359.0" step="1.0">
             </div>
           </div>
         </div>
         <!-- Menu: Edges -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-edge-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-edge-head">
           Edges
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-edge-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-edge-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Visibility
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-edge-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-edge-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-edge-checkbox">Show edges</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-edge-checkbox">Show edges</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Size
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Scaling factor</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                    id="iEPD3p6mnihhPYpzc-edge-size-factor-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-edge-size-factor-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Scaling factor</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                    id="iefG4jsA0KZfiBTxF-edge-size-factor-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-edge-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Form -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Form
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Curvature</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                    id="iEPD3p6mnihhPYpzc-edge-curvature-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-edge-curvature-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Curvature</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                    id="iefG4jsA0KZfiBTxF-edge-curvature-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-edge-curvature-slider"
                      type="range" min="-1.2" max="1.2" step="0.02">
             </div>
           </div>
           <!-- Sub-menu: Hover behavior -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Hover behavior
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-edge-hover-tooltip-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-edge-hover-tooltip-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-edge-hover-tooltip-checkbox">Show tooltips (if provided)</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-edge-hover-tooltip-checkbox">Show tooltips (if provided)</label>
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Edge labels -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-edge-label-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-edge-label-head">
           Edge labels
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-edge-label-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-edge-label-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Visibility
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-edge-label-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-edge-label-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-edge-label-checkbox">Show edge labels</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-edge-label-checkbox">Show edge labels</label>
               </div>
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-edge-label-border-checkbox"
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-edge-label-border-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-edge-label-border-checkbox">Show borders</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-edge-label-border-checkbox">Show borders</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Size
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Scaling factor</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                    id="iEPD3p6mnihhPYpzc-edge-label-size-factor-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-edge-label-size-factor-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Scaling factor</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                    id="iefG4jsA0KZfiBTxF-edge-label-size-factor-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-edge-label-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Rotation -->
-          <div id="iEPD3p6mnihhPYpzc-edge-label-rotation">
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+          <div id="iefG4jsA0KZfiBTxF-edge-label-rotation">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Rotation
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <span class="iEPD3p6mnihhPYpzc-slider-text-left">Angle</span>
-              <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-edge-label-rotation-text"></span>
-              <input class="iEPD3p6mnihhPYpzc-slider"
-                     id="iEPD3p6mnihhPYpzc-edge-label-rotation-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <span class="iefG4jsA0KZfiBTxF-slider-text-left">Angle</span>
+              <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-edge-label-rotation-text"></span>
+              <input class="iefG4jsA0KZfiBTxF-slider"
+                     id="iefG4jsA0KZfiBTxF-edge-label-rotation-slider"
                      type="range" min="0.0" max="359.0" step="1.0">
             </div>
           </div>
         </div>
         <!-- Menu: Layout algorithm -->
-        <div class="iEPD3p6mnihhPYpzc-menu-item-head"
-             id="iEPD3p6mnihhPYpzc-layout-algorithm-head">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-head"
+             id="iefG4jsA0KZfiBTxF-layout-algorithm-head">
           Layout algorithm
         </div>
-        <div class="iEPD3p6mnihhPYpzc-menu-item-body"
-             id="iEPD3p6mnihhPYpzc-layout-algorithm-body">
+        <div class="iefG4jsA0KZfiBTxF-menu-item-body"
+             id="iefG4jsA0KZfiBTxF-layout-algorithm-body">
           <!-- Sub-menu: Simulation -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Simulation
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div class="iEPD3p6mnihhPYpzc-labeled-input">
-                <input class="iEPD3p6mnihhPYpzc-checkbox"
-                       id="iEPD3p6mnihhPYpzc-simulation-active-checkbox"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div class="iefG4jsA0KZfiBTxF-labeled-input">
+                <input class="iefG4jsA0KZfiBTxF-checkbox"
+                       id="iefG4jsA0KZfiBTxF-simulation-active-checkbox"
                        type="checkbox">
-                <label class="iEPD3p6mnihhPYpzc-label"
-                       for="iEPD3p6mnihhPYpzc-simulation-active-checkbox">Active</label>
+                <label class="iefG4jsA0KZfiBTxF-label"
+                       for="iefG4jsA0KZfiBTxF-simulation-active-checkbox">Active</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Algorithm -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Algorithm
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
               <div>
-                <select class="iEPD3p6mnihhPYpzc-select"
-                        id="iEPD3p6mnihhPYpzc-layout-algorithm-select"></select>
+                <select class="iefG4jsA0KZfiBTxF-select"
+                        id="iefG4jsA0KZfiBTxF-layout-algorithm-select"></select>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Parameters -->
           <div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-head">
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-head">
               Parameters
             </div>
-            <div class="iEPD3p6mnihhPYpzc-menu-subitem-body">
-              <div id="iEPD3p6mnihhPYpzc-gravitational-constant-div">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Gravitational constant</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-gravitational-constant-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-gravitational-constant-slider"
+            <div class="iefG4jsA0KZfiBTxF-menu-subitem-body">
+              <div id="iefG4jsA0KZfiBTxF-gravitational-constant-div">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Gravitational constant</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-gravitational-constant-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-gravitational-constant-slider"
                        type="range" min="-50000" max="0" step="1"
                        style="direction:rtl;">
               </div>
-              <div id="iEPD3p6mnihhPYpzc-spring-length-div">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Spring length</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-spring-length-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-spring-length-slider"
+              <div id="iefG4jsA0KZfiBTxF-spring-length-div">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Spring length</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-spring-length-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-spring-length-slider"
                        type="range" min="0.0" max="500" step="0.1">
               </div>
-              <div id="iEPD3p6mnihhPYpzc-spring-constant-div">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Spring constant</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-spring-constant-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-spring-constant-slider"
+              <div id="iefG4jsA0KZfiBTxF-spring-constant-div">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Spring constant</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-spring-constant-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-spring-constant-slider"
                        type="range" min="0.0" max="1.0" step="0.01">
               </div>
-              <div id="iEPD3p6mnihhPYpzc-avoid-overlap-div">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Avoid overlap</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-avoid-overlap-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-avoid-overlap-slider"
+              <div id="iefG4jsA0KZfiBTxF-avoid-overlap-div">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Avoid overlap</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-avoid-overlap-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-avoid-overlap-slider"
                        type="range" min="0.0" max="1.0" step="0.01">
               </div>
-              <div id="iEPD3p6mnihhPYpzc-central-gravity-div">
-                <span class="iEPD3p6mnihhPYpzc-slider-text-left">Central gravity</span>
-                <span class="iEPD3p6mnihhPYpzc-slider-text-right"
-                      id="iEPD3p6mnihhPYpzc-central-gravity-text"></span>
-                <input class="iEPD3p6mnihhPYpzc-slider"
-                       id="iEPD3p6mnihhPYpzc-central-gravity-slider"
+              <div id="iefG4jsA0KZfiBTxF-central-gravity-div">
+                <span class="iefG4jsA0KZfiBTxF-slider-text-left">Central gravity</span>
+                <span class="iefG4jsA0KZfiBTxF-slider-text-right"
+                      id="iefG4jsA0KZfiBTxF-central-gravity-text"></span>
+                <input class="iefG4jsA0KZfiBTxF-slider"
+                       id="iefG4jsA0KZfiBTxF-central-gravity-slider"
                        type="range" min="0.0" max="10.0" step="0.001">
               </div>
             </div>
@@ -988,7 +988,7 @@ if(!require.defined("gravis-vis-network")){
 
           // 1) Fetch state.rawData
           fetchRawDataFromTemplating(){
-            state.rawData = [{"nodes": {"Central Node": {"label": "Emergence Network", "metadata": {"title": "Central Node", "physics": true, "color": "black", "location": "include-central-nodes", "institution": "include-central-nodes", "Discipline": "include-central-nodes", "alphabet": "include-central-nodes", "x": 0, "y": 0, "size": 75, "hover": "Central Node"}}, "Computer Science": {"label": "Computer Science", "metadata": {"group": 2, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Computer Science", "Location": "include-legend-nodes", "hover": "Computer Science", "color": "red"}}}, "edges": [{"source": "Central Node", "target": "Computer Science"}], "directed": false}];
+            state.rawData = [{"nodes": {"Robotics": {"label": "Robotics", "metadata": {"group": 0, "size": 50, "fixed": true, "physics": false, "x": 250, "y": 750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Robotics", "Location": "include-legend-nodes", "hover": "Robotics", "color": "blue"}}, "Healthcare": {"label": "Healthcare", "metadata": {"group": 1, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 1250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Healthcare", "Location": "include-legend-nodes", "hover": "Healthcare", "color": "yellow"}}, "Computer Science": {"label": "Computer Science", "metadata": {"group": 2, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Computer Science", "Location": "include-legend-nodes", "hover": "Computer Science", "color": "red"}}, "Design Engineering and Innovation": {"label": "Design Engineering and Innovation", "metadata": {"group": 3, "size": 50, "fixed": true, "physics": false, "x": 500, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Design Engineering and Innovation", "Location": "include-legend-nodes", "hover": "Design Engineering and Innovation", "color": "green"}}, "Electronic Engineering": {"label": "Electronic Engineering", "metadata": {"group": 4, "size": 50, "fixed": true, "physics": false, "x": 150, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Electronic Engineering", "Location": "include-legend-nodes", "hover": "Electronic Engineering", "color": "magenta"}}, "Social Care": {"label": "Social Care", "metadata": {"group": 5, "size": 50, "fixed": true, "physics": false, "x": -500, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Social Care", "Location": "include-legend-nodes", "hover": "Social Care", "color": "purple"}}, "Physiotherapy": {"label": "Physiotherapy", "metadata": {"group": 6, "size": 50, "fixed": true, "physics": false, "x": -750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Physiotherapy", "Location": "include-legend-nodes", "hover": "Physiotherapy", "color": "orange"}}, "Central Node": {"label": "Emergence Network", "metadata": {"title": "Central Node", "physics": true, "color": "black", "location": "include-central-nodes", "institution": "include-central-nodes", "Discipline": "include-central-nodes", "alphabet": "include-central-nodes", "x": 0, "y": 0, "size": 75, "hover": "Central Node"}}, "Abdel-Karim Al-Tamimi": {"label": "Abdel-Karim Al-Tamimi", "metadata": {"title": "Name: Abdel-Karim Al-Tamimi\nInstitution: Sheffield Hallam University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Sheffield", "x": 262, "y": 584, "size": 50, "hover": "Name: Abdel-Karim Al-Tamimi\nInstitution: Sheffield Hallam University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Aslam Jarwar": {"label": "Aslam Jarwar", "metadata": {"title": "Name: Aslam Jarwar\nInstitution: Sheffield Hallam University\nJob Title: Sr. Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Sheffield", "x": 134, "y": 588, "size": 50, "hover": "Name: Aslam Jarwar\nInstitution: Sheffield Hallam University\nJob Title: Sr. Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Carolina Fuentes": {"label": "Carolina Fuentes", "metadata": {"title": "Name: Carolina Fuentes\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Cardiff University", "Discipline": "Computer Science", "alphabet": "C", "color": "red", "location": "Hertfordshire", "x": 214, "y": 574, "size": 50, "hover": "Name: Carolina Fuentes\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n"}}, "Catherine Menon": {"label": "Catherine Menon", "metadata": {"title": "Name: Catherine Menon\nInstitution: University of Hertfordshire\nJob Title: Principal Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Computer Science", "alphabet": "C", "color": "red", "location": "Hertfordshire", "x": 667, "y": 532, "size": 50, "hover": "Name: Catherine Menon\nInstitution: University of Hertfordshire\nJob Title: Principal Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n"}}, "Charith Abhayaratne": {"label": "Charith Abhayaratne", "metadata": {"title": "Name: Charith Abhayaratne\nInstitution: University of Sheffield\nJob Title: Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Computer Science", "alphabet": "C", "color": "red", "location": "Sheffield", "x": 881, "y": 576, "size": 50, "hover": "Name: Charith Abhayaratne\nInstitution: University of Sheffield\nJob Title: Lecturer\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "David Cameron": {"label": "David Cameron", "metadata": {"title": "Name: David Cameron\nInstitution: University of Sheffield\nJob Title: Lecturer in Human Computer Interaction\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Sheffield", "x": 1190, "y": 523, "size": 50, "hover": "Name: David Cameron\nInstitution: University of Sheffield\nJob Title: Lecturer in Human Computer Interaction\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Jims Marchang": {"label": "Jims Marchang", "metadata": {"title": "Name: Jims Marchang\nInstitution: Sheffield Hallam University\nJob Title: Sr Lecturer in Cybersecurity\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Computer Science", "alphabet": "J", "color": "red", "location": "Sheffield", "x": 368, "y": 528, "size": 50, "hover": "Name: Jims Marchang\nInstitution: Sheffield Hallam University\nJob Title: Sr Lecturer in Cybersecurity\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Kheng Lee Koay": {"label": "Kheng Lee Koay", "metadata": {"title": "Name: Kheng Lee Koay\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Computer Science", "alphabet": "K", "color": "red", "location": "Hertfordshire", "x": 417, "y": 507, "size": 50, "hover": "Name: Kheng Lee Koay\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n"}}, "Magan Moemeni ": {"label": "Magan Moemeni ", "metadata": {"title": "Name: Magan Moemeni \nInstitution: University of Nottingham \nJob Title: Assistant Professor - Computer Science \nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham ", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Nottingham", "x": 606, "y": 460, "size": 50, "hover": "Name: Magan Moemeni \nInstitution: University of Nottingham \nJob Title: Assistant Professor - Computer Science \nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Maria Luisa Davila Garcia": {"label": "Maria Luisa Davila Garcia", "metadata": {"title": "Name: Maria Luisa Davila Garcia\nInstitution: Sheffield Hallam University\nJob Title: Lecturer in AI\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Sheffield", "x": 393, "y": 645, "size": 50, "hover": "Name: Maria Luisa Davila Garcia\nInstitution: Sheffield Hallam University\nJob Title: Lecturer in AI\nDiscipline: Computer Science\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Patricia Shaw": {"label": "Patricia Shaw", "metadata": {"title": "Name: Patricia Shaw\nInstitution: Aberystwyth University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Aberstwyth\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Aberystwyth University", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Aberstwyth", "x": 1280, "y": 471, "size": 50, "hover": "Name: Patricia Shaw\nInstitution: Aberystwyth University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Aberstwyth\nResearch themes of interest: \n\nNone\n"}}, "Yangang Xing": {"label": "Yangang Xing", "metadata": {"title": "Name: Yangang Xing\nInstitution: Nottingham Trent University\nJob Title: Associate Professor\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Nottingham Trent University", "Discipline": "Computer Science", "alphabet": "Y", "color": "red", "location": "Nottingham", "x": 265, "y": 513, "size": 50, "hover": "Name: Yangang Xing\nInstitution: Nottingham Trent University\nJob Title: Associate Professor\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Hassan Zaal": {"label": "Hassan Zaal", "metadata": {"title": "Name: Hassan Zaal\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "H", "color": "red", "location": "Nottingham", "x": 155, "y": 591, "size": 50, "hover": "Name: Hassan Zaal\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Chris Foreman": {"label": "Chris Foreman", "metadata": {"title": "Name: Chris Foreman\nInstitution: PIRg Herts Uni\nJob Title: Public input \nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "PIRg Herts Uni", "Discipline": "Computer Science", "alphabet": "C", "color": "red", "location": "Hertfordshire", "x": 1402, "y": 473, "size": 50, "hover": "Name: Chris Foreman\nInstitution: PIRg Herts Uni\nJob Title: Public input \nDiscipline: Computer Science\nLocation: Hertfordshire\nResearch themes of interest: \n\nNone\n"}}, "Martin de heave": {"label": "Martin de heave", "metadata": {"title": "Name: Martin de heave\nInstitution: ORBIT RRI\nJob Title: Director \nDiscipline: Computer Science\nLocation: Leicester\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0When does an assistive robot become a medical device?;\n", "physics": true, "institution": "ORBIT RRI", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Leicester", "x": 374, "y": 304, "size": 50, "hover": "Name: Martin de heave\nInstitution: ORBIT RRI\nJob Title: Director \nDiscipline: Computer Science\nLocation: Leicester\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0When does an assistive robot become a medical device?;\n"}}, "Simon Castle-Green": {"label": "Simon Castle-Green", "metadata": {"title": "Name: Simon Castle-Green\nInstitution: University of Nottingham\nJob Title: Technical Manager\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "S", "color": "red", "location": "Nottingham", "x": 730, "y": 504, "size": 50, "hover": "Name: Simon Castle-Green\nInstitution: University of Nottingham\nJob Title: Technical Manager\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Ahmad Lotfi": {"label": "Ahmad Lotfi", "metadata": {"title": "Name: Ahmad Lotfi\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Nottingham", "x": 274, "y": 573, "size": 50, "hover": "Name: Ahmad Lotfi\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Amit Pujari": {"label": "Amit Pujari", "metadata": {"title": "Name: Amit Pujari\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Nottingham", "x": 669, "y": 563, "size": 50, "hover": "Name: Amit Pujari\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Amy Dennis-Jones": {"label": "Amy Dennis-Jones", "metadata": {"title": "Name: Amy Dennis-Jones\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Nottingham", "x": 1054, "y": 354, "size": 50, "hover": "Name: Amy Dennis-Jones\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Ashkan Sami": {"label": "Ashkan Sami", "metadata": {"title": "Name: Ashkan Sami\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Nottingham", "x": 606, "y": 544, "size": 50, "hover": "Name: Ashkan Sami\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Barry Richards": {"label": "Barry Richards", "metadata": {"title": "Name: Barry Richards\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "B", "color": "red", "location": "Nottingham", "x": 302, "y": 451, "size": 50, "hover": "Name: Barry Richards\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Bijaya Limbu": {"label": "Bijaya Limbu", "metadata": {"title": "Name: Bijaya Limbu\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "B", "color": "red", "location": "Nottingham", "x": 867, "y": 367, "size": 50, "hover": "Name: Bijaya Limbu\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Danny Bailey": {"label": "Danny Bailey", "metadata": {"title": "Name: Danny Bailey\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Nottingham", "x": 955, "y": 481, "size": 50, "hover": "Name: Danny Bailey\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "David Lennard": {"label": "David Lennard", "metadata": {"title": "Name: David Lennard\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Nottingham", "x": 1274, "y": 618, "size": 50, "hover": "Name: David Lennard\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "David Western": {"label": "David Western", "metadata": {"title": "Name: David Western\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Nottingham", "x": 748, "y": 394, "size": 50, "hover": "Name: David Western\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Dr Giovanni Masala": {"label": "Dr Giovanni Masala", "metadata": {"title": "Name: Dr Giovanni Masala\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Nottingham", "x": 813, "y": 572, "size": 50, "hover": "Name: Dr Giovanni Masala\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Dr Nancie Gunson": {"label": "Dr Nancie Gunson", "metadata": {"title": "Name: Dr Nancie Gunson\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Nottingham", "x": 34, "y": 442, "size": 50, "hover": "Name: Dr Nancie Gunson\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Emeka Chinedu Nnoruka": {"label": "Emeka Chinedu Nnoruka", "metadata": {"title": "Name: Emeka Chinedu Nnoruka\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "E", "color": "red", "location": "Nottingham", "x": 1090, "y": 531, "size": 50, "hover": "Name: Emeka Chinedu Nnoruka\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Fatma Layas": {"label": "Fatma Layas", "metadata": {"title": "Name: Fatma Layas\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "F", "color": "red", "location": "Nottingham", "x": 1101, "y": 454, "size": 50, "hover": "Name: Fatma Layas\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Fiona Schaefer": {"label": "Fiona Schaefer", "metadata": {"title": "Name: Fiona Schaefer\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "F", "color": "red", "location": "Nottingham", "x": 37, "y": 351, "size": 50, "hover": "Name: Fiona Schaefer\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Godfrey Inyama": {"label": "Godfrey Inyama", "metadata": {"title": "Name: Godfrey Inyama\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "G", "color": "red", "location": "Nottingham", "x": 130, "y": 343, "size": 50, "hover": "Name: Godfrey Inyama\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Hiren Satra": {"label": "Hiren Satra", "metadata": {"title": "Name: Hiren Satra\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "H", "color": "red", "location": "Nottingham", "x": 1104, "y": 566, "size": 50, "hover": "Name: Hiren Satra\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Ibrahim Habli": {"label": "Ibrahim Habli", "metadata": {"title": "Name: Ibrahim Habli\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "I", "color": "red", "location": "Nottingham", "x": 687, "y": 382, "size": 50, "hover": "Name: Ibrahim Habli\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Ioannis John Vourganas": {"label": "Ioannis John Vourganas", "metadata": {"title": "Name: Ioannis John Vourganas\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "I", "color": "red", "location": "Nottingham", "x": 729, "y": 390, "size": 50, "hover": "Name: Ioannis John Vourganas\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Isaiah Durosaiye ": {"label": "Isaiah Durosaiye ", "metadata": {"title": "Name: Isaiah Durosaiye \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "I", "color": "red", "location": "Nottingham", "x": 1355, "y": 442, "size": 50, "hover": "Name: Isaiah Durosaiye \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Karen Llewellyn": {"label": "Karen Llewellyn", "metadata": {"title": "Name: Karen Llewellyn\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "K", "color": "red", "location": "Nottingham", "x": 181, "y": 536, "size": 50, "hover": "Name: Karen Llewellyn\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Karen sandison ": {"label": "Karen sandison ", "metadata": {"title": "Name: Karen sandison \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "K", "color": "red", "location": "Nottingham", "x": 243, "y": 400, "size": 50, "hover": "Name: Karen sandison \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Leah Morris": {"label": "Leah Morris", "metadata": {"title": "Name: Leah Morris\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "L", "color": "red", "location": "Nottingham", "x": 644, "y": 564, "size": 50, "hover": "Name: Leah Morris\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Leonard K": {"label": "Leonard K", "metadata": {"title": "Name: Leonard K\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "L", "color": "red", "location": "Nottingham", "x": 54, "y": 537, "size": 50, "hover": "Name: Leonard K\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Linda Shore": {"label": "Linda Shore", "metadata": {"title": "Name: Linda Shore\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "L", "color": "red", "location": "Nottingham", "x": 576, "y": 430, "size": 50, "hover": "Name: Linda Shore\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Luigi A. Moretti": {"label": "Luigi A. Moretti", "metadata": {"title": "Name: Luigi A. Moretti\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "L", "color": "red", "location": "Nottingham", "x": 949, "y": 611, "size": 50, "hover": "Name: Luigi A. Moretti\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Lynne Baillie": {"label": "Lynne Baillie", "metadata": {"title": "Name: Lynne Baillie\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "L", "color": "red", "location": "Nottingham", "x": 1214, "y": 526, "size": 50, "hover": "Name: Lynne Baillie\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Malcolm Fisk": {"label": "Malcolm Fisk", "metadata": {"title": "Name: Malcolm Fisk\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Nottingham", "x": 1148, "y": 487, "size": 50, "hover": "Name: Malcolm Fisk\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Michael Craven": {"label": "Michael Craven", "metadata": {"title": "Name: Michael Craven\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Nottingham", "x": 1041, "y": 559, "size": 50, "hover": "Name: Michael Craven\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Para Vezyridis": {"label": "Para Vezyridis", "metadata": {"title": "Name: Para Vezyridis\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Nottingham", "x": 1401, "y": 423, "size": 50, "hover": "Name: Para Vezyridis\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Pat Schofield": {"label": "Pat Schofield", "metadata": {"title": "Name: Pat Schofield\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Nottingham", "x": 485, "y": 565, "size": 50, "hover": "Name: Pat Schofield\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Patrick Hung": {"label": "Patrick Hung", "metadata": {"title": "Name: Patrick Hung\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Nottingham", "x": 1141, "y": 463, "size": 50, "hover": "Name: Patrick Hung\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Phoebe Li": {"label": "Phoebe Li", "metadata": {"title": "Name: Phoebe Li\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Nottingham", "x": 1110, "y": 621, "size": 50, "hover": "Name: Phoebe Li\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Richard Vail ": {"label": "Richard Vail ", "metadata": {"title": "Name: Richard Vail \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "R", "color": "red", "location": "Nottingham", "x": 1268, "y": 324, "size": 50, "hover": "Name: Richard Vail \nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Salma ElSayed": {"label": "Salma ElSayed", "metadata": {"title": "Name: Salma ElSayed\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "S", "color": "red", "location": "Nottingham", "x": 401, "y": 301, "size": 50, "hover": "Name: Salma ElSayed\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Shintaro Okazaki": {"label": "Shintaro Okazaki", "metadata": {"title": "Name: Shintaro Okazaki\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "S", "color": "red", "location": "Nottingham", "x": 314, "y": 525, "size": 50, "hover": "Name: Shintaro Okazaki\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Simon Powell": {"label": "Simon Powell", "metadata": {"title": "Name: Simon Powell\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "S", "color": "red", "location": "Nottingham", "x": 82, "y": 580, "size": 50, "hover": "Name: Simon Powell\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Tim Chalklen": {"label": "Tim Chalklen", "metadata": {"title": "Name: Tim Chalklen\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Computer Science", "alphabet": "T", "color": "red", "location": "Nottingham", "x": 438, "y": 607, "size": 50, "hover": "Name: Tim Chalklen\nInstitution: University of Nottingham\nJob Title: None\nDiscipline: Computer Science\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Anna Chatzimichali": {"label": "Anna Chatzimichali", "metadata": {"title": "Name: Anna Chatzimichali\nInstitution: University of the West of England\nJob Title: Associate Prof. of Design Engineering and Innovation\nDiscipline: Design Engineering and Innovation\nLocation: Bristol\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of the West of England", "Discipline": "Design Engineering and Innovation", "alphabet": "A", "color": "green", "location": "Bristol", "x": 806, "y": -691, "size": 50, "hover": "Name: Anna Chatzimichali\nInstitution: University of the West of England\nJob Title: Associate Prof. of Design Engineering and Innovation\nDiscipline: Design Engineering and Innovation\nLocation: Bristol\nResearch themes of interest: \n\nNone\n"}}, "Augustine Ikpehai": {"label": "Augustine Ikpehai", "metadata": {"title": "Name: Augustine Ikpehai\nInstitution: Sheffield Hallam University\nJob Title: Senior Lecturer, Electronic Engineering\nDiscipline: Electronic Engineering\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Electronic Engineering", "alphabet": "A", "color": "magenta", "location": "Sheffield", "x": -277, "y": -700, "size": 50, "hover": "Name: Augustine Ikpehai\nInstitution: Sheffield Hallam University\nJob Title: Senior Lecturer, Electronic Engineering\nDiscipline: Electronic Engineering\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Panos Panagiotou": {"label": "Panos Panagiotou", "metadata": {"title": "Name: Panos Panagiotou\nInstitution: University of Sheffield\nJob Title: Lecturer in Electrical Machines & Drives\nDiscipline: Electronic Engineering\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Electronic Engineering", "alphabet": "P", "color": "magenta", "location": "Sheffield", "x": 65, "y": -465, "size": 50, "hover": "Name: Panos Panagiotou\nInstitution: University of Sheffield\nJob Title: Lecturer in Electrical Machines & Drives\nDiscipline: Electronic Engineering\nLocation: Sheffield\nResearch themes of interest: \n\nNone\n"}}, "Aoife Lehane ": {"label": "Aoife Lehane ", "metadata": {"title": "Name: Aoife Lehane \nInstitution: Nhs\nJob Title: Nhs\nDiscipline: Healthcare\nLocation: London\nResearch themes of interest: \n\nScoping research:\u00a0What CPD is needed to support future care professionals?;Scoping research:\u00a0What\nare the challenges for enabling human agency in shared decision-making for assistive robotics\ntechnology to support people with lived experience of frailty?;\n", "physics": true, "institution": "Nhs", "Discipline": "Healthcare", "alphabet": "A", "color": "yellow", "location": "London", "x": 1422, "y": 1460, "size": 50, "hover": "Name: Aoife Lehane \nInstitution: Nhs\nJob Title: Nhs\nDiscipline: Healthcare\nLocation: London\nResearch themes of interest: \n\nScoping research:\u00a0What CPD is needed to support future care professionals?;Scoping research:\u00a0What\nare the challenges for enabling human agency in shared decision-making for assistive robotics\ntechnology to support people with lived experience of frailty?;\n"}}, "Anna Maria Piskopani": {"label": "Anna Maria Piskopani", "metadata": {"title": "Name: Anna Maria Piskopani\nInstitution: University of Nottingham\nJob Title: Research Fellow in IT law at the Horizon Institute of Digital Economy\nDiscipline: Healthcare\nLocation: Nottingham\nResearch themes of interest: \n\nI am a human rights expert. I have former experience working as a lawyer in implementing GDPR in the\nhealth and care sector. My research interests are legal, regulatory and ethical issues that can be\nraised by using autonomous systems in every day life.  I am currently working on the project Open\nAll senses (Agile 2021-2022) about social robots used in museums and health care sector and three\nTAS projects Co-Design of Context-Aware Trustworthy Audio Capture (TAS) (May 2022). The citizen\ncarbon budget (TAS) (May 2022). RRI and art project (TAS) (May 2022).\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Healthcare", "alphabet": "A", "color": "yellow", "location": "Nottingham", "x": 375, "y": 1623, "size": 50, "hover": "Name: Anna Maria Piskopani\nInstitution: University of Nottingham\nJob Title: Research Fellow in IT law at the Horizon Institute of Digital Economy\nDiscipline: Healthcare\nLocation: Nottingham\nResearch themes of interest: \n\nI am a human rights expert. I have former experience working as a lawyer in implementing GDPR in the\nhealth and care sector. My research interests are legal, regulatory and ethical issues that can be\nraised by using autonomous systems in every day life.  I am currently working on the project Open\nAll senses (Agile 2021-2022) about social robots used in museums and health care sector and three\nTAS projects Co-Design of Context-Aware Trustworthy Audio Capture (TAS) (May 2022). The citizen\ncarbon budget (TAS) (May 2022). RRI and art project (TAS) (May 2022).\n"}}, "Neil Chadborn": {"label": "Neil Chadborn", "metadata": {"title": "Name: Neil Chadborn\nInstitution: University of Nottingham\nJob Title: Research fellow\nDiscipline: Healthcare\nLocation: Nottingham\nResearch themes of interest: \n\nSupporting people with dementia in the community - developing a way to share appropriate information\nabout an individual with cognitive impairment to community services and activities so that\nindividual needs can be accommodated.\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Healthcare", "alphabet": "N", "color": "yellow", "location": "Nottingham", "x": 125, "y": 1606, "size": 50, "hover": "Name: Neil Chadborn\nInstitution: University of Nottingham\nJob Title: Research fellow\nDiscipline: Healthcare\nLocation: Nottingham\nResearch themes of interest: \n\nSupporting people with dementia in the community - developing a way to share appropriate information\nabout an individual with cognitive impairment to community services and activities so that\nindividual needs can be accommodated.\n"}}, "Anna daley": {"label": "Anna daley", "metadata": {"title": "Name: Anna daley\nInstitution: Archus\nJob Title: Associate Director\nDiscipline: Healthcare\nLocation: Bristol\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Archus", "Discipline": "Healthcare", "alphabet": "A", "color": "yellow", "location": "Bristol", "x": 93, "y": 1465, "size": 50, "hover": "Name: Anna daley\nInstitution: Archus\nJob Title: Associate Director\nDiscipline: Healthcare\nLocation: Bristol\nResearch themes of interest: \n\nNone\n"}}, "Praveen Kumar": {"label": "Praveen Kumar", "metadata": {"title": "Name: Praveen Kumar\nInstitution: University of the West of England\nJob Title: Senior Lecturer in Physiotherapy \nDiscipline: Physiotherapy\nLocation: Bristol\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;\n", "physics": true, "institution": "University of the West of England", "Discipline": "Physiotherapy", "alphabet": "P", "color": "orange", "location": "Bristol", "x": -807, "y": 496, "size": 50, "hover": "Name: Praveen Kumar\nInstitution: University of the West of England\nJob Title: Senior Lecturer in Physiotherapy \nDiscipline: Physiotherapy\nLocation: Bristol\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;\n"}}, "Abolfazl Zaraki": {"label": "Abolfazl Zaraki", "metadata": {"title": "Name: Abolfazl Zaraki\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Benchmarking\ndatasets to support the development of accessible HRI;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Hertfordshire", "x": 720, "y": 936, "size": 50, "hover": "Name: Abolfazl Zaraki\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Benchmarking\ndatasets to support the development of accessible HRI;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;\n"}}, "Alejandro Jimenez Rodriguez": {"label": "Alejandro Jimenez Rodriguez", "metadata": {"title": "Name: Alejandro Jimenez Rodriguez\nInstitution: Sheffield Hallam University\nJob Title: Lecturer in artificial intelligence and robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Safety frameworks for assistive robotics technologies aimed at\npeople with lived experience of frailty to enable long-term autonomy\u00a0including areas such as fail-\nsafe design, situation awareness, automated risk assessment and smart sensing.;\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Sheffield", "x": 410, "y": 892, "size": 50, "hover": "Name: Alejandro Jimenez Rodriguez\nInstitution: Sheffield Hallam University\nJob Title: Lecturer in artificial intelligence and robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Safety frameworks for assistive robotics technologies aimed at\npeople with lived experience of frailty to enable long-term autonomy\u00a0including areas such as fail-\nsafe design, situation awareness, automated risk assessment and smart sensing.;\n"}}, "Amir ALY": {"label": "Amir ALY", "metadata": {"title": "Name: Amir ALY\nInstitution: University of Plymouth\nJob Title: Lecturer in AI and Robotics\nDiscipline: Robotics\nLocation: Plymouth\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Plymouth", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Plymouth", "x": 115, "y": 872, "size": 50, "hover": "Name: Amir ALY\nInstitution: University of Plymouth\nJob Title: Lecturer in AI and Robotics\nDiscipline: Robotics\nLocation: Plymouth\nResearch themes of interest: \n\nNone\n"}}, "Armaghan Moemeni": {"label": "Armaghan Moemeni", "metadata": {"title": "Name: Armaghan Moemeni\nInstitution: University of Nottingham\nJob Title: Assistant professor, Computer Science \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Benchmarking datasets to support the\ndevelopment of accessible HRI;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Scoping research:\u00a0When does an\nassistive robot become a medical device?;\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Nottingham", "x": 505, "y": 1083, "size": 50, "hover": "Name: Armaghan Moemeni\nInstitution: University of Nottingham\nJob Title: Assistant professor, Computer Science \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Benchmarking datasets to support the\ndevelopment of accessible HRI;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Scoping research:\u00a0When does an\nassistive robot become a medical device?;\n"}}, "Bangli Liu": {"label": "Bangli Liu", "metadata": {"title": "Name: Bangli Liu\nInstitution: De Montfort University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Leicester\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n", "physics": true, "institution": "De Montfort University", "Discipline": "Robotics", "alphabet": "B", "color": "blue", "location": "Leicester", "x": -226, "y": 1040, "size": 50, "hover": "Name: Bangli Liu\nInstitution: De Montfort University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Leicester\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n"}}, "Carlos Cifuentes": {"label": "Carlos Cifuentes", "metadata": {"title": "Name: Carlos Cifuentes\nInstitution: University of the West of England\nJob Title: Associate Professor in Human-Robot Interaction\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of the West of England", "Discipline": "Robotics", "alphabet": "C", "color": "blue", "location": "Bristol", "x": -239, "y": 1129, "size": 50, "hover": "Name: Carlos Cifuentes\nInstitution: University of the West of England\nJob Title: Associate Professor in Human-Robot Interaction\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nNone\n"}}, "Deepak Sahoo": {"label": "Deepak Sahoo", "metadata": {"title": "Name: Deepak Sahoo\nInstitution: Swansea University\nJob Title: Associate Professor\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "Swansea University", "Discipline": "Robotics", "alphabet": "D", "color": "blue", "location": "Swansea", "x": -295, "y": 803, "size": 50, "hover": "Name: Deepak Sahoo\nInstitution: Swansea University\nJob Title: Associate Professor\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n"}}, "Frank Foerster": {"label": "Frank Foerster", "metadata": {"title": "Name: Frank Foerster\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "F", "color": "blue", "location": "Hertfordshire", "x": 20, "y": 912, "size": 50, "hover": "Name: Frank Foerster\nInstitution: University of Hertfordshire\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n"}}, "Gerard Canal": {"label": "Gerard Canal", "metadata": {"title": "Name: Gerard Canal\nInstitution: King's College London\nJob Title: Lecturer in Autonomous Systems\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Safety frameworks for assistive robotics\ntechnologies aimed at people with lived experience of frailty to enable long-term autonomy\u00a0including\nareas such as fail-safe design, situation awareness, automated risk assessment and smart\nsensing.;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support people with lived experience of frailty?;\n", "physics": true, "institution": "King's College London", "Discipline": "Robotics", "alphabet": "G", "color": "blue", "location": "London", "x": 751, "y": 861, "size": 50, "hover": "Name: Gerard Canal\nInstitution: King's College London\nJob Title: Lecturer in Autonomous Systems\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Safety frameworks for assistive robotics\ntechnologies aimed at people with lived experience of frailty to enable long-term autonomy\u00a0including\nareas such as fail-safe design, situation awareness, automated risk assessment and smart\nsensing.;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support people with lived experience of frailty?;\n"}}, "Helena Webb": {"label": "Helena Webb", "metadata": {"title": "Name: Helena Webb\nInstitution: University of Nottingham \nJob Title: Transitional Assistant Professor\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support people with lived experience of\nfrailty?;\n", "physics": true, "institution": "University of Nottingham ", "Discipline": "Robotics", "alphabet": "H", "color": "blue", "location": "Nottingham", "x": -253, "y": 869, "size": 50, "hover": "Name: Helena Webb\nInstitution: University of Nottingham \nJob Title: Transitional Assistant Professor\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support people with lived experience of\nfrailty?;\n"}}, "Ildar Farkhatdinov": {"label": "Ildar Farkhatdinov", "metadata": {"title": "Name: Ildar Farkhatdinov\nInstitution: Queen Mary University of London\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "Queen Mary University of London", "Discipline": "Robotics", "alphabet": "I", "color": "blue", "location": "London", "x": -147, "y": 1014, "size": 50, "hover": "Name: Ildar Farkhatdinov\nInstitution: Queen Mary University of London\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n"}}, "Indu P Bodala": {"label": "Indu P Bodala", "metadata": {"title": "Name: Indu P Bodala\nInstitution: University of Southampton\nJob Title: Lecturer in Computer Science\nDiscipline: Robotics\nLocation: Southampton\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Scoping research:\u00a0When\ndoes an assistive robot become a medical device?;Ethical frameworks for integration of assistive\nrobotics;Benchmarking datasets to support the development of accessible HRI;Scoping research:\u00a0What\nare the challenges for enabling human agency in shared decision-making for assistive robotics\ntechnology to support PWLEF?;\n", "physics": true, "institution": "University of Southampton", "Discipline": "Robotics", "alphabet": "I", "color": "blue", "location": "Southampton", "x": 785, "y": 998, "size": 50, "hover": "Name: Indu P Bodala\nInstitution: University of Southampton\nJob Title: Lecturer in Computer Science\nDiscipline: Robotics\nLocation: Southampton\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Scoping research:\u00a0When\ndoes an assistive robot become a medical device?;Ethical frameworks for integration of assistive\nrobotics;Benchmarking datasets to support the development of accessible HRI;Scoping research:\u00a0What\nare the challenges for enabling human agency in shared decision-making for assistive robotics\ntechnology to support PWLEF?;\n"}}, "Joy Egede": {"label": "Joy Egede", "metadata": {"title": "Name: Joy Egede\nInstitution: University of Nottingham\nJob Title: Assistant Professor\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nBenchmarking datasets to support the development of accessible HRI;Regulatory Frameworks for\ndeployment and integration of assistive robotics;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Scoping research:\u00a0When does an assistive robot become a medical device?;\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Robotics", "alphabet": "J", "color": "blue", "location": "Nottingham", "x": 613, "y": 1088, "size": 50, "hover": "Name: Joy Egede\nInstitution: University of Nottingham\nJob Title: Assistant Professor\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nBenchmarking datasets to support the development of accessible HRI;Regulatory Frameworks for\ndeployment and integration of assistive robotics;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Scoping research:\u00a0When does an assistive robot become a medical device?;\n"}}, "Luis Figueredo": {"label": "Luis Figueredo", "metadata": {"title": "Name: Luis Figueredo\nInstitution: University of Nottingham\nJob Title: Senior Scientist / Incoming Assist. Prof.\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Scoping research:\u00a0What CPD is needed to support future\ncare professionals?;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Robotics", "alphabet": "L", "color": "blue", "location": "Nottingham", "x": -435, "y": 1078, "size": 50, "hover": "Name: Luis Figueredo\nInstitution: University of Nottingham\nJob Title: Senior Scientist / Incoming Assist. Prof.\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Scoping research:\u00a0What CPD is needed to support future\ncare professionals?;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;\n"}}, "Mahdi Bodaghi": {"label": "Mahdi Bodaghi", "metadata": {"title": "Name: Mahdi Bodaghi\nInstitution: Nottingham Trent University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Regulatory Frameworks\nfor deployment and integration of assistive robotics;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0When does an assistive robot become a medical device?;\n", "physics": true, "institution": "Nottingham Trent University", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Nottingham", "x": 146, "y": 972, "size": 50, "hover": "Name: Mahdi Bodaghi\nInstitution: Nottingham Trent University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Regulatory Frameworks\nfor deployment and integration of assistive robotics;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0When does an assistive robot become a medical device?;\n"}}, "Manal Helal": {"label": "Manal Helal", "metadata": {"title": "Name: Manal Helal\nInstitution: University of Hertfordshire\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Hertfordshire", "x": -241, "y": 879, "size": 50, "hover": "Name: Manal Helal\nInstitution: University of Hertfordshire\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;\n"}}, "Maria Jose Galvez Trigo": {"label": "Maria Jose Galvez Trigo", "metadata": {"title": "Name: Maria Jose Galvez Trigo\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;\n", "physics": true, "institution": "Cardiff University", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Cardiff", "x": 677, "y": 892, "size": 50, "hover": "Name: Maria Jose Galvez Trigo\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;\n"}}, "Muneeb Imtiaz Ahmad": {"label": "Muneeb Imtiaz Ahmad", "metadata": {"title": "Name: Muneeb Imtiaz Ahmad\nInstitution: Swansea University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Safety frameworks for assistive\nrobotics technologies aimed at PWLEF to enable long-term autonomy\u00a0including areas such as fail-safe\ndesign, situation awareness, automated risk assessment and smart sensing.;\n", "physics": true, "institution": "Swansea University", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Swansea", "x": 75, "y": 1092, "size": 50, "hover": "Name: Muneeb Imtiaz Ahmad\nInstitution: Swansea University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Safety frameworks for assistive\nrobotics technologies aimed at PWLEF to enable long-term autonomy\u00a0including areas such as fail-safe\ndesign, situation awareness, automated risk assessment and smart sensing.;\n"}}, "Oya Celiktutan": {"label": "Oya Celiktutan", "metadata": {"title": "Name: Oya Celiktutan\nInstitution: King's College London\nJob Title: Senior Lecturer in Robotics\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Benchmarking datasets\nto support the development of accessible HRI;\n", "physics": true, "institution": "King's College London", "Discipline": "Robotics", "alphabet": "O", "color": "blue", "location": "London", "x": -125, "y": 850, "size": 50, "hover": "Name: Oya Celiktutan\nInstitution: King's College London\nJob Title: Senior Lecturer in Robotics\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Benchmarking datasets\nto support the development of accessible HRI;\n"}}, "Prapa Rattadilok": {"label": "Prapa Rattadilok", "metadata": {"title": "Name: Prapa Rattadilok\nInstitution: University of Hertfordshire\nJob Title: Principal Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Scoping research:\u00a0What are the challenges for enabling\nhuman agency in shared decision-making for assistive robotics technology to support people with\nlived experience of frailty?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0When does an assistive robot become a medical device?;Accessible\nHuman-Robot Interaction, taking into consideration multi-modal and intuitive interaction to address\ncognitive, sensory and physical impairments;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "P", "color": "blue", "location": "Hertfordshire", "x": -444, "y": 907, "size": 50, "hover": "Name: Prapa Rattadilok\nInstitution: University of Hertfordshire\nJob Title: Principal Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Scoping research:\u00a0What are the challenges for enabling\nhuman agency in shared decision-making for assistive robotics technology to support people with\nlived experience of frailty?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0When does an assistive robot become a medical device?;Accessible\nHuman-Robot Interaction, taking into consideration multi-modal and intuitive interaction to address\ncognitive, sensory and physical impairments;\n"}}, "Shabnam Sadeghi Esfahlani": {"label": "Shabnam Sadeghi Esfahlani", "metadata": {"title": "Name: Shabnam Sadeghi Esfahlani\nInstitution: Anglia Ruskin University\nJob Title: Associate Professor in Mechatronics and AI\nDiscipline: Robotics\nLocation: Cambridge\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "Anglia Ruskin University", "Discipline": "Robotics", "alphabet": "S", "color": "blue", "location": "Cambridge", "x": 736, "y": 1124, "size": 50, "hover": "Name: Shabnam Sadeghi Esfahlani\nInstitution: Anglia Ruskin University\nJob Title: Associate Professor in Mechatronics and AI\nDiscipline: Robotics\nLocation: Cambridge\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n"}}, "S\u00edlvia Moros": {"label": "S\u00edlvia Moros", "metadata": {"title": "Name: S\u00edlvia Moros\nInstitution: University of Hertfordshire\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;Scoping\nresearch:\u00a0What CPD is needed to support future care professionals?;Scoping research:\u00a0What are the\nchallenges for enabling human agency in shared decision-making for assistive robotics technology to\nsupport people with lived experience of frailty?;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "S", "color": "blue", "location": "Hertfordshire", "x": 585, "y": 1114, "size": 50, "hover": "Name: S\u00edlvia Moros\nInstitution: University of Hertfordshire\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;Scoping\nresearch:\u00a0What CPD is needed to support future care professionals?;Scoping research:\u00a0What are the\nchallenges for enabling human agency in shared decision-making for assistive robotics technology to\nsupport people with lived experience of frailty?;\n"}}, "Lin Cao": {"label": "Lin Cao", "metadata": {"title": "Name: Lin Cao\nInstitution: University of Sheffield\nJob Title: Lecturer in Medical Robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nMy research is focused on soft/flexible robots and how they can be applied to medical robots. I\nenvision that assistive soft robotics may play an active role in assisting Parkinson's patients in\ncompleting daily tasks. For instance, a soft robotic sleeve may be able to compensate for the tremor\nmotion of the patient's hand and meanwhile allow the patient to practice their control/use of\nmuscles.\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Robotics", "alphabet": "L", "color": "blue", "location": "Sheffield", "x": 421, "y": 995, "size": 50, "hover": "Name: Lin Cao\nInstitution: University of Sheffield\nJob Title: Lecturer in Medical Robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nMy research is focused on soft/flexible robots and how they can be applied to medical robots. I\nenvision that assistive soft robotics may play an active role in assisting Parkinson's patients in\ncompleting daily tasks. For instance, a soft robotic sleeve may be able to compensate for the tremor\nmotion of the patient's hand and meanwhile allow the patient to practice their control/use of\nmuscles.\n"}}, "Sanja Dogramadzi": {"label": "Sanja Dogramadzi", "metadata": {"title": "Name: Sanja Dogramadzi\nInstitution: University of Sheffield\nJob Title: Professor of Medical Robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nI am interested in assistive robotics for physical assistance and safe human-robot interaction. This\ninterest spans from design and control to multi-modal human-robot interaction and uncertainties\nquantification and modelling.\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Robotics", "alphabet": "S", "color": "blue", "location": "Sheffield", "x": -17, "y": 1039, "size": 50, "hover": "Name: Sanja Dogramadzi\nInstitution: University of Sheffield\nJob Title: Professor of Medical Robotics\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nI am interested in assistive robotics for physical assistance and safe human-robot interaction. This\ninterest spans from design and control to multi-modal human-robot interaction and uncertainties\nquantification and modelling.\n"}}, "Angela Dickinson": {"label": "Angela Dickinson", "metadata": {"title": "Name: Angela Dickinson\nInstitution: University of Hertfordshire\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nI'm interested in how technology could support people to be independent for longer in relation to\nfood security.\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Hertfordshire", "x": -152, "y": 893, "size": 50, "hover": "Name: Angela Dickinson\nInstitution: University of Hertfordshire\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nI'm interested in how technology could support people to be independent for longer in relation to\nfood security.\n"}}, "Angela Higgins ": {"label": "Angela Higgins ", "metadata": {"title": "Name: Angela Higgins \nInstitution: University of Nottingham \nJob Title: PhD Student \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;\n", "physics": true, "institution": "University of Nottingham ", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Nottingham", "x": -70, "y": 1072, "size": 50, "hover": "Name: Angela Higgins \nInstitution: University of Nottingham \nJob Title: PhD Student \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Ethical frameworks for integration of\nassistive robotics;Scoping research:\u00a0When does an assistive robot become a medical device?;\n"}}, "Ben Clarke": {"label": "Ben Clarke", "metadata": {"title": "Name: Ben Clarke\nInstitution: University of Sheffield\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nMy research interests are around tribology (friction, wear & lubrication) in both robotics and human\ninteractions. Our group\u2019s specialties lie in understanding soft material contacts. A key\ncontribution area for us would be understanding the important factors in the interaction between a\nrobot and frail patient, but this could expand to robot-object interactions or internal interactions\nin the robot if challenging areas arise here. These robots would likely be graspers & manipulators\nor robotic support structures. Activities could include informing design using our current knowledge\nor creating test methods, platforms and models for more detailed understanding or more specific\napplications.\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Robotics", "alphabet": "B", "color": "blue", "location": "Sheffield", "x": 52, "y": 851, "size": 50, "hover": "Name: Ben Clarke\nInstitution: University of Sheffield\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nMy research interests are around tribology (friction, wear & lubrication) in both robotics and human\ninteractions. Our group\u2019s specialties lie in understanding soft material contacts. A key\ncontribution area for us would be understanding the important factors in the interaction between a\nrobot and frail patient, but this could expand to robot-object interactions or internal interactions\nin the robot if challenging areas arise here. These robots would likely be graspers & manipulators\nor robotic support structures. Activities could include informing design using our current knowledge\nor creating test methods, platforms and models for more detailed understanding or more specific\napplications.\n"}}, "Christina Elizabeth Stimson": {"label": "Christina Elizabeth Stimson", "metadata": {"title": "Name: Christina Elizabeth Stimson\nInstitution: University of Sheffield\nJob Title: PhD Candidate\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nEthical frameworks for integration of assistive robotics;Scoping research:\u00a0What are the challenges\nfor enabling human agency in shared decision-making for assistive robotics technology to support\npeople with lived experience of frailty?;Regulatory Frameworks for deployment and integration of\nassistive robotics;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Benchmarking datasets\nto support the development of accessible HRI;Scoping research:\u00a0When does an assistive robot become a\nmedical device?;Safety frameworks for assistive robotics technologies aimed at people with lived\nexperience of frailty to enable long-term autonomy\u00a0including areas such as fail-safe design,\nsituation awareness, automated risk assessment and smart sensing.;\n", "physics": true, "institution": "University of Sheffield", "Discipline": "Robotics", "alphabet": "C", "color": "blue", "location": "Sheffield", "x": 195, "y": 1017, "size": 50, "hover": "Name: Christina Elizabeth Stimson\nInstitution: University of Sheffield\nJob Title: PhD Candidate\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nEthical frameworks for integration of assistive robotics;Scoping research:\u00a0What are the challenges\nfor enabling human agency in shared decision-making for assistive robotics technology to support\npeople with lived experience of frailty?;Regulatory Frameworks for deployment and integration of\nassistive robotics;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Benchmarking datasets\nto support the development of accessible HRI;Scoping research:\u00a0When does an assistive robot become a\nmedical device?;Safety frameworks for assistive robotics technologies aimed at people with lived\nexperience of frailty to enable long-term autonomy\u00a0including areas such as fail-safe design,\nsituation awareness, automated risk assessment and smart sensing.;\n"}}, "Christopher Harper": {"label": "Christopher Harper", "metadata": {"title": "Name: Christopher Harper\nInstitution: University of the West of England\nJob Title: Senior Research Fellow, Bristol Robotics Lab\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Safety frameworks for\nassistive robotics technologies aimed at people with lived experience of frailty to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Ethical frameworks for\nintegration of assistive robotics;Scoping research:\u00a0When does an assistive robot become a medical\ndevice?;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support people with lived experience of frailty?;\n", "physics": true, "institution": "University of the West of England", "Discipline": "Robotics", "alphabet": "C", "color": "blue", "location": "Bristol", "x": -434, "y": 895, "size": 50, "hover": "Name: Christopher Harper\nInstitution: University of the West of England\nJob Title: Senior Research Fellow, Bristol Robotics Lab\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Safety frameworks for\nassistive robotics technologies aimed at people with lived experience of frailty to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Ethical frameworks for\nintegration of assistive robotics;Scoping research:\u00a0When does an assistive robot become a medical\ndevice?;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support people with lived experience of frailty?;\n"}}, "Cian O'Donovan": {"label": "Cian O'Donovan", "metadata": {"title": "Name: Cian O'Donovan\nInstitution: UCL\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nI'm lead investigator on the EMERGENCE adjacent project \"Empowering future care workforces: Scoping\nCapabilities to Leverage Assistive Robotics through Co-Design\"\n", "physics": true, "institution": "UCL", "Discipline": "Robotics", "alphabet": "C", "color": "blue", "location": "London", "x": 97, "y": 1024, "size": 50, "hover": "Name: Cian O'Donovan\nInstitution: UCL\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nI'm lead investigator on the EMERGENCE adjacent project \"Empowering future care workforces: Scoping\nCapabilities to Leverage Assistive Robotics through Co-Design\"\n"}}, "Damla Kilic": {"label": "Damla Kilic", "metadata": {"title": "Name: Damla Kilic\nInstitution: University of Nottingham\nJob Title: Teaching Associate\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Accessible Human-Robot\nInteraction, taking into consideration multi-modal and intuitive interaction to address cognitive,\nsensory and physical impairments;Ethical frameworks for integration of assistive robotics;\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Robotics", "alphabet": "D", "color": "blue", "location": "Nottingham", "x": -36, "y": 1014, "size": 50, "hover": "Name: Damla Kilic\nInstitution: University of Nottingham\nJob Title: Teaching Associate\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Accessible Human-Robot\nInteraction, taking into consideration multi-modal and intuitive interaction to address cognitive,\nsensory and physical impairments;Ethical frameworks for integration of assistive robotics;\n"}}, "Feng Zhou": {"label": "Feng Zhou", "metadata": {"title": "Name: Feng Zhou\nInstitution: University of Nottingham\nJob Title: PhD\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nI aim to extend the generative co-design system and deepen its impact by applying it to personalise\na variety of assistive devices (or robots). Current devices are often rejected due to being ill-\nfitted to individuals and aesthetically ugly. I intend to lay the foundations for people to co-\ndesign their personalised assistive devices, from mobility aids to adapted crockery, furniture and\nother rehabilitation products.\n", "physics": true, "institution": "University of Nottingham", "Discipline": "Robotics", "alphabet": "F", "color": "blue", "location": "Nottingham", "x": 589, "y": 1090, "size": 50, "hover": "Name: Feng Zhou\nInstitution: University of Nottingham\nJob Title: PhD\nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nI aim to extend the generative co-design system and deepen its impact by applying it to personalise\na variety of assistive devices (or robots). Current devices are often rejected due to being ill-\nfitted to individuals and aesthetically ugly. I intend to lay the foundations for people to co-\ndesign their personalised assistive devices, from mobility aids to adapted crockery, furniture and\nother rehabilitation products.\n"}}, "Joseph Bolarinwa": {"label": "Joseph Bolarinwa", "metadata": {"title": "Name: Joseph Bolarinwa\nInstitution: University of the West of England\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nI am interested in understanding how researchers have tackled the different challenges of using\nassistive robots in  improving service deliveries.\n", "physics": true, "institution": "University of the West of England", "Discipline": "Robotics", "alphabet": "J", "color": "blue", "location": "Bristol", "x": -475, "y": 1073, "size": 50, "hover": "Name: Joseph Bolarinwa\nInstitution: University of the West of England\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nI am interested in understanding how researchers have tackled the different challenges of using\nassistive robots in  improving service deliveries.\n"}}, "Lyuba Alboul": {"label": "Lyuba Alboul", "metadata": {"title": "Name: Lyuba Alboul\nInstitution: Sheffield Hallam University\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Safety frameworks for assistive robotics\ntechnologies aimed at people with lived experience of frailty to enable long-term autonomy\u00a0including\nareas such as fail-safe design, situation awareness, automated risk assessment and smart\nsensing.;Regulatory Frameworks for deployment and integration of assistive robotics;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;\n", "physics": true, "institution": "Sheffield Hallam University", "Discipline": "Robotics", "alphabet": "L", "color": "blue", "location": "Sheffield", "x": 912, "y": 872, "size": 50, "hover": "Name: Lyuba Alboul\nInstitution: Sheffield Hallam University\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Sheffield\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Safety frameworks for assistive robotics\ntechnologies aimed at people with lived experience of frailty to enable long-term autonomy\u00a0including\nareas such as fail-safe design, situation awareness, automated risk assessment and smart\nsensing.;Regulatory Frameworks for deployment and integration of assistive robotics;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;\n"}}, "Marina Sarda Gou": {"label": "Marina Sarda Gou", "metadata": {"title": "Name: Marina Sarda Gou\nInstitution: University of Hertfordshire\nJob Title: Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Ethical\nframeworks for integration of assistive robotics;\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Hertfordshire", "x": 841, "y": 1044, "size": 50, "hover": "Name: Marina Sarda Gou\nInstitution: University of Hertfordshire\nJob Title: Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Ethical\nframeworks for integration of assistive robotics;\n"}}, "Nathalia Cespedes Gomez": {"label": "Nathalia Cespedes Gomez", "metadata": {"title": "Name: Nathalia Cespedes Gomez\nInstitution: Queen Mary University of London\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Regulatory Frameworks for deployment and integration of assistive\nrobotics;Ethical frameworks for integration of assistive robotics;Scoping research:\u00a0When does an\nassistive robot become a medical device?;\n", "physics": true, "institution": "Queen Mary University of London", "Discipline": "Robotics", "alphabet": "N", "color": "blue", "location": "London", "x": -329, "y": 862, "size": 50, "hover": "Name: Nathalia Cespedes Gomez\nInstitution: Queen Mary University of London\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Regulatory Frameworks for deployment and integration of assistive\nrobotics;Ethical frameworks for integration of assistive robotics;Scoping research:\u00a0When does an\nassistive robot become a medical device?;\n"}}, "Nathan Jones": {"label": "Nathan Jones", "metadata": {"title": "Name: Nathan Jones\nInstitution: Cardiff University\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nMy research interests are primarily around socially assistive robots and how they can be adapted in\norder to increase acceptance and adoption, particularly among the elderly or otherwise vulnerable. I\nam also interested in ways that modern technology can be utilized in order to increase quality of\nlife and allow vulnerable people to live independently in cases where they would usually need a care\nworker's full time attention.\n", "physics": true, "institution": "Cardiff University", "Discipline": "Robotics", "alphabet": "N", "color": "blue", "location": "Cardiff", "x": -487, "y": 1033, "size": 50, "hover": "Name: Nathan Jones\nInstitution: Cardiff University\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nMy research interests are primarily around socially assistive robots and how they can be adapted in\norder to increase acceptance and adoption, particularly among the elderly or otherwise vulnerable. I\nam also interested in ways that modern technology can be utilized in order to increase quality of\nlife and allow vulnerable people to live independently in cases where they would usually need a care\nworker's full time attention.\n"}}, "Nguyen Tan Viet Tuyen": {"label": "Nguyen Tan Viet Tuyen", "metadata": {"title": "Name: Nguyen Tan Viet Tuyen\nInstitution: King's College London\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n", "physics": true, "institution": "King's College London", "Discipline": "Robotics", "alphabet": "N", "color": "blue", "location": "London", "x": 193, "y": 1010, "size": 50, "hover": "Name: Nguyen Tan Viet Tuyen\nInstitution: King's College London\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n"}}, "Patrick Holthaus": {"label": "Patrick Holthaus", "metadata": {"title": "Name: Patrick Holthaus\nInstitution: University of Hertfordshire\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nI am already involved in EMERGENCE and would like to join the workshops from the UH perspective. My\nresearch interests are within social and assistive robotics.\n", "physics": true, "institution": "University of Hertfordshire", "Discipline": "Robotics", "alphabet": "P", "color": "blue", "location": "Hertfordshire", "x": 113, "y": 837, "size": 50, "hover": "Name: Patrick Holthaus\nInstitution: University of Hertfordshire\nJob Title: Senior Research Fellow\nDiscipline: Robotics\nLocation: Hertfordshire\nResearch themes of interest: \n\nI am already involved in EMERGENCE and would like to join the workshops from the UH perspective. My\nresearch interests are within social and assistive robotics.\n"}}, "Peter Waggett": {"label": "Peter Waggett", "metadata": {"title": "Name: Peter Waggett\nInstitution: IBM UK Ltd\nJob Title: Research Director\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nUse of AI and Robotics\n", "physics": true, "institution": "IBM UK Ltd", "Discipline": "Robotics", "alphabet": "P", "color": "blue", "location": "London", "x": 803, "y": 1070, "size": 50, "hover": "Name: Peter Waggett\nInstitution: IBM UK Ltd\nJob Title: Research Director\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nUse of AI and Robotics\n"}}, "Siabhainn Russell": {"label": "Siabhainn Russell", "metadata": {"title": "Name: Siabhainn Russell\nInstitution: UCL\nJob Title: Research Fellow\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nMy research interests revolve around the factors needed to provide successful, better support for\nindividuals in the health and home context including the use of robotics and assistive technologies\n", "physics": true, "institution": "UCL", "Discipline": "Robotics", "alphabet": "S", "color": "blue", "location": "London", "x": -237, "y": 1074, "size": 50, "hover": "Name: Siabhainn Russell\nInstitution: UCL\nJob Title: Research Fellow\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nMy research interests revolve around the factors needed to provide successful, better support for\nindividuals in the health and home context including the use of robotics and assistive technologies\n"}}, "Tien Thuy Quach": {"label": "Tien Thuy Quach", "metadata": {"title": "Name: Tien Thuy Quach\nInstitution: University of Nottingham \nJob Title: PhD Reseacher & Healthcare Assistant \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Scoping research:\u00a0When\ndoes an assistive robot become a medical device?;Scoping research:\u00a0What CPD is needed to support\nfuture care professionals?;Scoping research:\u00a0What are the challenges for enabling human agency in\nshared decision-making for assistive robotics technology to support people with lived experience of\nfrailty?;Safety frameworks for assistive robotics technologies aimed at people with lived experience\nof frailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation\nawareness, automated risk assessment and smart sensing.;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Accessible\nHuman-Robot Interaction, taking into consideration multi-modal and intuitive interaction to address\ncognitive, sensory and physical impairments;\n", "physics": true, "institution": "University of Nottingham ", "Discipline": "Robotics", "alphabet": "T", "color": "blue", "location": "Nottingham", "x": -433, "y": 822, "size": 50, "hover": "Name: Tien Thuy Quach\nInstitution: University of Nottingham \nJob Title: PhD Reseacher & Healthcare Assistant \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nRegulatory Frameworks for deployment and integration of assistive robotics;Scoping research:\u00a0When\ndoes an assistive robot become a medical device?;Scoping research:\u00a0What CPD is needed to support\nfuture care professionals?;Scoping research:\u00a0What are the challenges for enabling human agency in\nshared decision-making for assistive robotics technology to support people with lived experience of\nfrailty?;Safety frameworks for assistive robotics technologies aimed at people with lived experience\nof frailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation\nawareness, automated risk assessment and smart sensing.;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Accessible\nHuman-Robot Interaction, taking into consideration multi-modal and intuitive interaction to address\ncognitive, sensory and physical impairments;\n"}}, "Marianthi Leon": {"label": "Marianthi Leon", "metadata": {"title": "Name: Marianthi Leon\nInstitution: University of the West of England\nJob Title: AHoD on Research\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Regulatory Frameworks for deployment and integration of assistive\nrobotics;\n", "physics": true, "institution": "University of the West of England", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Bristol", "x": -117, "y": 896, "size": 50, "hover": "Name: Marianthi Leon\nInstitution: University of the West of England\nJob Title: AHoD on Research\nDiscipline: Robotics\nLocation: Bristol\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0What are the challenges for\nenabling human agency in shared decision-making for assistive robotics technology to support people\nwith lived experience of frailty?;Regulatory Frameworks for deployment and integration of assistive\nrobotics;\n"}}, "Andrew Conroy": {"label": "Andrew Conroy", "metadata": {"title": "Name: Andrew Conroy\nInstitution: Astraline TEC Ltd a Johnnie Johnson business\nJob Title: Commercial Director\nDiscipline: Robotics\nLocation: Manchester\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Astraline TEC Ltd a Johnnie Johnson business", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Manchester", "x": 751, "y": 995, "size": 50, "hover": "Name: Andrew Conroy\nInstitution: Astraline TEC Ltd a Johnnie Johnson business\nJob Title: Commercial Director\nDiscipline: Robotics\nLocation: Manchester\nResearch themes of interest: \n\nNone\n"}}, "Daniel Camilleri": {"label": "Daniel Camilleri", "metadata": {"title": "Name: Daniel Camilleri\nInstitution: BOW (formerly Cyberselves)\nJob Title: CEO\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Safety frameworks for assistive robotics technologies aimed at\npeople with lived experience of frailty to enable long-term autonomy\u00a0including areas such as fail-\nsafe design, situation awareness, automated risk assessment and smart sensing.;\n", "physics": true, "institution": "BOW (formerly Cyberselves)", "Discipline": "Robotics", "alphabet": "D", "color": "blue", "location": "London", "x": 735, "y": 906, "size": 50, "hover": "Name: Daniel Camilleri\nInstitution: BOW (formerly Cyberselves)\nJob Title: CEO\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;Safety frameworks for assistive robotics technologies aimed at\npeople with lived experience of frailty to enable long-term autonomy\u00a0including areas such as fail-\nsafe design, situation awareness, automated risk assessment and smart sensing.;\n"}}, "Godfrey Inyama ": {"label": "Godfrey Inyama ", "metadata": {"title": "Name: Godfrey Inyama \nInstitution: Oval Design \nJob Title: Web Developer \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Oval Design ", "Discipline": "Robotics", "alphabet": "G", "color": "blue", "location": "Nottingham", "x": 984, "y": 806, "size": 50, "hover": "Name: Godfrey Inyama \nInstitution: Oval Design \nJob Title: Web Developer \nDiscipline: Robotics\nLocation: Nottingham\nResearch themes of interest: \n\nNone\n"}}, "Joe McLoughlin": {"label": "Joe McLoughlin", "metadata": {"title": "Name: Joe McLoughlin\nInstitution: Astraline TEC Ltd a Johnnie Johnson business\nJob Title: Managing Director\nDiscipline: Robotics\nLocation: Manchester\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Astraline TEC Ltd a Johnnie Johnson business", "Discipline": "Robotics", "alphabet": "J", "color": "blue", "location": "Manchester", "x": -289, "y": 881, "size": 50, "hover": "Name: Joe McLoughlin\nInstitution: Astraline TEC Ltd a Johnnie Johnson business\nJob Title: Managing Director\nDiscipline: Robotics\nLocation: Manchester\nResearch themes of interest: \n\nNone\n"}}, "Shirley Sherwood": {"label": "Shirley Sherwood", "metadata": {"title": "Name: Shirley Sherwood\nInstitution: PIRG Herts Uni\nJob Title: Volunteer Co-Chair PPI\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "PIRG Herts Uni", "Discipline": "Robotics", "alphabet": "S", "color": "blue", "location": "London", "x": -267, "y": 869, "size": 50, "hover": "Name: Shirley Sherwood\nInstitution: PIRG Herts Uni\nJob Title: Volunteer Co-Chair PPI\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nNone\n"}}, "Artur Romero Hazas": {"label": "Artur Romero Hazas", "metadata": {"title": "Name: Artur Romero Hazas\nInstitution: BranchRobotics\nJob Title: Director and Head of Robotics\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "BranchRobotics", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "London", "x": 978, "y": 1023, "size": 50, "hover": "Name: Artur Romero Hazas\nInstitution: BranchRobotics\nJob Title: Director and Head of Robotics\nDiscipline: Robotics\nLocation: London\nResearch themes of interest: \n\nNone\n"}}, "Amanda Ashworth": {"label": "Amanda Ashworth", "metadata": {"title": "Name: Amanda Ashworth\nInstitution: Skills for Care\nJob Title: Project Manager - workforce capacity\nDiscipline: Social Care\nLocation: Leeds\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Skills for Care", "Discipline": "Social Care", "alphabet": "A", "color": "purple", "location": "Leeds", "x": -758, "y": -367, "size": 50, "hover": "Name: Amanda Ashworth\nInstitution: Skills for Care\nJob Title: Project Manager - workforce capacity\nDiscipline: Social Care\nLocation: Leeds\nResearch themes of interest: \n\nNone\n"}}}, "edges": [{"source": "Robotics", "target": "Central Node"}, {"source": "Robotics", "target": "Abolfazl Zaraki"}, {"source": "Robotics", "target": "Alejandro Jimenez Rodriguez"}, {"source": "Robotics", "target": "Amir ALY"}, {"source": "Robotics", "target": "Armaghan Moemeni"}, {"source": "Robotics", "target": "Bangli Liu"}, {"source": "Robotics", "target": "Carlos Cifuentes"}, {"source": "Robotics", "target": "Deepak Sahoo"}, {"source": "Robotics", "target": "Frank Foerster"}, {"source": "Robotics", "target": "Gerard Canal"}, {"source": "Robotics", "target": "Helena Webb"}, {"source": "Robotics", "target": "Ildar Farkhatdinov"}, {"source": "Robotics", "target": "Indu P Bodala"}, {"source": "Robotics", "target": "Joy Egede"}, {"source": "Robotics", "target": "Luis Figueredo"}, {"source": "Robotics", "target": "Mahdi Bodaghi"}, {"source": "Robotics", "target": "Manal Helal"}, {"source": "Robotics", "target": "Maria Jose Galvez Trigo"}, {"source": "Robotics", "target": "Muneeb Imtiaz Ahmad"}, {"source": "Robotics", "target": "Oya Celiktutan"}, {"source": "Robotics", "target": "Prapa Rattadilok"}, {"source": "Robotics", "target": "Shabnam Sadeghi Esfahlani"}, {"source": "Robotics", "target": "S\u00edlvia Moros"}, {"source": "Robotics", "target": "Lin Cao"}, {"source": "Robotics", "target": "Sanja Dogramadzi"}, {"source": "Robotics", "target": "Angela Dickinson"}, {"source": "Robotics", "target": "Angela Higgins "}, {"source": "Robotics", "target": "Ben Clarke"}, {"source": "Robotics", "target": "Christina Elizabeth Stimson"}, {"source": "Robotics", "target": "Christopher Harper"}, {"source": "Robotics", "target": "Cian O'Donovan"}, {"source": "Robotics", "target": "Damla Kilic"}, {"source": "Robotics", "target": "Feng Zhou"}, {"source": "Robotics", "target": "Joseph Bolarinwa"}, {"source": "Robotics", "target": "Lyuba Alboul"}, {"source": "Robotics", "target": "Marina Sarda Gou"}, {"source": "Robotics", "target": "Nathalia Cespedes Gomez"}, {"source": "Robotics", "target": "Nathan Jones"}, {"source": "Robotics", "target": "Nguyen Tan Viet Tuyen"}, {"source": "Robotics", "target": "Patrick Holthaus"}, {"source": "Robotics", "target": "Peter Waggett"}, {"source": "Robotics", "target": "Siabhainn Russell"}, {"source": "Robotics", "target": "Tien Thuy Quach"}, {"source": "Robotics", "target": "Marianthi Leon"}, {"source": "Robotics", "target": "Andrew Conroy"}, {"source": "Robotics", "target": "Daniel Camilleri"}, {"source": "Robotics", "target": "Godfrey Inyama "}, {"source": "Robotics", "target": "Joe McLoughlin"}, {"source": "Robotics", "target": "Shirley Sherwood"}, {"source": "Robotics", "target": "Artur Romero Hazas"}, {"source": "Healthcare", "target": "Central Node"}, {"source": "Healthcare", "target": "Aoife Lehane "}, {"source": "Healthcare", "target": "Anna Maria Piskopani"}, {"source": "Healthcare", "target": "Neil Chadborn"}, {"source": "Healthcare", "target": "Anna daley"}, {"source": "Computer Science", "target": "Central Node"}, {"source": "Computer Science", "target": "Abdel-Karim Al-Tamimi"}, {"source": "Computer Science", "target": "Aslam Jarwar"}, {"source": "Computer Science", "target": "Carolina Fuentes"}, {"source": "Computer Science", "target": "Catherine Menon"}, {"source": "Computer Science", "target": "Charith Abhayaratne"}, {"source": "Computer Science", "target": "David Cameron"}, {"source": "Computer Science", "target": "Jims Marchang"}, {"source": "Computer Science", "target": "Kheng Lee Koay"}, {"source": "Computer Science", "target": "Magan Moemeni "}, {"source": "Computer Science", "target": "Maria Luisa Davila Garcia"}, {"source": "Computer Science", "target": "Patricia Shaw"}, {"source": "Computer Science", "target": "Yangang Xing"}, {"source": "Computer Science", "target": "Hassan Zaal"}, {"source": "Computer Science", "target": "Chris Foreman"}, {"source": "Computer Science", "target": "Martin de heave"}, {"source": "Computer Science", "target": "Simon Castle-Green"}, {"source": "Computer Science", "target": "Ahmad Lotfi"}, {"source": "Computer Science", "target": "Amit Pujari"}, {"source": "Computer Science", "target": "Amy Dennis-Jones"}, {"source": "Computer Science", "target": "Ashkan Sami"}, {"source": "Computer Science", "target": "Barry Richards"}, {"source": "Computer Science", "target": "Bijaya Limbu"}, {"source": "Computer Science", "target": "Danny Bailey"}, {"source": "Computer Science", "target": "David Lennard"}, {"source": "Computer Science", "target": "David Western"}, {"source": "Computer Science", "target": "Dr Giovanni Masala"}, {"source": "Computer Science", "target": "Dr Nancie Gunson"}, {"source": "Computer Science", "target": "Emeka Chinedu Nnoruka"}, {"source": "Computer Science", "target": "Fatma Layas"}, {"source": "Computer Science", "target": "Fiona Schaefer"}, {"source": "Computer Science", "target": "Godfrey Inyama"}, {"source": "Computer Science", "target": "Hiren Satra"}, {"source": "Computer Science", "target": "Ibrahim Habli"}, {"source": "Computer Science", "target": "Ioannis John Vourganas"}, {"source": "Computer Science", "target": "Isaiah Durosaiye "}, {"source": "Computer Science", "target": "Karen Llewellyn"}, {"source": "Computer Science", "target": "Karen sandison "}, {"source": "Computer Science", "target": "Leah Morris"}, {"source": "Computer Science", "target": "Leonard K"}, {"source": "Computer Science", "target": "Linda Shore"}, {"source": "Computer Science", "target": "Luigi A. Moretti"}, {"source": "Computer Science", "target": "Lynne Baillie"}, {"source": "Computer Science", "target": "Malcolm Fisk"}, {"source": "Computer Science", "target": "Michael Craven"}, {"source": "Computer Science", "target": "Para Vezyridis"}, {"source": "Computer Science", "target": "Pat Schofield"}, {"source": "Computer Science", "target": "Patrick Hung"}, {"source": "Computer Science", "target": "Phoebe Li"}, {"source": "Computer Science", "target": "Richard Vail "}, {"source": "Computer Science", "target": "Salma ElSayed"}, {"source": "Computer Science", "target": "Shintaro Okazaki"}, {"source": "Computer Science", "target": "Simon Powell"}, {"source": "Computer Science", "target": "Tim Chalklen"}, {"source": "Design Engineering and Innovation", "target": "Central Node"}, {"source": "Design Engineering and Innovation", "target": "Anna Chatzimichali"}, {"source": "Electronic Engineering", "target": "Central Node"}, {"source": "Electronic Engineering", "target": "Augustine Ikpehai"}, {"source": "Electronic Engineering", "target": "Panos Panagiotou"}, {"source": "Social Care", "target": "Central Node"}, {"source": "Social Care", "target": "Amanda Ashworth"}, {"source": "Physiotherapy", "target": "Central Node"}, {"source": "Physiotherapy", "target": "Praveen Kumar"}], "directed": false}];
             // Data selection and normalization
             state.nodeSizeDataSource = "size";
             state.useNodeSizeNormalization = false;
@@ -1875,104 +1875,104 @@ if(!require.defined("gravis-vis-network")){
 
         elements:{
           // Containers
-          mainContainer: document.getElementById("iEPD3p6mnihhPYpzc-main-div"),
-          tooltipContainer: document.getElementById("iEPD3p6mnihhPYpzc-tooltip-div"),
-          leftContainer: document.getElementById("iEPD3p6mnihhPYpzc-left-div"),
-          rightContainer: document.getElementById("iEPD3p6mnihhPYpzc-right-div"),
-          graphContainer: document.getElementById("iEPD3p6mnihhPYpzc-graph-div"),
-          detailsContainer: document.getElementById("iEPD3p6mnihhPYpzc-details-div"),
-          detailsHead: document.getElementById("iEPD3p6mnihhPYpzc-details-head"),
-          detailsBody: document.getElementById("iEPD3p6mnihhPYpzc-details-body"),
+          mainContainer: document.getElementById("iefG4jsA0KZfiBTxF-main-div"),
+          tooltipContainer: document.getElementById("iefG4jsA0KZfiBTxF-tooltip-div"),
+          leftContainer: document.getElementById("iefG4jsA0KZfiBTxF-left-div"),
+          rightContainer: document.getElementById("iefG4jsA0KZfiBTxF-right-div"),
+          graphContainer: document.getElementById("iefG4jsA0KZfiBTxF-graph-div"),
+          detailsContainer: document.getElementById("iefG4jsA0KZfiBTxF-details-div"),
+          detailsHead: document.getElementById("iefG4jsA0KZfiBTxF-details-head"),
+          detailsBody: document.getElementById("iefG4jsA0KZfiBTxF-details-body"),
           // Data sources
-          dataHead: document.getElementById("iEPD3p6mnihhPYpzc-data-head"),
-          dataBody: document.getElementById("iEPD3p6mnihhPYpzc-data-body"),
-          graphSelectionContainer: document.getElementById("iEPD3p6mnihhPYpzc-graph-select-div"),
-          graphSelection: document.getElementById("iEPD3p6mnihhPYpzc-graph-select"),
-          nodeSizeDataSourceSelect: document.getElementById("iEPD3p6mnihhPYpzc-node-size-data-source-select"),
-          nodeSizeNormalizationCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-size-normalization-checkbox"),
-          nodeSizeNormalizationContainer: document.getElementById("iEPD3p6mnihhPYpzc-node-size-norm-div"),
-          nodeSizeNormalizationMinText: document.getElementById("iEPD3p6mnihhPYpzc-node-size-normalization-min-text"),
-          nodeSizeNormalizationMinSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-size-normalization-min-slider"),
-          nodeSizeNormalizationMaxText: document.getElementById("iEPD3p6mnihhPYpzc-node-size-normalization-max-text"),
-          nodeSizeNormalizationMaxSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-size-normalization-max-slider"),
-          edgeSizeDataSourceSelect: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-data-source-select"),
-          edgeSizeNormalizationCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-normalization-checkbox"),
-          edgeSizeNormalizationContainer: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-norm-div"),
-          edgeSizeNormalizationMinText: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-normalization-min-text"),
-          edgeSizeNormalizationMinSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-normalization-min-slider"),
-          edgeSizeNormalizationMaxText: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-normalization-max-text"),
-          edgeSizeNormalizationMaxSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-normalization-max-slider"),
+          dataHead: document.getElementById("iefG4jsA0KZfiBTxF-data-head"),
+          dataBody: document.getElementById("iefG4jsA0KZfiBTxF-data-body"),
+          graphSelectionContainer: document.getElementById("iefG4jsA0KZfiBTxF-graph-select-div"),
+          graphSelection: document.getElementById("iefG4jsA0KZfiBTxF-graph-select"),
+          nodeSizeDataSourceSelect: document.getElementById("iefG4jsA0KZfiBTxF-node-size-data-source-select"),
+          nodeSizeNormalizationCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-size-normalization-checkbox"),
+          nodeSizeNormalizationContainer: document.getElementById("iefG4jsA0KZfiBTxF-node-size-norm-div"),
+          nodeSizeNormalizationMinText: document.getElementById("iefG4jsA0KZfiBTxF-node-size-normalization-min-text"),
+          nodeSizeNormalizationMinSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-size-normalization-min-slider"),
+          nodeSizeNormalizationMaxText: document.getElementById("iefG4jsA0KZfiBTxF-node-size-normalization-max-text"),
+          nodeSizeNormalizationMaxSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-size-normalization-max-slider"),
+          edgeSizeDataSourceSelect: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-data-source-select"),
+          edgeSizeNormalizationCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-normalization-checkbox"),
+          edgeSizeNormalizationContainer: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-norm-div"),
+          edgeSizeNormalizationMinText: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-normalization-min-text"),
+          edgeSizeNormalizationMinSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-normalization-min-slider"),
+          edgeSizeNormalizationMaxText: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-normalization-max-text"),
+          edgeSizeNormalizationMaxSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-normalization-max-slider"),
           // General
-          generalHead: document.getElementById("iEPD3p6mnihhPYpzc-general-head"),
-          generalBody: document.getElementById("iEPD3p6mnihhPYpzc-general-body"),
-          resetButton: document.getElementById("iEPD3p6mnihhPYpzc-reset"),
-          fullscreenButton: document.getElementById("iEPD3p6mnihhPYpzc-fullscreen-button"),
-          svgExportButton: document.getElementById("iEPD3p6mnihhPYpzc-svg"),
-          pngExportButton: document.getElementById("iEPD3p6mnihhPYpzc-png"),
-          jpgExportButton: document.getElementById("iEPD3p6mnihhPYpzc-jpg"),
+          generalHead: document.getElementById("iefG4jsA0KZfiBTxF-general-head"),
+          generalBody: document.getElementById("iefG4jsA0KZfiBTxF-general-body"),
+          resetButton: document.getElementById("iefG4jsA0KZfiBTxF-reset"),
+          fullscreenButton: document.getElementById("iefG4jsA0KZfiBTxF-fullscreen-button"),
+          svgExportButton: document.getElementById("iefG4jsA0KZfiBTxF-svg"),
+          pngExportButton: document.getElementById("iefG4jsA0KZfiBTxF-png"),
+          jpgExportButton: document.getElementById("iefG4jsA0KZfiBTxF-jpg"),
           // Nodes
-          nodeHead: document.getElementById("iEPD3p6mnihhPYpzc-node-head"),
-          nodeBody: document.getElementById("iEPD3p6mnihhPYpzc-node-body"),
-          nodeCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-checkbox"),
-          nodeSizeFactorText: document.getElementById("iEPD3p6mnihhPYpzc-node-size-factor-text"),
-          nodeSizeFactorSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-size-factor-slider"),
-          nodeDragFixCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-drag-fix-checkbox"),
-          nodeHoverNeighborhoodCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-hover-neighborhood-checkbox"),
-          nodeHoverTooltipCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-hover-tooltip-checkbox"),
-          nodeReleaseButton: document.getElementById("iEPD3p6mnihhPYpzc-node-release-button"),
+          nodeHead: document.getElementById("iefG4jsA0KZfiBTxF-node-head"),
+          nodeBody: document.getElementById("iefG4jsA0KZfiBTxF-node-body"),
+          nodeCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-checkbox"),
+          nodeSizeFactorText: document.getElementById("iefG4jsA0KZfiBTxF-node-size-factor-text"),
+          nodeSizeFactorSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-size-factor-slider"),
+          nodeDragFixCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-drag-fix-checkbox"),
+          nodeHoverNeighborhoodCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-hover-neighborhood-checkbox"),
+          nodeHoverTooltipCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-hover-tooltip-checkbox"),
+          nodeReleaseButton: document.getElementById("iefG4jsA0KZfiBTxF-node-release-button"),
           // Node images
-          nodeImageHead: document.getElementById("iEPD3p6mnihhPYpzc-node-image-head"),
-          nodeImageBody: document.getElementById("iEPD3p6mnihhPYpzc-node-image-body"),
-          nodeImageCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-image-checkbox"),
-          nodeImageMetaControl: document.getElementById("iEPD3p6mnihhPYpzc-node-image-meta-control"),
-          nodeImageSizeFactorText: document.getElementById("iEPD3p6mnihhPYpzc-node-image-size-factor-text"),
-          nodeImageSizeFactorSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-image-size-factor-slider"),
+          nodeImageHead: document.getElementById("iefG4jsA0KZfiBTxF-node-image-head"),
+          nodeImageBody: document.getElementById("iefG4jsA0KZfiBTxF-node-image-body"),
+          nodeImageCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-image-checkbox"),
+          nodeImageMetaControl: document.getElementById("iefG4jsA0KZfiBTxF-node-image-meta-control"),
+          nodeImageSizeFactorText: document.getElementById("iefG4jsA0KZfiBTxF-node-image-size-factor-text"),
+          nodeImageSizeFactorSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-image-size-factor-slider"),
           // Node labels
-          nodeLabelHead: document.getElementById("iEPD3p6mnihhPYpzc-node-label-head"),
-          nodeLabelBody: document.getElementById("iEPD3p6mnihhPYpzc-node-label-body"),
-          nodeLabelCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-label-checkbox"),
-          nodeLabelBorderCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-node-label-border-checkbox"),
-          nodeLabelTextDataSourceSelect: document.getElementById("iEPD3p6mnihhPYpzc-node-label-data-source-select"),
-          nodeLabelSizeFactorText: document.getElementById("iEPD3p6mnihhPYpzc-node-label-size-factor-text"),
-          nodeLabelSizeFactorSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-label-size-factor-slider"),
-          nodeLabelRotationText: document.getElementById("iEPD3p6mnihhPYpzc-node-label-rotation-text"),
-          nodeLabelRotationSlider: document.getElementById("iEPD3p6mnihhPYpzc-node-label-rotation-slider"),
+          nodeLabelHead: document.getElementById("iefG4jsA0KZfiBTxF-node-label-head"),
+          nodeLabelBody: document.getElementById("iefG4jsA0KZfiBTxF-node-label-body"),
+          nodeLabelCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-label-checkbox"),
+          nodeLabelBorderCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-node-label-border-checkbox"),
+          nodeLabelTextDataSourceSelect: document.getElementById("iefG4jsA0KZfiBTxF-node-label-data-source-select"),
+          nodeLabelSizeFactorText: document.getElementById("iefG4jsA0KZfiBTxF-node-label-size-factor-text"),
+          nodeLabelSizeFactorSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-label-size-factor-slider"),
+          nodeLabelRotationText: document.getElementById("iefG4jsA0KZfiBTxF-node-label-rotation-text"),
+          nodeLabelRotationSlider: document.getElementById("iefG4jsA0KZfiBTxF-node-label-rotation-slider"),
           // Edges
-          edgeHead: document.getElementById("iEPD3p6mnihhPYpzc-edge-head"),
-          edgeBody: document.getElementById("iEPD3p6mnihhPYpzc-edge-body"),
-          edgeCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-edge-checkbox"),
-          edgeSizeFactorText: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-factor-text"),
-          edgeSizeFactorSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-size-factor-slider"),
-          edgeCurvatureText: document.getElementById("iEPD3p6mnihhPYpzc-edge-curvature-text"),
-          edgeCurvatureSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-curvature-slider"),
-          edgeHoverTooltipCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-edge-hover-tooltip-checkbox"),
+          edgeHead: document.getElementById("iefG4jsA0KZfiBTxF-edge-head"),
+          edgeBody: document.getElementById("iefG4jsA0KZfiBTxF-edge-body"),
+          edgeCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-edge-checkbox"),
+          edgeSizeFactorText: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-factor-text"),
+          edgeSizeFactorSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-size-factor-slider"),
+          edgeCurvatureText: document.getElementById("iefG4jsA0KZfiBTxF-edge-curvature-text"),
+          edgeCurvatureSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-curvature-slider"),
+          edgeHoverTooltipCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-edge-hover-tooltip-checkbox"),
           // Edge labels
-          edgeLabelHead: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-head"),
-          edgeLabelBody: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-body"),
-          edgeLabelCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-checkbox"),
-          edgeLabelBorderCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-border-checkbox"),
-          edgeLabelTextDataSourceSelect: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-data-source-select"),
-          edgeLabelSizeFactorText: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-size-factor-text"),
-          edgeLabelSizeFactorSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-size-factor-slider"),
-          edgeLabelRotationText: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-rotation-text"),
-          edgeLabelRotationSlider: document.getElementById("iEPD3p6mnihhPYpzc-edge-label-rotation-slider"),
+          edgeLabelHead: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-head"),
+          edgeLabelBody: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-body"),
+          edgeLabelCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-checkbox"),
+          edgeLabelBorderCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-border-checkbox"),
+          edgeLabelTextDataSourceSelect: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-data-source-select"),
+          edgeLabelSizeFactorText: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-size-factor-text"),
+          edgeLabelSizeFactorSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-size-factor-slider"),
+          edgeLabelRotationText: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-rotation-text"),
+          edgeLabelRotationSlider: document.getElementById("iefG4jsA0KZfiBTxF-edge-label-rotation-slider"),
           // Layout algorithm
-          layoutAlgorithmHead: document.getElementById("iEPD3p6mnihhPYpzc-layout-algorithm-head"),
-          layoutAlgorithmBody: document.getElementById("iEPD3p6mnihhPYpzc-layout-algorithm-body"),
-          simulationCheckbox: document.getElementById("iEPD3p6mnihhPYpzc-simulation-active-checkbox"),
-          layoutAlgorithmSelection: document.getElementById("iEPD3p6mnihhPYpzc-layout-algorithm-select"),
-          centralGravitySlider: document.getElementById("iEPD3p6mnihhPYpzc-central-gravity-slider"),
-          centralGravityText: document.getElementById("iEPD3p6mnihhPYpzc-central-gravity-text"),
-          springLengthSlider: document.getElementById("iEPD3p6mnihhPYpzc-spring-length-slider"),
-          springLengthText: document.getElementById("iEPD3p6mnihhPYpzc-spring-length-text"),
-          springConstantSlider: document.getElementById("iEPD3p6mnihhPYpzc-spring-constant-slider"),
-          springConstantText: document.getElementById("iEPD3p6mnihhPYpzc-spring-constant-text"),
-          gravitationalConstantContainer: document.getElementById("iEPD3p6mnihhPYpzc-gravitational-constant-div"),
-          gravitationalConstantSlider: document.getElementById("iEPD3p6mnihhPYpzc-gravitational-constant-slider"),
-          gravitationalConstantText: document.getElementById("iEPD3p6mnihhPYpzc-gravitational-constant-text"),
-          avoidOverlapContainer: document.getElementById("iEPD3p6mnihhPYpzc-avoid-overlap-div"),
-          avoidOverlapSlider: document.getElementById("iEPD3p6mnihhPYpzc-avoid-overlap-slider"),
-          avoidOverlapText: document.getElementById("iEPD3p6mnihhPYpzc-avoid-overlap-text"),
+          layoutAlgorithmHead: document.getElementById("iefG4jsA0KZfiBTxF-layout-algorithm-head"),
+          layoutAlgorithmBody: document.getElementById("iefG4jsA0KZfiBTxF-layout-algorithm-body"),
+          simulationCheckbox: document.getElementById("iefG4jsA0KZfiBTxF-simulation-active-checkbox"),
+          layoutAlgorithmSelection: document.getElementById("iefG4jsA0KZfiBTxF-layout-algorithm-select"),
+          centralGravitySlider: document.getElementById("iefG4jsA0KZfiBTxF-central-gravity-slider"),
+          centralGravityText: document.getElementById("iefG4jsA0KZfiBTxF-central-gravity-text"),
+          springLengthSlider: document.getElementById("iefG4jsA0KZfiBTxF-spring-length-slider"),
+          springLengthText: document.getElementById("iefG4jsA0KZfiBTxF-spring-length-text"),
+          springConstantSlider: document.getElementById("iefG4jsA0KZfiBTxF-spring-constant-slider"),
+          springConstantText: document.getElementById("iefG4jsA0KZfiBTxF-spring-constant-text"),
+          gravitationalConstantContainer: document.getElementById("iefG4jsA0KZfiBTxF-gravitational-constant-div"),
+          gravitationalConstantSlider: document.getElementById("iefG4jsA0KZfiBTxF-gravitational-constant-slider"),
+          gravitationalConstantText: document.getElementById("iefG4jsA0KZfiBTxF-gravitational-constant-text"),
+          avoidOverlapContainer: document.getElementById("iefG4jsA0KZfiBTxF-avoid-overlap-div"),
+          avoidOverlapSlider: document.getElementById("iefG4jsA0KZfiBTxF-avoid-overlap-slider"),
+          avoidOverlapText: document.getElementById("iefG4jsA0KZfiBTxF-avoid-overlap-text"),
         },
 
         composites:{
@@ -2290,7 +2290,7 @@ if(!require.defined("gravis-vis-network")){
             create(){
               // Main container
               this.mainContainer = document.createElement("div");
-              this.mainContainer.id = "iEPD3p6mnihhPYpzc-progress-container";
+              this.mainContainer.id = "iefG4jsA0KZfiBTxF-progress-container";
               this.mainContainer.style.backgroundColor = state.shownData.general.background_color;
               ui.elements.graphContainer.style.backgroundColor = state.shownData.general.background_color;
               // Text container
@@ -2569,7 +2569,7 @@ if(!require.defined("gravis-vis-network")){
                 } else {
                   menuDiv.innerText = ui.symbols.menuHidden;
                 }
-                menuDiv.id = "iEPD3p6mnihhPYpzc-menu-toggle-button";
+                menuDiv.id = "iefG4jsA0KZfiBTxF-menu-toggle-button";
                 menuDiv.onclick = ui.composites.menu.toggle;
                 ui.elements.graphContainer.appendChild(menuDiv);
                 ui.elements.menuToggleDiv = menuDiv;
@@ -2582,7 +2582,7 @@ if(!require.defined("gravis-vis-network")){
                 } else {
                   detailsDiv.innerText = ui.symbols.detailsHidden;
                 }
-                detailsDiv.id = "iEPD3p6mnihhPYpzc-details-toggle-button";
+                detailsDiv.id = "iefG4jsA0KZfiBTxF-details-toggle-button";
                 detailsDiv.onclick = ui.composites.details.toggle;
                 ui.elements.graphContainer.appendChild(detailsDiv);
                 ui.elements.detailsToggleDiv = detailsDiv;
@@ -2642,14 +2642,14 @@ if(!require.defined("gravis-vis-network")){
               function createNodeText(node){
                 let htmlText = "<div>Node: " + String(node.id) + "</div>";
                 if(typeof(node.click) !== "undefined" && node.click !== ""){
-                  htmlText += '<div id="iEPD3p6mnihhPYpzc-details-user-provided">' + node.click + '</div>';
+                  htmlText += '<div id="iefG4jsA0KZfiBTxF-details-user-provided">' + node.click + '</div>';
                 }
                 return htmlText;
               }
               function createEdgeText(edge){
                 let htmlText = "<div>Edge: " + String(edge.id) + "</div>";
                 if(typeof(edge.click) !== "undefined" && edge.click !== ""){
-                  htmlText += '<div id="iEPD3p6mnihhPYpzc-details-user-provided">' + edge.click + '</div>';
+                  htmlText += '<div id="iefG4jsA0KZfiBTxF-details-user-provided">' + edge.click + '</div>';
                 }
                 return htmlText;
               }
