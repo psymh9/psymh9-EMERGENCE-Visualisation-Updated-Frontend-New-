@@ -6,25 +6,25 @@
 <body style="margin:0;">
   <style>
     /* Main divisions */
-    #ipSN18cEeVNANzHlu-main-div {
+    #iJqmYIGSnKxcigcXE-main-div {
       line-height: normal;
       box-sizing: content-box;
       padding: 3px;
       background-color: white;
     }
-    #ipSN18cEeVNANzHlu-left-div {
+    #iJqmYIGSnKxcigcXE-left-div {
       float: left;
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-right-div {
+    #iJqmYIGSnKxcigcXE-right-div {
       float: left;
       height: 100%;
       display: none;
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-right-inner-div {
+    #iJqmYIGSnKxcigcXE-right-inner-div {
       padding-left: 5px;
       padding-right: 2px;
       overflow-x: hidden;
@@ -35,7 +35,7 @@
     }
 
     /* Graph and details (contained in left-inner-div) */
-    #ipSN18cEeVNANzHlu-graph-div {
+    #iJqmYIGSnKxcigcXE-graph-div {
       overflow: hidden;
       resize: vertical;
       position: relative;
@@ -46,7 +46,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-details-div {
+    #iJqmYIGSnKxcigcXE-details-div {
       overflow: auto;
       resize: vertical;
       margin-top: 5px;
@@ -57,7 +57,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-details-head {
+    #iJqmYIGSnKxcigcXE-details-head {
       user-select: none;
       padding-left: 4px !important;
       padding-top: 4px !important;
@@ -67,7 +67,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-details-body {
+    #iJqmYIGSnKxcigcXE-details-body {
       padding: 10px;
       padding-top: 6px;
       font-size: 10px;
@@ -77,7 +77,7 @@
     }
 
     /* Control menu (contained in right-inner-div) */
-    .ipSN18cEeVNANzHlu-menu-item-head {
+    .iJqmYIGSnKxcigcXE-menu-item-head {
       font-size: 11px;
       font-family: "Lucida Console", Monaco, monospace;
       color: black;
@@ -93,13 +93,13 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .ipSN18cEeVNANzHlu-menu-item-body {
+    .iJqmYIGSnKxcigcXE-menu-item-body {
       margin-left: 5px;
       margin-bottom: 10px;
       line-height: normal;
       box-sizing: content-box;
     }
-    .ipSN18cEeVNANzHlu-menu-subitem-head {
+    .iJqmYIGSnKxcigcXE-menu-subitem-head {
       font-size: 9px;
       font-family: "Lucida Console", Monaco, monospace;
       font-weight: 600;
@@ -109,7 +109,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .ipSN18cEeVNANzHlu-menu-subitem-body {
+    .iJqmYIGSnKxcigcXE-menu-subitem-body {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       margin-left: 7px;
@@ -117,28 +117,28 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    .ipSN18cEeVNANzHlu-labeled-input {
+    .iJqmYIGSnKxcigcXE-labeled-input {
       all: initial;
       display: flex;
       align-items: center;
       margin-top: 1px;
       margin-bottom: 1px;
     }
-    .ipSN18cEeVNANzHlu-label {
+    .iJqmYIGSnKxcigcXE-label {
       all: initial;
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       font-style: italic;
       cursor: pointer;
     }
-    .ipSN18cEeVNANzHlu-slider {
+    .iJqmYIGSnKxcigcXE-slider {
       width: 100%;
       margin-bottom: 2px;
     }
-    .ipSN18cEeVNANzHlu-slider::-moz-focus-outer {
+    .iJqmYIGSnKxcigcXE-slider::-moz-focus-outer {
       border: 0;
     }
-    .ipSN18cEeVNANzHlu-slider-text-left {
+    .iJqmYIGSnKxcigcXE-slider-text-left {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       font-style: italic;
@@ -146,20 +146,20 @@
       float: left;
       margin-top: 2px;
     }
-    .ipSN18cEeVNANzHlu-slider-text-right {
+    .iJqmYIGSnKxcigcXE-slider-text-right {
       font-size: 8px;
       font-family: "Lucida Console", Monaco, monospace;
       color: black;
       float: right;
     }
-    .ipSN18cEeVNANzHlu-checkbox {
+    .iJqmYIGSnKxcigcXE-checkbox {
       margin-left: 0px !important;
       margin-right: 4px !important;
       margin-top: 2px !important;
       margin-bottom: 2px !important;
       padding: 0px !important;
     }
-    .ipSN18cEeVNANzHlu-select {
+    .iJqmYIGSnKxcigcXE-select {
       cursor: pointer;
       outline: none;
       font-size: 8px;
@@ -188,15 +188,15 @@
     }
     @-moz-document url-prefix() {
       /* Dirty hack to remove dotted border on focus */
-      .ipSN18cEeVNANzHlu-select {
+      .iJqmYIGSnKxcigcXE-select {
         color: transparent !important;
         text-shadow: 0 0 0 black !important;
       }
     }
-    .ipSN18cEeVNANzHlu-select:after {
+    .iJqmYIGSnKxcigcXE-select:after {
       cursor: pointer;
     }
-    .ipSN18cEeVNANzHlu-button {
+    .iJqmYIGSnKxcigcXE-button {
       cursor: pointer;
       outline: none;
       font-size: 8px;
@@ -213,29 +213,29 @@
       border: 1.2px solid #bbb;
       box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
     }
-    .ipSN18cEeVNANzHlu-button:hover {
+    .iJqmYIGSnKxcigcXE-button:hover {
       border: 1.2px solid #999;
       background-color: #f2f2f2;
     }
-    .ipSN18cEeVNANzHlu-button:active {
+    .iJqmYIGSnKxcigcXE-button:active {
       background-color: #ddd;
     }
-    .ipSN18cEeVNANzHlu-button::-moz-focus-inner {
+    .iJqmYIGSnKxcigcXE-button::-moz-focus-inner {
       border: 0;
     }
     /* Hidden menu items */
-    #ipSN18cEeVNANzHlu-graph-select-div {
+    #iJqmYIGSnKxcigcXE-graph-select-div {
       display: none;
     }
-    #ipSN18cEeVNANzHlu-node-size-norm-div {
+    #iJqmYIGSnKxcigcXE-node-size-norm-div {
       display: none;
     }
-    #ipSN18cEeVNANzHlu-edge-size-norm-div {
+    #iJqmYIGSnKxcigcXE-edge-size-norm-div {
       display: none;
     }
 
     /* Graph */
-    #ipSN18cEeVNANzHlu-tooltip-div {
+    #iJqmYIGSnKxcigcXE-tooltip-div {
       font-size: 10px;
       font-family: "Lucida Console", Monaco, monospace;
       z-index: 42001;
@@ -254,7 +254,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-menu-toggle-button, #ipSN18cEeVNANzHlu-details-toggle-button, #ipSN18cEeVNANzHlu-progress-container {
+    #iJqmYIGSnKxcigcXE-menu-toggle-button, #iJqmYIGSnKxcigcXE-details-toggle-button, #iJqmYIGSnKxcigcXE-progress-container {
       font-size: 14px;
       font-family: "Lucida Console", Monaco, monospace;
       z-index: 42000;
@@ -266,7 +266,7 @@
       line-height: normal;
       box-sizing: content-box;
     }
-    #ipSN18cEeVNANzHlu-menu-toggle-button {
+    #iJqmYIGSnKxcigcXE-menu-toggle-button {
       top: 0;
       right: 0;
       padding-left: 6px;
@@ -278,7 +278,7 @@
       border-bottom: 1px solid #ccc;
       border-left: 1px solid #ccc;
     }
-    #ipSN18cEeVNANzHlu-details-toggle-button {
+    #iJqmYIGSnKxcigcXE-details-toggle-button {
       bottom: 0;
       left: 0;
       padding-left: 19px;
@@ -290,7 +290,7 @@
       border-bottom: 0px;
       border-left: 0px;
     }
-    #ipSN18cEeVNANzHlu-progress-container {
+    #iJqmYIGSnKxcigcXE-progress-container {
       font-size: 10px;
       text-align: center;
       top: 46%;
@@ -302,7 +302,7 @@
     }
 
     /* Details */
-    #ipSN18cEeVNANzHlu-details-user-provided {
+    #iJqmYIGSnKxcigcXE-details-user-provided {
       margin-top: 3px;
       padding-top: 3.5px;
       border-top: 0.5px dashed black;
@@ -311,15 +311,15 @@
       white-space: pre-wrap;
       word-break: break-word;
     }
-    #ipSN18cEeVNANzHlu-details-user-provided ul {
+    #iJqmYIGSnKxcigcXE-details-user-provided ul {
       list-style-position: inside;
       padding-left: 6px;
     }
 
     /* Unavailable in vis.js and therefore hidden */
-    #ipSN18cEeVNANzHlu-svg,
-    #ipSN18cEeVNANzHlu-node-label-rotation,
-    #ipSN18cEeVNANzHlu-edge-label-rotation {
+    #iJqmYIGSnKxcigcXE-svg,
+    #iJqmYIGSnKxcigcXE-node-label-rotation,
+    #iJqmYIGSnKxcigcXE-edge-label-rotation {
       display: none;
     }
     /* Specific to vis.js */
@@ -343,566 +343,566 @@
     }
   </style>
 
-  <div id="ipSN18cEeVNANzHlu-main-div">
-    <div id="ipSN18cEeVNANzHlu-tooltip-div"></div>
+  <div id="iJqmYIGSnKxcigcXE-main-div">
+    <div id="iJqmYIGSnKxcigcXE-tooltip-div"></div>
 
-    <div id="ipSN18cEeVNANzHlu-left-div">
-      <div id="ipSN18cEeVNANzHlu-left-inner-div">
-        <div id="ipSN18cEeVNANzHlu-graph-div"></div>
-        <div id="ipSN18cEeVNANzHlu-details-div">
-          <div id="ipSN18cEeVNANzHlu-details-head">
+    <div id="iJqmYIGSnKxcigcXE-left-div">
+      <div id="iJqmYIGSnKxcigcXE-left-inner-div">
+        <div id="iJqmYIGSnKxcigcXE-graph-div"></div>
+        <div id="iJqmYIGSnKxcigcXE-details-div">
+          <div id="iJqmYIGSnKxcigcXE-details-head">
             Details for selected element
           </div>
-          <div id="ipSN18cEeVNANzHlu-details-body">
+          <div id="iJqmYIGSnKxcigcXE-details-body">
           </div>
         </div>
       </div>
     </div>
 
-    <div id="ipSN18cEeVNANzHlu-right-div">
-      <div id="ipSN18cEeVNANzHlu-right-inner-div">
+    <div id="iJqmYIGSnKxcigcXE-right-div">
+      <div id="iJqmYIGSnKxcigcXE-right-inner-div">
         <!-- Menu: General -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-general-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-general-head">
           General
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-general-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-general-body">
           <!-- Sub-menu: State -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               App state
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-reset"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-reset"
                       type="button">Reset</button>
             </div>
           </div>
           <!-- Sub-menu: Display mode (fullscreen or not) -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Display mode
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-fullscreen-button"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-fullscreen-button"
                       type="button">Enter full screen</button>
             </div>
           </div>
           <!-- Sub-menu: Export -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Export
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-svg"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-svg"
                       type="button">SVG</button>
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-png"
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-png"
                       type="button">PNG</button>
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-jpg"
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-jpg"
                       type="button">JPG</button>
             </div>
           </div>
         </div>
         <!-- Menu: Data -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-data-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-data-head">
           Data selection
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-data-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-data-body">
           <!-- Sub-menu: Graph (only shown if multiple graphs in data) -->
-          <div id="ipSN18cEeVNANzHlu-graph-select-div">
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+          <div id="iJqmYIGSnKxcigcXE-graph-select-div">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Graph
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <select class="ipSN18cEeVNANzHlu-select"
-                      id="ipSN18cEeVNANzHlu-graph-select"></select>
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <select class="iJqmYIGSnKxcigcXE-select"
+                      id="iJqmYIGSnKxcigcXE-graph-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Node label text -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Node label text
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <select class="ipSN18cEeVNANzHlu-select"
-                      id="ipSN18cEeVNANzHlu-node-label-data-source-select"></select>
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <select class="iJqmYIGSnKxcigcXE-select"
+                      id="iJqmYIGSnKxcigcXE-node-label-data-source-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Edge label text -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Edge label text
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <select class="ipSN18cEeVNANzHlu-select"
-                      id="ipSN18cEeVNANzHlu-edge-label-data-source-select"></select>
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <select class="iJqmYIGSnKxcigcXE-select"
+                      id="iJqmYIGSnKxcigcXE-edge-label-data-source-select"></select>
             </div>
           </div>
           <!-- Sub-menu: Node size -->
-          <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+          <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
             Node size
           </div>
-          <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
+          <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
             <div>
-              <select class="ipSN18cEeVNANzHlu-select"
-                      id="ipSN18cEeVNANzHlu-node-size-data-source-select"></select>
+              <select class="iJqmYIGSnKxcigcXE-select"
+                      id="iJqmYIGSnKxcigcXE-node-size-data-source-select"></select>
             </div>
-            <div class="ipSN18cEeVNANzHlu-labeled-input">
-              <input class="ipSN18cEeVNANzHlu-checkbox"
-                     id="ipSN18cEeVNANzHlu-node-size-normalization-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-labeled-input">
+              <input class="iJqmYIGSnKxcigcXE-checkbox"
+                     id="iJqmYIGSnKxcigcXE-node-size-normalization-checkbox"
                      type="checkbox">
-              <label class="ipSN18cEeVNANzHlu-label"
-                     for="ipSN18cEeVNANzHlu-node-size-normalization-checkbox">Normalize</label>
+              <label class="iJqmYIGSnKxcigcXE-label"
+                     for="iJqmYIGSnKxcigcXE-node-size-normalization-checkbox">Normalize</label>
             </div>
-            <div id="ipSN18cEeVNANzHlu-node-size-norm-div">
+            <div id="iJqmYIGSnKxcigcXE-node-size-norm-div">
               <div>
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Minimum</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-node-size-normalization-min-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-node-size-normalization-min-slider"
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Minimum</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-node-size-normalization-min-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-node-size-normalization-min-slider"
                        type="range" min="0.01" max="300.0" step="0.01">
               </div>
               <div>
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Maximum</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-node-size-normalization-max-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-node-size-normalization-max-slider"
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Maximum</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-node-size-normalization-max-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-node-size-normalization-max-slider"
                        type="range" min="0.01" max="300.0" step="0.01">
               </div>
             </div>
           </div>
           <!-- Sub-menu: Edge size -->
-          <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+          <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
             Edge size
           </div>
-          <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
+          <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
             <div>
-              <select class="ipSN18cEeVNANzHlu-select"
-                      id="ipSN18cEeVNANzHlu-edge-size-data-source-select"></select>
+              <select class="iJqmYIGSnKxcigcXE-select"
+                      id="iJqmYIGSnKxcigcXE-edge-size-data-source-select"></select>
             </div>
-            <div class="ipSN18cEeVNANzHlu-labeled-input">
-              <input class="ipSN18cEeVNANzHlu-checkbox"
-                     id="ipSN18cEeVNANzHlu-edge-size-normalization-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-labeled-input">
+              <input class="iJqmYIGSnKxcigcXE-checkbox"
+                     id="iJqmYIGSnKxcigcXE-edge-size-normalization-checkbox"
                      type="checkbox">
-              <label class="ipSN18cEeVNANzHlu-label"
-                     for="ipSN18cEeVNANzHlu-edge-size-normalization-checkbox">Normalize</label>
+              <label class="iJqmYIGSnKxcigcXE-label"
+                     for="iJqmYIGSnKxcigcXE-edge-size-normalization-checkbox">Normalize</label>
             </div>
-            <div id="ipSN18cEeVNANzHlu-edge-size-norm-div">
+            <div id="iJqmYIGSnKxcigcXE-edge-size-norm-div">
               <div>
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Minimum</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-edge-size-normalization-min-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-edge-size-normalization-min-slider"
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Minimum</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-edge-size-normalization-min-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-edge-size-normalization-min-slider"
                        type="range" min="0.01" max="50.0" step="0.01">
               </div>
               <div>
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Maximum</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-edge-size-normalization-max-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-edge-size-normalization-max-slider"
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Maximum</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-edge-size-normalization-max-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-edge-size-normalization-max-slider"
                        type="range" min="0.01" max="50.0" step="0.01">
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Nodes -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-node-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-node-head">
           Nodes
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-node-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-node-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Visibility
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-checkbox">Show nodes</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-checkbox">Show nodes</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Size
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
               <div>
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Scaling factor</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-node-size-factor-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-node-size-factor-slider"
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Scaling factor</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-node-size-factor-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-node-size-factor-slider"
                        type="range" min="0.01" max="5.0" step="0.01">
               </div>
             </div>
           </div>
           <!-- Sub-menu: Position -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Position
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <button class="ipSN18cEeVNANzHlu-button"
-                      id="ipSN18cEeVNANzHlu-node-release-button"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <button class="iJqmYIGSnKxcigcXE-button"
+                      id="iJqmYIGSnKxcigcXE-node-release-button"
                       type="button">Release fixed nodes</button>
             </div>
           </div>
           <!-- Sub-menu: Drag behavior -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Drag behavior
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-drag-fix-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-drag-fix-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-drag-fix-checkbox">Fix node position</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-drag-fix-checkbox">Fix node position</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Hover behavior -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Hover behavior
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-hover-neighborhood-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-hover-neighborhood-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-hover-neighborhood-checkbox">Show neighborhood</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-hover-neighborhood-checkbox">Show neighborhood</label>
               </div>
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-hover-tooltip-checkbox"
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-hover-tooltip-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-hover-tooltip-checkbox">Show tooltips (if provided)</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-hover-tooltip-checkbox">Show tooltips (if provided)</label>
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Node images -->
-        <div id="ipSN18cEeVNANzHlu-node-image-meta-control">
-          <div class="ipSN18cEeVNANzHlu-menu-item-head"
-               id="ipSN18cEeVNANzHlu-node-image-head">
+        <div id="iJqmYIGSnKxcigcXE-node-image-meta-control">
+          <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+               id="iJqmYIGSnKxcigcXE-node-image-head">
             Node images
           </div>
-          <div class="ipSN18cEeVNANzHlu-menu-item-body"
-               id="ipSN18cEeVNANzHlu-node-image-body">
+          <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+               id="iJqmYIGSnKxcigcXE-node-image-body">
             <!-- Sub-menu: Visibility -->
             <div>
-              <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+              <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
                 Visibility
               </div>
-              <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-                <div class="ipSN18cEeVNANzHlu-labeled-input">
-                  <input class="ipSN18cEeVNANzHlu-checkbox"
-                         id="ipSN18cEeVNANzHlu-node-image-checkbox"
+              <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+                <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                  <input class="iJqmYIGSnKxcigcXE-checkbox"
+                         id="iJqmYIGSnKxcigcXE-node-image-checkbox"
                          type="checkbox">
-                  <label class="ipSN18cEeVNANzHlu-label"
-                         for="ipSN18cEeVNANzHlu-node-image-checkbox">Show node images</label>
+                  <label class="iJqmYIGSnKxcigcXE-label"
+                         for="iJqmYIGSnKxcigcXE-node-image-checkbox">Show node images</label>
                 </div>
               </div>
             </div>
             <!-- Sub-menu: Size -->
             <div>
-              <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+              <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
                 Size
               </div>
-              <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Scaling factor</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-node-image-size-factor-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-node-image-size-factor-slider"
+              <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Scaling factor</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-node-image-size-factor-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-node-image-size-factor-slider"
                        type="range" min="0.01" max="5.0" step="0.01">
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Node labels -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-node-label-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-node-label-head">
           Node labels
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-node-label-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-node-label-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Visibility
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-label-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-label-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-label-checkbox">Show node labels</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-label-checkbox">Show node labels</label>
               </div>
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-node-label-border-checkbox"
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-node-label-border-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-node-label-border-checkbox">Show borders</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-node-label-border-checkbox">Show borders</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Size
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Scaling factor</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                    id="ipSN18cEeVNANzHlu-node-label-size-factor-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-node-label-size-factor-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Scaling factor</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                    id="iJqmYIGSnKxcigcXE-node-label-size-factor-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-node-label-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Rotation -->
-          <div id="ipSN18cEeVNANzHlu-node-label-rotation">
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+          <div id="iJqmYIGSnKxcigcXE-node-label-rotation">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Rotation
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Angle</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                    id="ipSN18cEeVNANzHlu-node-label-rotation-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-node-label-rotation-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Angle</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                    id="iJqmYIGSnKxcigcXE-node-label-rotation-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-node-label-rotation-slider"
                      type="range" min="0.0" max="359.0" step="1.0">
             </div>
           </div>
         </div>
         <!-- Menu: Edges -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-edge-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-edge-head">
           Edges
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-edge-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-edge-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Visibility
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-edge-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-edge-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-edge-checkbox">Show edges</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-edge-checkbox">Show edges</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Size
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Scaling factor</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                    id="ipSN18cEeVNANzHlu-edge-size-factor-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-edge-size-factor-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Scaling factor</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                    id="iJqmYIGSnKxcigcXE-edge-size-factor-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-edge-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Form -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Form
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Curvature</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                    id="ipSN18cEeVNANzHlu-edge-curvature-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-edge-curvature-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Curvature</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                    id="iJqmYIGSnKxcigcXE-edge-curvature-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-edge-curvature-slider"
                      type="range" min="-1.2" max="1.2" step="0.02">
             </div>
           </div>
           <!-- Sub-menu: Hover behavior -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Hover behavior
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-edge-hover-tooltip-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-edge-hover-tooltip-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-edge-hover-tooltip-checkbox">Show tooltips (if provided)</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-edge-hover-tooltip-checkbox">Show tooltips (if provided)</label>
               </div>
             </div>
           </div>
         </div>
         <!-- Menu: Edge labels -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-edge-label-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-edge-label-head">
           Edge labels
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-edge-label-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-edge-label-body">
           <!-- Sub-menu: Visibility -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Visibility
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-edge-label-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-edge-label-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-edge-label-checkbox">Show edge labels</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-edge-label-checkbox">Show edge labels</label>
               </div>
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-edge-label-border-checkbox"
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-edge-label-border-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-edge-label-border-checkbox">Show borders</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-edge-label-border-checkbox">Show borders</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Size -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Size
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Scaling factor</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                    id="ipSN18cEeVNANzHlu-edge-label-size-factor-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-edge-label-size-factor-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Scaling factor</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                    id="iJqmYIGSnKxcigcXE-edge-label-size-factor-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-edge-label-size-factor-slider"
                      type="range" min="0.01" max="5.0" step="0.01">
             </div>
           </div>
           <!-- Sub-menu: Rotation -->
-          <div id="ipSN18cEeVNANzHlu-edge-label-rotation">
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+          <div id="iJqmYIGSnKxcigcXE-edge-label-rotation">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Rotation
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <span class="ipSN18cEeVNANzHlu-slider-text-left">Angle</span>
-              <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-edge-label-rotation-text"></span>
-              <input class="ipSN18cEeVNANzHlu-slider"
-                     id="ipSN18cEeVNANzHlu-edge-label-rotation-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <span class="iJqmYIGSnKxcigcXE-slider-text-left">Angle</span>
+              <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-edge-label-rotation-text"></span>
+              <input class="iJqmYIGSnKxcigcXE-slider"
+                     id="iJqmYIGSnKxcigcXE-edge-label-rotation-slider"
                      type="range" min="0.0" max="359.0" step="1.0">
             </div>
           </div>
         </div>
         <!-- Menu: Layout algorithm -->
-        <div class="ipSN18cEeVNANzHlu-menu-item-head"
-             id="ipSN18cEeVNANzHlu-layout-algorithm-head">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-head"
+             id="iJqmYIGSnKxcigcXE-layout-algorithm-head">
           Layout algorithm
         </div>
-        <div class="ipSN18cEeVNANzHlu-menu-item-body"
-             id="ipSN18cEeVNANzHlu-layout-algorithm-body">
+        <div class="iJqmYIGSnKxcigcXE-menu-item-body"
+             id="iJqmYIGSnKxcigcXE-layout-algorithm-body">
           <!-- Sub-menu: Simulation -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Simulation
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div class="ipSN18cEeVNANzHlu-labeled-input">
-                <input class="ipSN18cEeVNANzHlu-checkbox"
-                       id="ipSN18cEeVNANzHlu-simulation-active-checkbox"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div class="iJqmYIGSnKxcigcXE-labeled-input">
+                <input class="iJqmYIGSnKxcigcXE-checkbox"
+                       id="iJqmYIGSnKxcigcXE-simulation-active-checkbox"
                        type="checkbox">
-                <label class="ipSN18cEeVNANzHlu-label"
-                       for="ipSN18cEeVNANzHlu-simulation-active-checkbox">Active</label>
+                <label class="iJqmYIGSnKxcigcXE-label"
+                       for="iJqmYIGSnKxcigcXE-simulation-active-checkbox">Active</label>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Algorithm -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Algorithm
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
               <div>
-                <select class="ipSN18cEeVNANzHlu-select"
-                        id="ipSN18cEeVNANzHlu-layout-algorithm-select"></select>
+                <select class="iJqmYIGSnKxcigcXE-select"
+                        id="iJqmYIGSnKxcigcXE-layout-algorithm-select"></select>
               </div>
             </div>
           </div>
           <!-- Sub-menu: Parameters -->
           <div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-head">
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-head">
               Parameters
             </div>
-            <div class="ipSN18cEeVNANzHlu-menu-subitem-body">
-              <div id="ipSN18cEeVNANzHlu-gravitational-constant-div">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Gravitational constant</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-gravitational-constant-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-gravitational-constant-slider"
+            <div class="iJqmYIGSnKxcigcXE-menu-subitem-body">
+              <div id="iJqmYIGSnKxcigcXE-gravitational-constant-div">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Gravitational constant</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-gravitational-constant-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-gravitational-constant-slider"
                        type="range" min="-50000" max="0" step="1"
                        style="direction:rtl;">
               </div>
-              <div id="ipSN18cEeVNANzHlu-spring-length-div">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Spring length</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-spring-length-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-spring-length-slider"
+              <div id="iJqmYIGSnKxcigcXE-spring-length-div">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Spring length</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-spring-length-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-spring-length-slider"
                        type="range" min="0.0" max="500" step="0.1">
               </div>
-              <div id="ipSN18cEeVNANzHlu-spring-constant-div">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Spring constant</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-spring-constant-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-spring-constant-slider"
+              <div id="iJqmYIGSnKxcigcXE-spring-constant-div">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Spring constant</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-spring-constant-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-spring-constant-slider"
                        type="range" min="0.0" max="1.0" step="0.01">
               </div>
-              <div id="ipSN18cEeVNANzHlu-avoid-overlap-div">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Avoid overlap</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-avoid-overlap-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-avoid-overlap-slider"
+              <div id="iJqmYIGSnKxcigcXE-avoid-overlap-div">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Avoid overlap</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-avoid-overlap-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-avoid-overlap-slider"
                        type="range" min="0.0" max="1.0" step="0.01">
               </div>
-              <div id="ipSN18cEeVNANzHlu-central-gravity-div">
-                <span class="ipSN18cEeVNANzHlu-slider-text-left">Central gravity</span>
-                <span class="ipSN18cEeVNANzHlu-slider-text-right"
-                      id="ipSN18cEeVNANzHlu-central-gravity-text"></span>
-                <input class="ipSN18cEeVNANzHlu-slider"
-                       id="ipSN18cEeVNANzHlu-central-gravity-slider"
+              <div id="iJqmYIGSnKxcigcXE-central-gravity-div">
+                <span class="iJqmYIGSnKxcigcXE-slider-text-left">Central gravity</span>
+                <span class="iJqmYIGSnKxcigcXE-slider-text-right"
+                      id="iJqmYIGSnKxcigcXE-central-gravity-text"></span>
+                <input class="iJqmYIGSnKxcigcXE-slider"
+                       id="iJqmYIGSnKxcigcXE-central-gravity-slider"
                        type="range" min="0.0" max="10.0" step="0.001">
               </div>
             </div>
@@ -988,7 +988,7 @@ if(!require.defined("gravis-vis-network")){
 
           // 1) Fetch state.rawData
           fetchRawDataFromTemplating(){
-            state.rawData = [{"nodes": {"Computer Science": {"label": "Computer Science", "metadata": {"group": 2, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Computer Science", "Location": "include-legend-nodes", "hover": "Computer Science", "color": "red"}}, "Central Node": {"label": "Emergence Network", "metadata": {"title": "Central Node", "physics": true, "color": "black", "location": "include-central-nodes", "institution": "include-central-nodes", "Discipline": "include-central-nodes", "alphabet": "include-central-nodes", "x": 0, "y": 0, "size": 75, "hover": "Central Node"}}}, "edges": [{"source": "Computer Science", "target": "Central Node"}], "directed": false}];
+            state.rawData = [{"nodes": {"Robotics": {"label": "Robotics", "metadata": {"group": 0, "size": 50, "fixed": true, "physics": false, "x": 250, "y": 750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Robotics", "Location": "include-legend-nodes", "hover": "Robotics", "color": "blue"}}, "Emilyann Nault": {"label": "Emilyann Nault", "metadata": {"title": "Name: Emilyann Nault\nInstitution: University of Edinburgh\nJob Title: PhD Student - Robotics & Autonomous Systems Centre for Doctoral Training\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nThe aim of my doctoral research is to engage older adults in cognitive activities prior to the onset\nof age-related conditions (e.g., mild cognitive impairment and dementia) through the use of socially\nassistive robots and sensory feedback. Participatory Design methodologies have been employed in\norder to invite end users and relevant stakeholders (e.g., therapists) to be part of the design\nprocess. User studies have also been integrated to receive feedback from older adults directly.\n", "physics": true, "institution": "University of Edinburgh", "Discipline": "Healthcare", "alphabet": "E", "color": "yellow", "location": "Edinburgh", "x": 100, "y": 1574, "size": 50, "hover": "Name: Emilyann Nault\nInstitution: University of Edinburgh\nJob Title: PhD Student - Robotics & Autonomous Systems Centre for Doctoral Training\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nThe aim of my doctoral research is to engage older adults in cognitive activities prior to the onset\nof age-related conditions (e.g., mild cognitive impairment and dementia) through the use of socially\nassistive robots and sensory feedback. Participatory Design methodologies have been employed in\norder to invite end users and relevant stakeholders (e.g., therapists) to be part of the design\nprocess. User studies have also been integrated to receive feedback from older adults directly.\n"}}, "Alexandre Colle": {"label": "Alexandre Colle", "metadata": {"title": "Name: Alexandre Colle\nInstitution: Konpanion (BOROBO ltd)\nJob Title: CEO\nDiscipline: Robotics\nLocation: Glasgow\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Ethical frameworks for\nintegration of assistive robotics;Scoping research:\u00a0When does an assistive robot become a medical\ndevice?;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support PWLEF?;\n", "physics": true, "institution": "Konpanion (BOROBO ltd)", "Discipline": "Robotics", "alphabet": "A", "color": "blue", "location": "Glasgow", "x": -42, "y": 1070, "size": 50, "hover": "Name: Alexandre Colle\nInstitution: Konpanion (BOROBO ltd)\nJob Title: CEO\nDiscipline: Robotics\nLocation: Glasgow\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at PWLEF to enable long-term\nautonomy\u00a0including areas such as fail-safe design, situation awareness, automated risk assessment\nand smart sensing.;Accessible Human-Robot Interaction, taking into consideration multi-modal and\nintuitive interaction to address cognitive, sensory and physical impairments;Ethical frameworks for\nintegration of assistive robotics;Scoping research:\u00a0When does an assistive robot become a medical\ndevice?;Scoping research:\u00a0What are the challenges for enabling human agency in shared decision-\nmaking for assistive robotics technology to support PWLEF?;\n"}}, "Computer Science": {"label": "Computer Science", "metadata": {"group": 2, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Computer Science", "Location": "include-legend-nodes", "hover": "Computer Science", "color": "red"}}, "Patricia Shaw": {"label": "Patricia Shaw", "metadata": {"title": "Name: Patricia Shaw\nInstitution: Aberystwyth University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Aberstwyth\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Aberystwyth University", "Discipline": "Computer Science", "alphabet": "P", "color": "red", "location": "Aberstwyth", "x": 1253, "y": 510, "size": 50, "hover": "Name: Patricia Shaw\nInstitution: Aberystwyth University\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Aberstwyth\nResearch themes of interest: \n\nNone\n"}}, "Hassan Zaal": {"label": "Hassan Zaal", "metadata": {"title": "Name: Hassan Zaal\nInstitution: Trinity College Dublin\nJob Title: Early Stage Researcher (PhD student)\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nI am an ESR (MSCA-ITN fellow) at visuAAL - Privacy-Aware and Acceptable Video-Based Technologies and\nServices for Active and Assisted Living.  The aim of this PhD is to explore machine learning or\nartificial intelligence (AI) approaches interaction with visually guided Personal Assistant Robots\n(PARs) as a part of Active and Assisted Living (AAL) environment. Research will involve defining\nuser and behaviour models to facilitate appropriate AI approaches to interaction that support self-\nmanagement,  educational and training that are delivered visually and via audio on a PAR. The user\nwill be able to interact with the PAR through spoken language. The PARs will use Vision-and-Language\nNavigation (VLN) approaches to parse the user\u2019s instructions and execute them in the AAL\nenvironment. The PhD will also address data protection, ethical and privacy concerns in relation to\nthe use of AI and visual data in an AAL context.\n", "physics": true, "institution": "Trinity College Dublin", "Discipline": "Computer Science", "alphabet": "H", "color": "red", "location": "Edinburgh", "x": 1493, "y": 448, "size": 50, "hover": "Name: Hassan Zaal\nInstitution: Trinity College Dublin\nJob Title: Early Stage Researcher (PhD student)\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nI am an ESR (MSCA-ITN fellow) at visuAAL - Privacy-Aware and Acceptable Video-Based Technologies and\nServices for Active and Assisted Living.  The aim of this PhD is to explore machine learning or\nartificial intelligence (AI) approaches interaction with visually guided Personal Assistant Robots\n(PARs) as a part of Active and Assisted Living (AAL) environment. Research will involve defining\nuser and behaviour models to facilitate appropriate AI approaches to interaction that support self-\nmanagement,  educational and training that are delivered visually and via audio on a PAR. The user\nwill be able to interact with the PAR through spoken language. The PARs will use Vision-and-Language\nNavigation (VLN) approaches to parse the user\u2019s instructions and execute them in the AAL\nenvironment. The PhD will also address data protection, ethical and privacy concerns in relation to\nthe use of AI and visual data in an AAL context.\n"}}, "Adrian Smales": {"label": "Adrian Smales", "metadata": {"title": "Name: Adrian Smales\nInstitution: Smplicare Ltd\nJob Title: Chief Information Officer\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Smplicare Ltd", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Edinburgh", "x": 424, "y": 541, "size": 50, "hover": "Name: Adrian Smales\nInstitution: Smplicare Ltd\nJob Title: Chief Information Officer\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Dimitris Anagnostou": {"label": "Dimitris Anagnostou", "metadata": {"title": "Name: Dimitris Anagnostou\nInstitution: Heriot Watt University\nJob Title: Associate Professor\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Heriot Watt University", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Edinburgh", "x": 557, "y": 549, "size": 50, "hover": "Name: Dimitris Anagnostou\nInstitution: Heriot Watt University\nJob Title: Associate Professor\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Andrew Edmondson": {"label": "Andrew Edmondson", "metadata": {"title": "Name: Andrew Edmondson\nInstitution: Heriot-Watt University\nJob Title: Student\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Heriot-Watt University", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Edinburgh", "x": 157, "y": 348, "size": 50, "hover": "Name: Andrew Edmondson\nInstitution: Heriot-Watt University\nJob Title: Student\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Burak Kizilkaya": {"label": "Burak Kizilkaya", "metadata": {"title": "Name: Burak Kizilkaya\nInstitution: University of Glasgow\nJob Title: PhD Student\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nMy current research interests include communication-control co-design, ultra-reliable low-latency\ncommunications (URLLC), and real-time wireless control considering mission-critical robotic\napplication areas such as healthcare, and social care.\n", "physics": true, "institution": "University of Glasgow", "Discipline": "Computer Science", "alphabet": "B", "color": "red", "location": "Glasgow", "x": 684, "y": 512, "size": 50, "hover": "Name: Burak Kizilkaya\nInstitution: University of Glasgow\nJob Title: PhD Student\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nMy current research interests include communication-control co-design, ultra-reliable low-latency\ncommunications (URLLC), and real-time wireless control considering mission-critical robotic\napplication areas such as healthcare, and social care.\n"}}, "Maria Elena Giannaccini": {"label": "Maria Elena Giannaccini", "metadata": {"title": "Name: Maria Elena Giannaccini\nInstitution: University of Aberdeen \nJob Title: Lecturer in Robotics \nDiscipline: Robotics\nLocation: Aberdeen\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n", "physics": true, "institution": "University of Aberdeen ", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Aberdeen", "x": 229, "y": 1118, "size": 50, "hover": "Name: Maria Elena Giannaccini\nInstitution: University of Aberdeen \nJob Title: Lecturer in Robotics \nDiscipline: Robotics\nLocation: Aberdeen\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;\n"}}, "Healthcare": {"label": "Healthcare", "metadata": {"group": 1, "size": 50, "fixed": true, "physics": false, "x": 750, "y": 1250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Healthcare", "Location": "include-legend-nodes", "hover": "Healthcare", "color": "yellow"}}, "Ricardo Contreras": {"label": "Ricardo Contreras", "metadata": {"title": "Name: Ricardo Contreras\nInstitution: University of Edinburgh\nJob Title: Research Assistant\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nInterested in activities of daily living and people in their later days\n", "physics": true, "institution": "University of Edinburgh", "Discipline": "Healthcare", "alphabet": "R", "color": "yellow", "location": "Edinburgh", "x": 888, "y": 1407, "size": 50, "hover": "Name: Ricardo Contreras\nInstitution: University of Edinburgh\nJob Title: Research Assistant\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nInterested in activities of daily living and people in their later days\n"}}, "Electronic Engineering": {"label": "Electronic Engineering", "metadata": {"group": 4, "size": 50, "fixed": true, "physics": false, "x": 150, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Electronic Engineering", "Location": "include-legend-nodes", "hover": "Electronic Engineering", "color": "magenta"}}, "William Wright": {"label": "William Wright", "metadata": {"title": "Name: William Wright\nInstitution: Blackwood Homes and Care\nJob Title: Project Lead, Innovation\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Ethical\nframeworks for integration of assistive robotics;Scoping research:\u00a0When does an assistive robot\nbecome a medical device?;Scoping research:\u00a0What CPD is needed to support future care professionals?;\n", "physics": true, "institution": "Blackwood Homes and Care", "Discipline": "Robotics", "alphabet": "W", "color": "blue", "location": "Edinburgh", "x": 458, "y": 880, "size": 50, "hover": "Name: William Wright\nInstitution: Blackwood Homes and Care\nJob Title: Project Lead, Innovation\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nSafety frameworks for assistive robotics technologies aimed at people with lived experience of\nfrailty to enable long-term autonomy\u00a0including areas such as fail-safe design, situation awareness,\nautomated risk assessment and smart sensing.;Accessible Human-Robot Interaction, taking into\nconsideration multi-modal and intuitive interaction to address cognitive, sensory and physical\nimpairments;Regulatory Frameworks for deployment and integration of assistive robotics;Ethical\nframeworks for integration of assistive robotics;Scoping research:\u00a0When does an assistive robot\nbecome a medical device?;Scoping research:\u00a0What CPD is needed to support future care professionals?;\n"}}, "Carl Bettosi": {"label": "Carl Bettosi", "metadata": {"title": "Name: Carl Bettosi\nInstitution: Edinburgh Centre for Robotics\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nMy research looks to develop socially assistive robots to aid with exercise promotion/physiotherapy.\nSpecifically, I look to use machine learning to learn optimal behavioural policies for robots, that\ncan adapt to the changing therapeutic needs of the user. We believe this will help improve user\nengagement, while delivering health benefits.\n", "physics": true, "institution": "Edinburgh Centre for Robotics", "Discipline": "Robotics", "alphabet": "C", "color": "blue", "location": "Edinburgh", "x": -416, "y": 1129, "size": 50, "hover": "Name: Carl Bettosi\nInstitution: Edinburgh Centre for Robotics\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nMy research looks to develop socially assistive robots to aid with exercise promotion/physiotherapy.\nSpecifically, I look to use machine learning to learn optimal behavioural policies for robots, that\ncan adapt to the changing therapeutic needs of the user. We believe this will help improve user\nengagement, while delivering health benefits.\n"}}, "Nathan Jones": {"label": "Nathan Jones", "metadata": {"title": "Name: Nathan Jones\nInstitution: Cardiff University\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nMy research interests are primarily around socially assistive robots and how they can be adapted in\norder to increase acceptance and adoption, particularly among the elderly or otherwise vulnerable. I\nam also interested in ways that modern technology can be utilized in order to increase quality of\nlife and allow vulnerable people to live independently in cases where they would usually need a care\nworker's full time attention.\n", "physics": true, "institution": "Cardiff University", "Discipline": "Robotics", "alphabet": "N", "color": "blue", "location": "Cardiff", "x": 912, "y": 1129, "size": 50, "hover": "Name: Nathan Jones\nInstitution: Cardiff University\nJob Title: PhD Student\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nMy research interests are primarily around socially assistive robots and how they can be adapted in\norder to increase acceptance and adoption, particularly among the elderly or otherwise vulnerable. I\nam also interested in ways that modern technology can be utilized in order to increase quality of\nlife and allow vulnerable people to live independently in cases where they would usually need a care\nworker's full time attention.\n"}}, "Emma Perfect": {"label": "Emma Perfect", "metadata": {"title": "Name: Emma Perfect\nInstitution: Heriot Watt University\nJob Title: Business Development Manager - Health and Care\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nI have a PhD in molecular biology and 19 years working in starts ups (in biotechnology, medical\ndevices and chemical monitoring). I have recently joined Heriot Watt University as a Business\nDevelopment Manager in Health and Care and seek to better understand this ecosystem and current\ndevelopments including robotic solutions.\n", "physics": true, "institution": "Heriot Watt University", "Discipline": "Healthcare", "alphabet": "E", "color": "yellow", "location": "Edinburgh", "x": 145, "y": 1588, "size": 50, "hover": "Name: Emma Perfect\nInstitution: Heriot Watt University\nJob Title: Business Development Manager - Health and Care\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nI have a PhD in molecular biology and 19 years working in starts ups (in biotechnology, medical\ndevices and chemical monitoring). I have recently joined Heriot Watt University as a Business\nDevelopment Manager in Health and Care and seek to better understand this ecosystem and current\ndevelopments including robotic solutions.\n"}}, "Michael Gray": {"label": "Michael Gray", "metadata": {"title": "Name: Michael Gray\nInstitution: University of Edinburgh\nJob Title: Implementation Lead - HSCDDI\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Edinburgh", "Discipline": "Computer Science", "alphabet": "M", "color": "red", "location": "Edinburgh", "x": 600, "y": 443, "size": 50, "hover": "Name: Michael Gray\nInstitution: University of Edinburgh\nJob Title: Implementation Lead - HSCDDI\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Daniel Hernandez Garcia": {"label": "Daniel Hernandez Garcia", "metadata": {"title": "Name: Daniel Hernandez Garcia\nInstitution: Heriot-Watt University\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nI am a postdoctoral associate at HWU, my research is focused on developing socially aware robots\nwith the capacity for cognitive interactions, with a particular emphasis on bringing socially\nassistive robots into assisted living and gerontological healthcare.  My goal is using socially\nassistive robots to provide companionship and to tackle isolation and loneliness for older adults,\nand for identifying early signs of frailty and mild cognitive impairment (MCI) by transparently\nmonitoring physical and cognitive decline to help carers in the early identification of symptoms,\ncould have enormous social impact for assisted living for older adults and quality ageing in place.\n", "physics": true, "institution": "Heriot-Watt University", "Discipline": "Robotics", "alphabet": "D", "color": "blue", "location": "Edinburgh", "x": 898, "y": 911, "size": 50, "hover": "Name: Daniel Hernandez Garcia\nInstitution: Heriot-Watt University\nJob Title: Research Associate\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nI am a postdoctoral associate at HWU, my research is focused on developing socially aware robots\nwith the capacity for cognitive interactions, with a particular emphasis on bringing socially\nassistive robots into assisted living and gerontological healthcare.  My goal is using socially\nassistive robots to provide companionship and to tackle isolation and loneliness for older adults,\nand for identifying early signs of frailty and mild cognitive impairment (MCI) by transparently\nmonitoring physical and cognitive decline to help carers in the early identification of symptoms,\ncould have enormous social impact for assisted living for older adults and quality ageing in place.\n"}}, "Central Node": {"label": "Emergence Network", "metadata": {"title": "Central Node", "physics": true, "color": "black", "location": "include-central-nodes", "institution": "include-central-nodes", "Discipline": "include-central-nodes", "alphabet": "include-central-nodes", "x": 0, "y": 0, "size": 75, "hover": "Central Node"}}, "Amol Deshmukh": {"label": "Amol Deshmukh", "metadata": {"title": "Name: Amol Deshmukh\nInstitution: University of Glasgow\nJob Title: Research Associate\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nI am post-doc working in the area of social robotics and AI. We are developing a social robotic\ndevice to educate, monitor and encourage handwashing for children in schools with a potential to\nscale to other applications in social care, hospitals, hospitality and the food industry.  I am\ninterested to learn more about Emergence Project and form collaboration/partnerships  with other\nresearch groups.\n", "physics": true, "institution": "University of Glasgow", "Discipline": "Computer Science", "alphabet": "A", "color": "red", "location": "Glasgow", "x": 772, "y": 451, "size": 50, "hover": "Name: Amol Deshmukh\nInstitution: University of Glasgow\nJob Title: Research Associate\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nI am post-doc working in the area of social robotics and AI. We are developing a social robotic\ndevice to educate, monitor and encourage handwashing for children in schools with a potential to\nscale to other applications in social care, hospitals, hospitality and the food industry.  I am\ninterested to learn more about Emergence Project and form collaboration/partnerships  with other\nresearch groups.\n"}}, "Steven Bojilov": {"label": "Steven Bojilov", "metadata": {"title": "Name: Steven Bojilov\nInstitution: Heriot-Watt University\nJob Title: Student\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Heriot-Watt University", "Discipline": "Computer Science", "alphabet": "S", "color": "red", "location": "Edinburgh", "x": 796, "y": 648, "size": 50, "hover": "Name: Steven Bojilov\nInstitution: Heriot-Watt University\nJob Title: Student\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Design Engineering and Innovation": {"label": "Design Engineering and Innovation", "metadata": {"group": 3, "size": 50, "fixed": true, "physics": false, "x": 500, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Design Engineering and Innovation", "Location": "include-legend-nodes", "hover": "Design Engineering and Innovation", "color": "green"}}, "Nicola Cooper": {"label": "Nicola Cooper", "metadata": {"title": "Name: Nicola Cooper\nInstitution: Scottish Care\nJob Title: Technology and Digital Innovation Lead\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Scottish Care", "Discipline": "Computer Science", "alphabet": "N", "color": "red", "location": "Edinburgh", "x": 145, "y": 329, "size": 50, "hover": "Name: Nicola Cooper\nInstitution: Scottish Care\nJob Title: Technology and Digital Innovation Lead\nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Dr Alistair McConnell": {"label": "Dr Alistair McConnell", "metadata": {"title": "Name: Dr Alistair McConnell\nInstitution: Heriot-Watt University\nJob Title: Assistant Professor \nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Heriot-Watt University", "Discipline": "Computer Science", "alphabet": "D", "color": "red", "location": "Edinburgh", "x": 943, "y": 446, "size": 50, "hover": "Name: Dr Alistair McConnell\nInstitution: Heriot-Watt University\nJob Title: Assistant Professor \nDiscipline: Computer Science\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Social Care": {"label": "Social Care", "metadata": {"group": 5, "size": 50, "fixed": true, "physics": false, "x": -500, "y": -750, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Social Care", "Location": "include-legend-nodes", "hover": "Social Care", "color": "purple"}}, "Physiotherapy": {"label": "Physiotherapy", "metadata": {"group": 6, "size": 50, "fixed": true, "physics": false, "x": -750, "y": 250, "shape": "box", "widthConstraint": 150, "font": {"size": 20}, "Discipline": "include-legend-nodes", "Institution": "include-legend-nodes", "alphabet": "include-legend-nodes", "title": "Legend Node: Physiotherapy", "Location": "include-legend-nodes", "hover": "Physiotherapy", "color": "orange"}}, "Kia Nazarpour": {"label": "Kia Nazarpour", "metadata": {"title": "Name: Kia Nazarpour\nInstitution: University of Edinburgh \nJob Title: Professor of Digital Health\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;Regulatory Frameworks for\ndeployment and integration of assistive robotics;\n", "physics": true, "institution": "University of Edinburgh ", "Discipline": "Robotics", "alphabet": "K", "color": "blue", "location": "Edinburgh", "x": 822, "y": 1017, "size": 50, "hover": "Name: Kia Nazarpour\nInstitution: University of Edinburgh \nJob Title: Professor of Digital Health\nDiscipline: Robotics\nLocation: Edinburgh\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Benchmarking datasets to support the\ndevelopment of accessible HRI;Ethical frameworks for integration of assistive robotics;Scoping\nresearch:\u00a0What are the challenges for enabling human agency in shared decision-making for assistive\nrobotics technology to support people with lived experience of frailty?;Regulatory Frameworks for\ndeployment and integration of assistive robotics;\n"}}, "Michelle Beukes": {"label": "Michelle Beukes", "metadata": {"title": "Name: Michelle Beukes\nInstitution: Heriot-Watt University\nJob Title: Business Development Manager - Health and Care Engineering\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "Heriot-Watt University", "Discipline": "Healthcare", "alphabet": "M", "color": "yellow", "location": "Edinburgh", "x": 633, "y": 1436, "size": 50, "hover": "Name: Michelle Beukes\nInstitution: Heriot-Watt University\nJob Title: Business Development Manager - Health and Care Engineering\nDiscipline: Healthcare\nLocation: Edinburgh\nResearch themes of interest: \n\nNone\n"}}, "Muneeb Imtiaz Ahmad": {"label": "Muneeb Imtiaz Ahmad", "metadata": {"title": "Name: Muneeb Imtiaz Ahmad\nInstitution: Swansea University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Safety frameworks for assistive\nrobotics technologies aimed at PWLEF to enable long-term autonomy\u00a0including areas such as fail-safe\ndesign, situation awareness, automated risk assessment and smart sensing.;\n", "physics": true, "institution": "Swansea University", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Swansea", "x": 776, "y": 820, "size": 50, "hover": "Name: Muneeb Imtiaz Ahmad\nInstitution: Swansea University\nJob Title: Senior Lecturer\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Scoping research:\u00a0When does an assistive\nrobot become a medical device?;Scoping research:\u00a0What CPD is needed to support future care\nprofessionals?;Scoping research:\u00a0What are the challenges for enabling human agency in shared\ndecision-making for assistive robotics technology to support PWLEF?;Safety frameworks for assistive\nrobotics technologies aimed at PWLEF to enable long-term autonomy\u00a0including areas such as fail-safe\ndesign, situation awareness, automated risk assessment and smart sensing.;\n"}}, "Deepak Sahoo": {"label": "Deepak Sahoo", "metadata": {"title": "Name: Deepak Sahoo\nInstitution: Swansea University\nJob Title: Associate Professor\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n", "physics": true, "institution": "Swansea University", "Discipline": "Robotics", "alphabet": "D", "color": "blue", "location": "Swansea", "x": 105, "y": 1116, "size": 50, "hover": "Name: Deepak Sahoo\nInstitution: Swansea University\nJob Title: Associate Professor\nDiscipline: Robotics\nLocation: Swansea\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;\n"}}, "Guodong Zhao": {"label": "Guodong Zhao", "metadata": {"title": "Name: Guodong Zhao\nInstitution: University of Glasgow\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nNone\n", "physics": true, "institution": "University of Glasgow", "Discipline": "Computer Science", "alphabet": "G", "color": "red", "location": "Glasgow", "x": 736, "y": 449, "size": 50, "hover": "Name: Guodong Zhao\nInstitution: University of Glasgow\nJob Title: Senior Lecturer\nDiscipline: Computer Science\nLocation: Glasgow\nResearch themes of interest: \n\nNone\n"}}, "Maria Jose Galvez Trigo": {"label": "Maria Jose Galvez Trigo", "metadata": {"title": "Name: Maria Jose Galvez Trigo\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;\n", "physics": true, "institution": "Cardiff University", "Discipline": "Robotics", "alphabet": "M", "color": "blue", "location": "Cardiff", "x": 927, "y": 846, "size": 50, "hover": "Name: Maria Jose Galvez Trigo\nInstitution: Cardiff University\nJob Title: Lecturer\nDiscipline: Robotics\nLocation: Cardiff\nResearch themes of interest: \n\nAccessible Human-Robot Interaction, taking into consideration multi-modal and intuitive interaction\nto address cognitive, sensory and physical impairments;Regulatory Frameworks for deployment and\nintegration of assistive robotics;\n"}}}, "edges": [{"source": "Robotics", "target": "Central Node"}, {"source": "Robotics", "target": "Deepak Sahoo"}, {"source": "Robotics", "target": "Kia Nazarpour"}, {"source": "Robotics", "target": "Maria Elena Giannaccini"}, {"source": "Robotics", "target": "Maria Jose Galvez Trigo"}, {"source": "Robotics", "target": "Muneeb Imtiaz Ahmad"}, {"source": "Robotics", "target": "Alexandre Colle"}, {"source": "Robotics", "target": "Carl Bettosi"}, {"source": "Robotics", "target": "Daniel Hernandez Garcia"}, {"source": "Robotics", "target": "Nathan Jones"}, {"source": "Robotics", "target": "William Wright"}, {"source": "Emilyann Nault", "target": "Healthcare"}, {"source": "Computer Science", "target": "Central Node"}, {"source": "Computer Science", "target": "Andrew Edmondson"}, {"source": "Computer Science", "target": "Dimitris Anagnostou"}, {"source": "Computer Science", "target": "Dr Alistair McConnell"}, {"source": "Computer Science", "target": "Guodong Zhao"}, {"source": "Computer Science", "target": "Patricia Shaw"}, {"source": "Computer Science", "target": "Steven Bojilov"}, {"source": "Computer Science", "target": "Amol Deshmukh"}, {"source": "Computer Science", "target": "Burak Kizilkaya"}, {"source": "Computer Science", "target": "Hassan Zaal"}, {"source": "Computer Science", "target": "Adrian Smales"}, {"source": "Computer Science", "target": "Michael Gray"}, {"source": "Computer Science", "target": "Nicola Cooper"}, {"source": "Healthcare", "target": "Central Node"}, {"source": "Healthcare", "target": "Emma Perfect"}, {"source": "Healthcare", "target": "Michelle Beukes"}, {"source": "Healthcare", "target": "Ricardo Contreras"}, {"source": "Electronic Engineering", "target": "Central Node"}, {"source": "Central Node", "target": "Design Engineering and Innovation"}, {"source": "Central Node", "target": "Social Care"}, {"source": "Central Node", "target": "Physiotherapy"}], "directed": false}];
             // Data selection and normalization
             state.nodeSizeDataSource = "size";
             state.useNodeSizeNormalization = false;
@@ -1875,104 +1875,104 @@ if(!require.defined("gravis-vis-network")){
 
         elements:{
           // Containers
-          mainContainer: document.getElementById("ipSN18cEeVNANzHlu-main-div"),
-          tooltipContainer: document.getElementById("ipSN18cEeVNANzHlu-tooltip-div"),
-          leftContainer: document.getElementById("ipSN18cEeVNANzHlu-left-div"),
-          rightContainer: document.getElementById("ipSN18cEeVNANzHlu-right-div"),
-          graphContainer: document.getElementById("ipSN18cEeVNANzHlu-graph-div"),
-          detailsContainer: document.getElementById("ipSN18cEeVNANzHlu-details-div"),
-          detailsHead: document.getElementById("ipSN18cEeVNANzHlu-details-head"),
-          detailsBody: document.getElementById("ipSN18cEeVNANzHlu-details-body"),
+          mainContainer: document.getElementById("iJqmYIGSnKxcigcXE-main-div"),
+          tooltipContainer: document.getElementById("iJqmYIGSnKxcigcXE-tooltip-div"),
+          leftContainer: document.getElementById("iJqmYIGSnKxcigcXE-left-div"),
+          rightContainer: document.getElementById("iJqmYIGSnKxcigcXE-right-div"),
+          graphContainer: document.getElementById("iJqmYIGSnKxcigcXE-graph-div"),
+          detailsContainer: document.getElementById("iJqmYIGSnKxcigcXE-details-div"),
+          detailsHead: document.getElementById("iJqmYIGSnKxcigcXE-details-head"),
+          detailsBody: document.getElementById("iJqmYIGSnKxcigcXE-details-body"),
           // Data sources
-          dataHead: document.getElementById("ipSN18cEeVNANzHlu-data-head"),
-          dataBody: document.getElementById("ipSN18cEeVNANzHlu-data-body"),
-          graphSelectionContainer: document.getElementById("ipSN18cEeVNANzHlu-graph-select-div"),
-          graphSelection: document.getElementById("ipSN18cEeVNANzHlu-graph-select"),
-          nodeSizeDataSourceSelect: document.getElementById("ipSN18cEeVNANzHlu-node-size-data-source-select"),
-          nodeSizeNormalizationCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-size-normalization-checkbox"),
-          nodeSizeNormalizationContainer: document.getElementById("ipSN18cEeVNANzHlu-node-size-norm-div"),
-          nodeSizeNormalizationMinText: document.getElementById("ipSN18cEeVNANzHlu-node-size-normalization-min-text"),
-          nodeSizeNormalizationMinSlider: document.getElementById("ipSN18cEeVNANzHlu-node-size-normalization-min-slider"),
-          nodeSizeNormalizationMaxText: document.getElementById("ipSN18cEeVNANzHlu-node-size-normalization-max-text"),
-          nodeSizeNormalizationMaxSlider: document.getElementById("ipSN18cEeVNANzHlu-node-size-normalization-max-slider"),
-          edgeSizeDataSourceSelect: document.getElementById("ipSN18cEeVNANzHlu-edge-size-data-source-select"),
-          edgeSizeNormalizationCheckbox: document.getElementById("ipSN18cEeVNANzHlu-edge-size-normalization-checkbox"),
-          edgeSizeNormalizationContainer: document.getElementById("ipSN18cEeVNANzHlu-edge-size-norm-div"),
-          edgeSizeNormalizationMinText: document.getElementById("ipSN18cEeVNANzHlu-edge-size-normalization-min-text"),
-          edgeSizeNormalizationMinSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-size-normalization-min-slider"),
-          edgeSizeNormalizationMaxText: document.getElementById("ipSN18cEeVNANzHlu-edge-size-normalization-max-text"),
-          edgeSizeNormalizationMaxSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-size-normalization-max-slider"),
+          dataHead: document.getElementById("iJqmYIGSnKxcigcXE-data-head"),
+          dataBody: document.getElementById("iJqmYIGSnKxcigcXE-data-body"),
+          graphSelectionContainer: document.getElementById("iJqmYIGSnKxcigcXE-graph-select-div"),
+          graphSelection: document.getElementById("iJqmYIGSnKxcigcXE-graph-select"),
+          nodeSizeDataSourceSelect: document.getElementById("iJqmYIGSnKxcigcXE-node-size-data-source-select"),
+          nodeSizeNormalizationCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-size-normalization-checkbox"),
+          nodeSizeNormalizationContainer: document.getElementById("iJqmYIGSnKxcigcXE-node-size-norm-div"),
+          nodeSizeNormalizationMinText: document.getElementById("iJqmYIGSnKxcigcXE-node-size-normalization-min-text"),
+          nodeSizeNormalizationMinSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-size-normalization-min-slider"),
+          nodeSizeNormalizationMaxText: document.getElementById("iJqmYIGSnKxcigcXE-node-size-normalization-max-text"),
+          nodeSizeNormalizationMaxSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-size-normalization-max-slider"),
+          edgeSizeDataSourceSelect: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-data-source-select"),
+          edgeSizeNormalizationCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-normalization-checkbox"),
+          edgeSizeNormalizationContainer: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-norm-div"),
+          edgeSizeNormalizationMinText: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-normalization-min-text"),
+          edgeSizeNormalizationMinSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-normalization-min-slider"),
+          edgeSizeNormalizationMaxText: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-normalization-max-text"),
+          edgeSizeNormalizationMaxSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-normalization-max-slider"),
           // General
-          generalHead: document.getElementById("ipSN18cEeVNANzHlu-general-head"),
-          generalBody: document.getElementById("ipSN18cEeVNANzHlu-general-body"),
-          resetButton: document.getElementById("ipSN18cEeVNANzHlu-reset"),
-          fullscreenButton: document.getElementById("ipSN18cEeVNANzHlu-fullscreen-button"),
-          svgExportButton: document.getElementById("ipSN18cEeVNANzHlu-svg"),
-          pngExportButton: document.getElementById("ipSN18cEeVNANzHlu-png"),
-          jpgExportButton: document.getElementById("ipSN18cEeVNANzHlu-jpg"),
+          generalHead: document.getElementById("iJqmYIGSnKxcigcXE-general-head"),
+          generalBody: document.getElementById("iJqmYIGSnKxcigcXE-general-body"),
+          resetButton: document.getElementById("iJqmYIGSnKxcigcXE-reset"),
+          fullscreenButton: document.getElementById("iJqmYIGSnKxcigcXE-fullscreen-button"),
+          svgExportButton: document.getElementById("iJqmYIGSnKxcigcXE-svg"),
+          pngExportButton: document.getElementById("iJqmYIGSnKxcigcXE-png"),
+          jpgExportButton: document.getElementById("iJqmYIGSnKxcigcXE-jpg"),
           // Nodes
-          nodeHead: document.getElementById("ipSN18cEeVNANzHlu-node-head"),
-          nodeBody: document.getElementById("ipSN18cEeVNANzHlu-node-body"),
-          nodeCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-checkbox"),
-          nodeSizeFactorText: document.getElementById("ipSN18cEeVNANzHlu-node-size-factor-text"),
-          nodeSizeFactorSlider: document.getElementById("ipSN18cEeVNANzHlu-node-size-factor-slider"),
-          nodeDragFixCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-drag-fix-checkbox"),
-          nodeHoverNeighborhoodCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-hover-neighborhood-checkbox"),
-          nodeHoverTooltipCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-hover-tooltip-checkbox"),
-          nodeReleaseButton: document.getElementById("ipSN18cEeVNANzHlu-node-release-button"),
+          nodeHead: document.getElementById("iJqmYIGSnKxcigcXE-node-head"),
+          nodeBody: document.getElementById("iJqmYIGSnKxcigcXE-node-body"),
+          nodeCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-checkbox"),
+          nodeSizeFactorText: document.getElementById("iJqmYIGSnKxcigcXE-node-size-factor-text"),
+          nodeSizeFactorSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-size-factor-slider"),
+          nodeDragFixCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-drag-fix-checkbox"),
+          nodeHoverNeighborhoodCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-hover-neighborhood-checkbox"),
+          nodeHoverTooltipCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-hover-tooltip-checkbox"),
+          nodeReleaseButton: document.getElementById("iJqmYIGSnKxcigcXE-node-release-button"),
           // Node images
-          nodeImageHead: document.getElementById("ipSN18cEeVNANzHlu-node-image-head"),
-          nodeImageBody: document.getElementById("ipSN18cEeVNANzHlu-node-image-body"),
-          nodeImageCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-image-checkbox"),
-          nodeImageMetaControl: document.getElementById("ipSN18cEeVNANzHlu-node-image-meta-control"),
-          nodeImageSizeFactorText: document.getElementById("ipSN18cEeVNANzHlu-node-image-size-factor-text"),
-          nodeImageSizeFactorSlider: document.getElementById("ipSN18cEeVNANzHlu-node-image-size-factor-slider"),
+          nodeImageHead: document.getElementById("iJqmYIGSnKxcigcXE-node-image-head"),
+          nodeImageBody: document.getElementById("iJqmYIGSnKxcigcXE-node-image-body"),
+          nodeImageCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-image-checkbox"),
+          nodeImageMetaControl: document.getElementById("iJqmYIGSnKxcigcXE-node-image-meta-control"),
+          nodeImageSizeFactorText: document.getElementById("iJqmYIGSnKxcigcXE-node-image-size-factor-text"),
+          nodeImageSizeFactorSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-image-size-factor-slider"),
           // Node labels
-          nodeLabelHead: document.getElementById("ipSN18cEeVNANzHlu-node-label-head"),
-          nodeLabelBody: document.getElementById("ipSN18cEeVNANzHlu-node-label-body"),
-          nodeLabelCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-label-checkbox"),
-          nodeLabelBorderCheckbox: document.getElementById("ipSN18cEeVNANzHlu-node-label-border-checkbox"),
-          nodeLabelTextDataSourceSelect: document.getElementById("ipSN18cEeVNANzHlu-node-label-data-source-select"),
-          nodeLabelSizeFactorText: document.getElementById("ipSN18cEeVNANzHlu-node-label-size-factor-text"),
-          nodeLabelSizeFactorSlider: document.getElementById("ipSN18cEeVNANzHlu-node-label-size-factor-slider"),
-          nodeLabelRotationText: document.getElementById("ipSN18cEeVNANzHlu-node-label-rotation-text"),
-          nodeLabelRotationSlider: document.getElementById("ipSN18cEeVNANzHlu-node-label-rotation-slider"),
+          nodeLabelHead: document.getElementById("iJqmYIGSnKxcigcXE-node-label-head"),
+          nodeLabelBody: document.getElementById("iJqmYIGSnKxcigcXE-node-label-body"),
+          nodeLabelCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-label-checkbox"),
+          nodeLabelBorderCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-node-label-border-checkbox"),
+          nodeLabelTextDataSourceSelect: document.getElementById("iJqmYIGSnKxcigcXE-node-label-data-source-select"),
+          nodeLabelSizeFactorText: document.getElementById("iJqmYIGSnKxcigcXE-node-label-size-factor-text"),
+          nodeLabelSizeFactorSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-label-size-factor-slider"),
+          nodeLabelRotationText: document.getElementById("iJqmYIGSnKxcigcXE-node-label-rotation-text"),
+          nodeLabelRotationSlider: document.getElementById("iJqmYIGSnKxcigcXE-node-label-rotation-slider"),
           // Edges
-          edgeHead: document.getElementById("ipSN18cEeVNANzHlu-edge-head"),
-          edgeBody: document.getElementById("ipSN18cEeVNANzHlu-edge-body"),
-          edgeCheckbox: document.getElementById("ipSN18cEeVNANzHlu-edge-checkbox"),
-          edgeSizeFactorText: document.getElementById("ipSN18cEeVNANzHlu-edge-size-factor-text"),
-          edgeSizeFactorSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-size-factor-slider"),
-          edgeCurvatureText: document.getElementById("ipSN18cEeVNANzHlu-edge-curvature-text"),
-          edgeCurvatureSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-curvature-slider"),
-          edgeHoverTooltipCheckbox: document.getElementById("ipSN18cEeVNANzHlu-edge-hover-tooltip-checkbox"),
+          edgeHead: document.getElementById("iJqmYIGSnKxcigcXE-edge-head"),
+          edgeBody: document.getElementById("iJqmYIGSnKxcigcXE-edge-body"),
+          edgeCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-edge-checkbox"),
+          edgeSizeFactorText: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-factor-text"),
+          edgeSizeFactorSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-size-factor-slider"),
+          edgeCurvatureText: document.getElementById("iJqmYIGSnKxcigcXE-edge-curvature-text"),
+          edgeCurvatureSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-curvature-slider"),
+          edgeHoverTooltipCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-edge-hover-tooltip-checkbox"),
           // Edge labels
-          edgeLabelHead: document.getElementById("ipSN18cEeVNANzHlu-edge-label-head"),
-          edgeLabelBody: document.getElementById("ipSN18cEeVNANzHlu-edge-label-body"),
-          edgeLabelCheckbox: document.getElementById("ipSN18cEeVNANzHlu-edge-label-checkbox"),
-          edgeLabelBorderCheckbox: document.getElementById("ipSN18cEeVNANzHlu-edge-label-border-checkbox"),
-          edgeLabelTextDataSourceSelect: document.getElementById("ipSN18cEeVNANzHlu-edge-label-data-source-select"),
-          edgeLabelSizeFactorText: document.getElementById("ipSN18cEeVNANzHlu-edge-label-size-factor-text"),
-          edgeLabelSizeFactorSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-label-size-factor-slider"),
-          edgeLabelRotationText: document.getElementById("ipSN18cEeVNANzHlu-edge-label-rotation-text"),
-          edgeLabelRotationSlider: document.getElementById("ipSN18cEeVNANzHlu-edge-label-rotation-slider"),
+          edgeLabelHead: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-head"),
+          edgeLabelBody: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-body"),
+          edgeLabelCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-checkbox"),
+          edgeLabelBorderCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-border-checkbox"),
+          edgeLabelTextDataSourceSelect: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-data-source-select"),
+          edgeLabelSizeFactorText: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-size-factor-text"),
+          edgeLabelSizeFactorSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-size-factor-slider"),
+          edgeLabelRotationText: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-rotation-text"),
+          edgeLabelRotationSlider: document.getElementById("iJqmYIGSnKxcigcXE-edge-label-rotation-slider"),
           // Layout algorithm
-          layoutAlgorithmHead: document.getElementById("ipSN18cEeVNANzHlu-layout-algorithm-head"),
-          layoutAlgorithmBody: document.getElementById("ipSN18cEeVNANzHlu-layout-algorithm-body"),
-          simulationCheckbox: document.getElementById("ipSN18cEeVNANzHlu-simulation-active-checkbox"),
-          layoutAlgorithmSelection: document.getElementById("ipSN18cEeVNANzHlu-layout-algorithm-select"),
-          centralGravitySlider: document.getElementById("ipSN18cEeVNANzHlu-central-gravity-slider"),
-          centralGravityText: document.getElementById("ipSN18cEeVNANzHlu-central-gravity-text"),
-          springLengthSlider: document.getElementById("ipSN18cEeVNANzHlu-spring-length-slider"),
-          springLengthText: document.getElementById("ipSN18cEeVNANzHlu-spring-length-text"),
-          springConstantSlider: document.getElementById("ipSN18cEeVNANzHlu-spring-constant-slider"),
-          springConstantText: document.getElementById("ipSN18cEeVNANzHlu-spring-constant-text"),
-          gravitationalConstantContainer: document.getElementById("ipSN18cEeVNANzHlu-gravitational-constant-div"),
-          gravitationalConstantSlider: document.getElementById("ipSN18cEeVNANzHlu-gravitational-constant-slider"),
-          gravitationalConstantText: document.getElementById("ipSN18cEeVNANzHlu-gravitational-constant-text"),
-          avoidOverlapContainer: document.getElementById("ipSN18cEeVNANzHlu-avoid-overlap-div"),
-          avoidOverlapSlider: document.getElementById("ipSN18cEeVNANzHlu-avoid-overlap-slider"),
-          avoidOverlapText: document.getElementById("ipSN18cEeVNANzHlu-avoid-overlap-text"),
+          layoutAlgorithmHead: document.getElementById("iJqmYIGSnKxcigcXE-layout-algorithm-head"),
+          layoutAlgorithmBody: document.getElementById("iJqmYIGSnKxcigcXE-layout-algorithm-body"),
+          simulationCheckbox: document.getElementById("iJqmYIGSnKxcigcXE-simulation-active-checkbox"),
+          layoutAlgorithmSelection: document.getElementById("iJqmYIGSnKxcigcXE-layout-algorithm-select"),
+          centralGravitySlider: document.getElementById("iJqmYIGSnKxcigcXE-central-gravity-slider"),
+          centralGravityText: document.getElementById("iJqmYIGSnKxcigcXE-central-gravity-text"),
+          springLengthSlider: document.getElementById("iJqmYIGSnKxcigcXE-spring-length-slider"),
+          springLengthText: document.getElementById("iJqmYIGSnKxcigcXE-spring-length-text"),
+          springConstantSlider: document.getElementById("iJqmYIGSnKxcigcXE-spring-constant-slider"),
+          springConstantText: document.getElementById("iJqmYIGSnKxcigcXE-spring-constant-text"),
+          gravitationalConstantContainer: document.getElementById("iJqmYIGSnKxcigcXE-gravitational-constant-div"),
+          gravitationalConstantSlider: document.getElementById("iJqmYIGSnKxcigcXE-gravitational-constant-slider"),
+          gravitationalConstantText: document.getElementById("iJqmYIGSnKxcigcXE-gravitational-constant-text"),
+          avoidOverlapContainer: document.getElementById("iJqmYIGSnKxcigcXE-avoid-overlap-div"),
+          avoidOverlapSlider: document.getElementById("iJqmYIGSnKxcigcXE-avoid-overlap-slider"),
+          avoidOverlapText: document.getElementById("iJqmYIGSnKxcigcXE-avoid-overlap-text"),
         },
 
         composites:{
@@ -2290,7 +2290,7 @@ if(!require.defined("gravis-vis-network")){
             create(){
               // Main container
               this.mainContainer = document.createElement("div");
-              this.mainContainer.id = "ipSN18cEeVNANzHlu-progress-container";
+              this.mainContainer.id = "iJqmYIGSnKxcigcXE-progress-container";
               this.mainContainer.style.backgroundColor = state.shownData.general.background_color;
               ui.elements.graphContainer.style.backgroundColor = state.shownData.general.background_color;
               // Text container
@@ -2569,7 +2569,7 @@ if(!require.defined("gravis-vis-network")){
                 } else {
                   menuDiv.innerText = ui.symbols.menuHidden;
                 }
-                menuDiv.id = "ipSN18cEeVNANzHlu-menu-toggle-button";
+                menuDiv.id = "iJqmYIGSnKxcigcXE-menu-toggle-button";
                 menuDiv.onclick = ui.composites.menu.toggle;
                 ui.elements.graphContainer.appendChild(menuDiv);
                 ui.elements.menuToggleDiv = menuDiv;
@@ -2582,7 +2582,7 @@ if(!require.defined("gravis-vis-network")){
                 } else {
                   detailsDiv.innerText = ui.symbols.detailsHidden;
                 }
-                detailsDiv.id = "ipSN18cEeVNANzHlu-details-toggle-button";
+                detailsDiv.id = "iJqmYIGSnKxcigcXE-details-toggle-button";
                 detailsDiv.onclick = ui.composites.details.toggle;
                 ui.elements.graphContainer.appendChild(detailsDiv);
                 ui.elements.detailsToggleDiv = detailsDiv;
@@ -2642,14 +2642,14 @@ if(!require.defined("gravis-vis-network")){
               function createNodeText(node){
                 let htmlText = "<div>Node: " + String(node.id) + "</div>";
                 if(typeof(node.click) !== "undefined" && node.click !== ""){
-                  htmlText += '<div id="ipSN18cEeVNANzHlu-details-user-provided">' + node.click + '</div>';
+                  htmlText += '<div id="iJqmYIGSnKxcigcXE-details-user-provided">' + node.click + '</div>';
                 }
                 return htmlText;
               }
               function createEdgeText(edge){
                 let htmlText = "<div>Edge: " + String(edge.id) + "</div>";
                 if(typeof(edge.click) !== "undefined" && edge.click !== ""){
-                  htmlText += '<div id="ipSN18cEeVNANzHlu-details-user-provided">' + edge.click + '</div>';
+                  htmlText += '<div id="iJqmYIGSnKxcigcXE-details-user-provided">' + edge.click + '</div>';
                 }
                 return htmlText;
               }
