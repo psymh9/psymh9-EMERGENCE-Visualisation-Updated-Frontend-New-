@@ -329,7 +329,7 @@ def filterBySingleFactor(factor1, filterParameter1, name):
 
 def shorthandParameters(filterParameter1, filterParameter2):
     """
-    Function that converts the longhand form of a paramter to its appropriate shorthand i.e. "Computer Science" -> "CS"
+    Function that converts the longhand form of a parameter to its appropriate shorthand i.e. "Computer Science" -> "CS"
     """
     match filterParameter1:
        case Discipline.COMPUTER_SCIENCE.value:
@@ -619,9 +619,31 @@ def filterNodesByCategories(filterCategory1, filterParameter1, filterCategory2, 
                            if (filterParameter2 == Misc.ALL.value):
                               filterBySingleFactor(member_location, filterParameter1, member_name)
                            else:
-                              filterByTwoDifferentFactors(member_location, member_discipline, filterParameter1, filterParameter2, member_name)
+                               match filterParameter1:
+                                 case Location.ENGLAND.value:
+                                    for i in range(len(englandLocations)):
+                                       filterByTwoDifferentFactors(member_location, member_discipline, englandLocations[i], filterParameter2, member_name)
+                                 case Location.SCOTLAND.value: 
+                                    for i in range(len(scotlandLocations)):
+                                       filterByTwoDifferentFactors(member_location, member_discipline, scotlandLocations[i], filterParameter2, member_name)
+                                 case Location.WALES.value:
+                                    for i in range(len(walesLocations)):
+                                        filterByTwoDifferentFactors(member_location, member_discipline, walesLocations[i], filterParameter2, member_name)
+                                 case _:
+                                       filterByTwoDifferentFactors(member_location, member_discipline, filterParameter1, filterParameter2, member_name)            
                         case Misc.INSTITUTION_WORD.value:
-                           filterByTwoDifferentFactors(member_location, member_institution, filterParameter1, filterParameter2, member_name)
+                              match filterParameter1:
+                                       case Location.ENGLAND.value:
+                                          for i in range(len(englandLocations)):
+                                             filterByTwoDifferentFactors(member_location, member_institution, englandLocations[i], filterParameter2, member_name)
+                                       case Location.SCOTLAND.value: 
+                                          for i in range(len(scotlandLocations)):
+                                             filterByTwoDifferentFactors(member_location, member_institution, scotlandLocations[i], filterParameter2, member_name)
+                                       case Location.WALES.value:
+                                          for i in range(len(walesLocations)):
+                                             filterByTwoDifferentFactors(member_location, member_institution, walesLocations[i], filterParameter2, member_name)
+                                       case _:
+                                             filterByTwoDifferentFactors(member_location, member_institution, filterParameter1, filterParameter2, member_name)  
                         case Misc.LOCATION.value:
                            if (filterParameter2 == Misc.ALL.value):
                               setNodesFiltered(Misc.FALSE.value)
@@ -688,9 +710,31 @@ def filterNodesByCategories(filterCategory1, filterParameter1, filterCategory2, 
                                        case _:
                                              filterByTwoSameFactors(member_location, member_location, filterParameter1, filterParameter2, member_name)
                         case Misc.ALPHABETICAL.value: 
-                           filterByTwoDifferentFactors(member_location, member_name[Misc.ZERO.value], filterParameter1, filterParameter2, member_name)
+                           match filterParameter1:
+                                 case Location.ENGLAND.value:
+                                    for i in range(len(englandLocations)):
+                                       filterByTwoDifferentFactors(member_location, member_name[Misc.ZERO.value], englandLocations[i], filterParameter2, member_name)
+                                 case Location.SCOTLAND.value: 
+                                    for i in range(len(scotlandLocations)):
+                                       filterByTwoDifferentFactors(member_location, member_name[Misc.ZERO.value], scotlandLocations[i], filterParameter2, member_name)
+                                 case Location.WALES.value:
+                                    for i in range(len(walesLocations)):
+                                        filterByTwoDifferentFactors(member_location, member_name[Misc.ZERO.value], walesLocations[i], filterParameter2, member_name)
+                                 case _:
+                                       filterByTwoDifferentFactors(member_location, member_name[Misc.ZERO.value], filterParameter1, filterParameter2, member_name)  
                         case Misc.EMPTY_STRING.value:
-                           filterBySingleFactor(member_location, filterParameter1, member_name)
+                          match filterParameter1:
+                                 case Location.ENGLAND.value:
+                                    for i in range(len(englandLocations)):
+                                       filterBySingleFactor(member_location, englandLocations[i], member_name)
+                                 case Location.SCOTLAND.value: 
+                                    for i in range(len(scotlandLocations)):
+                                       filterBySingleFactor(member_location, scotlandLocations[i], member_name)
+                                 case Location.WALES.value:
+                                    for i in range(len(walesLocations)):
+                                       filterBySingleFactor(member_location, walesLocations[i], member_name)
+                                 case _:
+                                       filterBySingleFactor(member_location, filterParameter1, member_name)
                case Misc.INSTITUTION_WORD.value: 
                   match filterCategory2:
                      case Misc.DISCIPLINE_WORD.value: 
@@ -928,7 +972,6 @@ if (nodesFiltered):
    if (len(filterGraph1) == Misc.ZERO.value):
       emptySearch = Misc.TRUE.value
    filterGraph1.append(Misc.CENTRAL_NODE_ID.value)
-   print(filterGraph1)
    if (not loadAllDisciplines):
       filterGraph1.append(filterParameter1)
       filterGraph1.append(filterParameter2)
